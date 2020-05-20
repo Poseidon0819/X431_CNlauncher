@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/bg_color_select" android:paddingTop="@dimen/dp_5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/item_is_accept" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dp_2" android:layout_marginBottom="@dimen/dp_3" android:text="@string/carproblem_report_reply_accept"/>
+    <RelativeLayout android:gravity="center" android:id="@+id/head_content" android:layout_width="46dp" android:layout_height="46dp" android:layout_marginLeft="12dp" android:layout_below="@+id/item_is_accept" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/head_image" android:layout_width="46dp" android:layout_height="46dp" android:src="@drawable/square_default_head" android:scaleType="fitXY" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/iv_expert" android:layout_width="15dp" android:layout_height="15dp" android:src="@drawable/im_tech_sign" android:layout_alignRight="@+id/head_image" android:layout_alignBottom="@+id/head_image"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/right_layout" android:paddingRight="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_toRightOf="@+id/head_content" android:layout_below="@+id/item_is_accept">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp_16" android:textColor="@color/black_font_color" android:id="@+id/nickName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="今天哪里还蛮好玩的" android:singleLine="true" android:layout_toLeftOf="@+id/time" android:layout_alignParentLeft="true"/>
+            <TextView android:textSize="@dimen/sp_10" android:textColor="@color/black" android:id="@+id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:text="08/11 14:20" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@color/black_font_color" android:id="@+id/apply_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="今天哪里还蛮好玩的今天" android:layout_toLeftOf="@+id/reply_accept_btn_content" android:layout_alignParentLeft="true"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/reply_accept_btn_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <TextView android:textSize="@dimen/sp_15" android:textColor="@color/red" android:gravity="center" android:id="@+id/reply" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_5" android:text="@string/carproblem_report_title_reply"/>
+                <TextView android:textSize="@dimen/sp_15" android:textColor="@color/black" android:gravity="center" android:id="@+id/accept_reply" android:paddingTop="5dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/carproblem_report_reply_accept"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <include layout="@layout/event_additional_information_item"/>
+    </LinearLayout>
+    <View android:id="@+id/reply_item_accept_board" android:background="@color/darkgrey" android:visibility="gone" android:layout_width="match_parent" android:layout_height="5dp" android:layout_marginTop="@dimen/dp_10" android:layout_below="@+id/right_layout"/>
+    <View android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="0.1dp" android:layout_marginTop="@dimen/dp_10" android:layout_below="@+id/right_layout"/>
+</RelativeLayout>

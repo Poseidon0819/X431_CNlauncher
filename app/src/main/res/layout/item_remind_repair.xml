@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repair_reserve_id"/>
+        <TextView android:id="@+id/repair_reserve_id_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repair_user_name"/>
+        <TextView android:id="@+id/repair_user_name_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repair_contact_name"/>
+        <TextView android:id="@+id/repair_contact_name_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repair_contact_phone"/>
+        <TextView android:id="@+id/repair_contact_phone_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repair_carinfo_id"/>
+        <TextView android:id="@+id/repair_carinfo_id_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repair_reserve_time"/>
+        <TextView android:id="@+id/repair_reserve_time_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repair_shedule_time"/>
+        <TextView android:id="@+id/repair_shedule_time_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repair_created"/>
+        <TextView android:id="@+id/repair_created_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repair_response"/>
+        <TextView android:id="@+id/repair_response_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repair_remark"/>
+        <TextView android:id="@+id/repair_remark_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+</LinearLayout>

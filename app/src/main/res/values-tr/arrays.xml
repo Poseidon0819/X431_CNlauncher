@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Kötü Tutum</item>
+        <item>Tutum Kötü Değil</item>
+        <item>Çok İyi Tutum</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Zayıf Verimlilik</item>
+        <item>Verimlilik Yüksek Değil</item>
+        <item>Yüksek Verimlilik</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Düşük Maliyetli Performans</item>
+        <item>Maliyet Performansı Yüksek Değil</item>
+        <item>Yüksek Maliyetli Performans</item>
+    </array>
+    <array name="area_selection">
+        <item>Çin</item>
+        <item>Diğerleri</item>
+    </array>
+    <array name="func_status">
+        <item>Durum yok</item>
+        <item>Başarılı</item>
+        <item>Başarısız</item>
+        <item>Tamamlandı</item>
+        <item>DTC Yok</item>
+        <item>İletişim başarısız oldu</item>
+        <item>Kimlik bulunmadı</item>
+    </array>
+    <array name="func_type">
+        <item>Sistem Taraması</item>
+        <item>Hızlı Test</item>
+        <item>Sistem Girişi</item>
+        <item>Sürün Bilgisi</item>
+        <item>DTC Oku</item>
+        <item>DTC Temizle</item>
+        <item>Veri Akışını Oku</item>
+        <item>Dondurma çerçevesini oku</item>
+        <item>Eylem Testi</item>
+        <item>Özel Fonksiyon</item>
+        <item>Yapım</item>
+        <item>Model</item>
+        <item>Yıl</item>
+        <item>Hacim</item>
+        <item>Aktarma</item>
+        <item>Şasi</item>
+        <item>Motor</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Diğer</item>
+        <item>Kendinden tanılama raporu</item>
+        <item>Uzman kendinden tanılama raporu</item>
+        <item>DTC tek-tuş temizleme raporu</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Diğer</item>
+        <item>Belirlenmiş Sürücü</item>
+        <item>Yardım</item>
+        <item>Dönüşümlü Araç Kullanımı</item>
+        <item>Araç Kiralama</item>
+        <item>Taksi</item>
+        <item>Acenta</item>
+    </array>
+    <array name="languages">
+        <item>vary with Sistemi language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

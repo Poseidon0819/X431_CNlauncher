@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#ededed" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollview" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+            <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_report_name" android:layout_marginRight="16dp" android:hint="@string/input_ds_record_file_name" android:singleLine="false" android:maxLength="80" android:imeOptions="actionNext" style="@style/EditTextStyle_input_report"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/rg_report_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp">
+                <Spinner android:gravity="center" android:id="@+id/sp_repair_type" android:paddingLeft="0dp" android:paddingRight="0dp" android:layout_width="0dp" android:layout_marginLeft="0dp" android:text="@string/pre_repair" android:drawableRight="@drawable/arrow_bottom" android:layout_weight="1" android:spinnerMode="dropdown" style="@style/EditTextStyle_input_report"/>
+                <com.cnlaunch.x431pro.widget.TesterInfoDropdownEditText android:id="@+id/edit_tester" android:layout_width="0dp" android:layout_marginLeft="10dp" android:layout_marginRight="16dp" android:hint="@string/diagnose_report_tester" android:maxLength="18" android:drawableRight="@drawable/spinner_down" android:layout_weight="1" android:imeOptions="actionNext" style="@style/EditTextStyle_input_report"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_car_vin_name" android:layout_width="0dp" android:hint="@string/Historical_records_vin_txt" android:singleLine="false" android:maxLength="17" android:layout_weight="1" android:imeOptions="actionNext" style="@style/EditTextStyle_input_report"/>
+                <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_car_licence" android:layout_width="0dp" android:layout_marginLeft="10dp" android:layout_marginRight="16dp" android:hint="@string/diagnose_report_plate_number" android:singleLine="false" android:maxLength="40" android:layout_weight="1" android:imeOptions="actionNext" style="@style/EditTextStyle_input_report"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_engine_size" android:layout_width="0dp" android:hint="@string/report_engine_size" android:maxLength="17" android:layout_weight="1" android:imeOptions="actionNext" style="@style/EditTextStyle_input_report"/>
+                <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_car_milage" android:layout_width="0dp" android:layout_marginLeft="10dp" android:layout_marginRight="16dp" android:hint="@string/Historical_records_mileage_txt" android:layout_weight="1" android:imeOptions="actionNext" style="@style/EditTextStyle_input_report"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_car_make" android:layout_width="0dp" android:hint="@string/Historical_records_make_txt" android:singleLine="false" android:layout_weight="1" android:imeOptions="actionNext" style="@style/EditTextStyle_input_report"/>
+                <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_car_model" android:layout_width="0dp" android:layout_marginLeft="10dp" android:hint="@string/Historical_records_model_txt" android:singleLine="false" android:layout_weight="1" android:imeOptions="actionNext" style="@style/EditTextStyle_input_report"/>
+                <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_car_year" android:layout_width="0dp" android:layout_marginLeft="10dp" android:layout_marginRight="16dp" android:hint="@string/Historical_records_year_txt" android:maxLength="17" android:layout_weight="1" android:imeOptions="actionNext" style="@style/EditTextStyle_input_report"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center" android:id="@+id/btn_sensing" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="16dp" android:text="@string/report_sensing" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+                <TextView android:id="@+id/tv_sensing" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:maxWidth="320dp" android:maxHeight="180dp" android:layout_weight="2.5" style="@style/TextStyle_report_input"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_report_notes" android:layout_width="0dp" android:maxWidth="320dp" android:minHeight="100dp" android:hint="@string/diagloghistorydetail_remark" android:singleLine="false" android:maxLength="100" android:layout_weight="2" style="@style/EditTextStyle_input_report"/>
+                <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <TextView android:gravity="center" android:id="@+id/tv_load_image" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="16dp" android:text="@string/report_loadImage" style="@style/EditTextStyle_input_report"/>
+                    <ImageView android:gravity="center" android:id="@+id/iv_load_image" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="16dp" android:scaleType="centerCrop" style="@style/EditTextStyle_input_report"/>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

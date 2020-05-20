@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/diagnoseMainBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/head_title" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_diagnose_subtitle"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear_button_bottom" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_home" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.home"/>
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:id="@+id/btn_print" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.print"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/bt_combine_clear" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.del"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/bt_combine_sure" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.confirm"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/bt_combine_back" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.exit"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_help" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.help"/>
+    </LinearLayout>
+    <ListView android:id="@+id/listview_combinemenu" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/linear_button_bottom" android:layout_below="@+id/head_title"/>
+</RelativeLayout>

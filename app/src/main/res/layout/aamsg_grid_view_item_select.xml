@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cnlaunch.golo3.view.LayoutRelative android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/mode_select_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:contentDescription="@string/description_select_grid"/>
+        <TextView android:textSize="14sp" android:gravity="center_horizontal" android:id="@+id/mode_select_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/mode_select_image" android:layout_centerHorizontal="true"/>
+    </com.cnlaunch.golo3.view.LayoutRelative>
+</LinearLayout>

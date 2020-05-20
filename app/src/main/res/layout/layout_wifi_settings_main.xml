@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <CheckBox android:id="@+id/chk_link_mode_wifi_switch" android:layout_width="match_parent" android:layout_height="40dp" android:text="@string/text_link_mode_wifi_switch" style="@style/TextViewStyle.LinkManager.content"/>
+    <RelativeLayout android:id="@+id/rl_link_mode_wifi_switch_warn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_below="@+id/chk_link_mode_wifi_switch">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/text_link_mode_wifi_switch_warn" style="@style/TextViewStyle.LinkManager.content"/>
+        </ScrollView>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_wifi_with_ap_mode" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_below="@+id/rl_link_mode_wifi_switch_warn">
+        <RadioButton android:id="@+id/chk_wifi_with_ap_mode" android:layout_width="match_parent" android:layout_height="40dp" android:text="@string/text_wifi_with_ap_mode" style="@style/TextViewStyle.LinkManager.content"/>
+        <TextView android:gravity="center_vertical" android:id="@+id/txt_wifi_with_ap_mode_information" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:text="" android:layout_below="@+id/chk_wifi_with_ap_mode" style="@style/TextViewStyle.LinkManager.content"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_wifi_with_sta_mode" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_below="@+id/rl_wifi_with_ap_mode">
+        <LinearLayout android:id="@+id/ll_wifi_with_sta_mode" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:layout_gravity="center_vertical" android:id="@+id/chk_wifi_with_sta_mode" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="40dp" android:text="@string/text_wifi_with_sta_mode" android:layout_weight="1" style="@style/TextViewStyle.LinkManager.content"/>
+            <Button android:id="@+id/btn_wifi_with_sta_mode_modify" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/text_wifi_network_modify" style="?attr/commomButtonStyle"/>
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@+id/txt_wifi_with_sta_mode_information" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:text="" android:layout_below="@+id/ll_wifi_with_sta_mode" style="@style/TextViewStyle.LinkManager.content"/>
+    </RelativeLayout>
+    <Button android:id="@+id/btn_wifi_mode_config_refresh" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/text_wifi_config_refresh" android:layout_below="@+id/rl_wifi_with_sta_mode" style="?attr/commomButtonStyle"/>
+    <Button android:id="@+id/btn_wifi_config" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/text_wifi_config" android:layout_toRightOf="@+id/btn_wifi_mode_config_refresh" android:layout_below="@+id/rl_wifi_with_sta_mode" android:layout_alignBaseline="@+id/btn_wifi_mode_config_refresh" style="?attr/commomButtonStyle"/>
+</RelativeLayout>

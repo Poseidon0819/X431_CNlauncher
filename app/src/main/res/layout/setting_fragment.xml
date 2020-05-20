@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/horizontal_margin" android:paddingRight="@dimen/horizontal_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mine_area_margin">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/item_diagunit" android:background="@drawable/select_item_setting" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <TextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/tv_diagunit" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/setting_diagnose_unit_txt" android:singleLine="true" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <RadioGroup android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/radiogroup_diagunit_setting" android:background="@drawable/bg_radio_setting_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp">
+                    <RadioButton android:id="@+id/radio_metric" android:checked="true" android:text="@string/metric" android:layout_weight="1" style="@style/ItemStyle.setting.RadioButton.unitx"/>
+                    <RadioButton android:id="@+id/radio_imperial" android:text="@string/imperial" android:layout_weight="1" style="@style/ItemStyle.setting.RadioButton.unitx"/>
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear_line_3" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/item_orientationsetting" android:background="@drawable/select_item_setting" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <TextView android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/setting_orientation_txt" android:layout_weight="1" android:layout_centerVertical="true" style="@style/MiniInfoItemTextStyle"/>
+                <RadioGroup android:orientation="horizontal" android:id="@+id/radiogroup_orientation_setting" android:background="@drawable/bg_radio_setting_blue" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_centerVertical="true">
+                    <RadioButton android:id="@+id/radio_horizontal" android:checked="true" android:text="@string/setting_horizontal_txt" android:layout_weight="1" style="@style/ItemStyle.setting.RadioButton"/>
+                    <RadioButton android:id="@+id/radio_vertical" android:text="@string/setting_vertical_txt" android:layout_weight="1" style="@style/ItemStyle.setting.RadioButton"/>
+                </RadioGroup>
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/item_timeout_remind" android:background="@drawable/select_item_setting" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <TextView android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/setting_timeout_remind_txt" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <com.cnlaunch.x431pro.widget.switchbutton.SwitchButton android:layout_gravity="center_vertical" android:id="@+id/switch_timeoutremind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear_line_2" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <RelativeLayout android:orientation="horizontal" android:id="@+id/item_identifix_setting" android:background="@drawable/select_item_setting" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mine_item_height">
+                <LinearLayout android:orientation="horizontal" android:id="@+id/item_identifix_setting_linear" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/settings_identifix_prompt" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                    <com.cnlaunch.x431pro.widget.switchbutton.SwitchButton android:layout_gravity="center_vertical" android:id="@+id/switch_identifix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+                </LinearLayout>
+                <TextView android:textSize="@dimen/textsize_small_S" android:textColor="#7f7f7f" android:paddingLeft="@dimen/mineinfo_textviewpadding" android:paddingRight="@dimen/mineinfo_textviewpadding" android:paddingBottom="@dimen/mineinfo_textviewpadding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/identifix_dialog_tips" android:layout_below="@+id/item_identifix_setting_linear"/>
+                <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@+id/item_navigatorpro_setting" android:background="@drawable/select_item_setting" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mine_item_height">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <TextView android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settings_navigatorpro" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:textSize="@dimen/textsize_small_S" android:textColor="#7f7f7f" android:paddingLeft="@dimen/mineinfo_textviewpadding" android:paddingRight="@dimen/mineinfo_textviewpadding" android:paddingBottom="@dimen/mineinfo_textviewpadding" android:layout_width="243dp" android:layout_height="wrap_content" android:text="@string/navigatorpro_dialog_tips"/>
+                </LinearLayout>
+                <com.cnlaunch.x431pro.widget.switchbutton.SwitchButton android:layout_gravity="center_vertical" android:id="@+id/switch_navigatorpro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <RadioButton android:layout_gravity="center_vertical" android:id="@+id/btn_printinfo_setting" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/setting_printinfo_txt" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/layout_wifiprint_setting_line" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/layout_wifiprint_setting" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <RadioButton android:layout_gravity="center_vertical" android:id="@+id/btn_wifiprint_setting" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/print_launch_set" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear_themesetting_line" android:background="@color/mineinfo_item" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear_themesetting" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <RadioButton android:layout_gravity="center_vertical" android:id="@+id/btn_theme_setting" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/settings_theme" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mine_area_margin">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear_fredback" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <RadioButton android:layout_gravity="center_vertical" android:id="@+id/btn_onekey_feedback" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/setting_onekey_feedback_txt" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <TextView android:textSize="16dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/tv_tips" android:background="@drawable/reddot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp"/>
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <RadioButton android:layout_gravity="center_vertical" android:id="@+id/btn_checkserve" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/setting_check_server_txt" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <RadioButton android:layout_gravity="center_vertical" android:id="@+id/btn_onekey_clear" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/setting_onekey_clear_txt" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mine_area_margin">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <RadioButton android:layout_gravity="center_vertical" android:id="@+id/btn_about" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/setting_about_txt" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

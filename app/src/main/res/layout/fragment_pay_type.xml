@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbars="vertical" android:fadingEdge="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/title_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="24px" android:textColor="#0f75e8" android:id="@+id/sn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/mine_sn"/>
+            <TextView android:textSize="24px" android:textColor="#0f75e8" android:id="@+id/expiration_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="@string/mine_expiration_date"/>
+            <TextView android:textSize="24px" android:textColor="#0f75e8" android:id="@+id/software_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="@string/mine_software_name"/>
+        </LinearLayout>
+        <TextView android:textSize="28px" android:textColor="#313131" android:id="@+id/paypal_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:text="@string/mine_pay_pal_pay_title"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/paypal_container" android:background="@drawable/item_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+            <ImageView android:background="@drawable/launch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp"/>
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp">
+                <TextView android:textSize="28px" android:textColor="#313131" android:id="@+id/content" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/mine_pay_pal_content" android:layout_weight="2.5"/>
+                <TextView android:textSize="28px" android:textColor="#ff0000" android:id="@+id/fee" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/mine_pay_pal_fee" android:layout_weight="1.5"/>
+                <ImageView android:id="@+id/btn_paypal" android:background="@drawable/paypal" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:scaleType="centerInside"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="28px" android:textColor="#313131" android:id="@+id/pincard_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:text="@string/mine_pin_card_pay_title"/>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/item_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+            <ImageView android:background="@drawable/launch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp"/>
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp">
+                <TextView android:textSize="28px" android:textColor="#313131" android:id="@+id/content_pin_card" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/mine_pin_card_tip" android:layout_weight="4"/>
+                <TextView android:textSize="28px" android:textColor="#0f75e8" android:id="@+id/btn_pin_card" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/mine_pin_card_pay" android:layout_weight="1.5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="28px" android:textColor="#313131" android:id="@+id/creditcard_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginTop="26dp" android:text="@string/mine_credit_card_title"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/creditcard_container" android:background="@drawable/item_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" android:layout_marginBottom="26dp">
+            <ImageView android:id="@+id/creditcard_launch_img" android:background="@drawable/launch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26dp" android:layout_marginTop="13dp"/>
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="28px" android:textColor="#313131" android:id="@+id/content_credit_card" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="@string/mine_pay_pal_content" android:layout_weight="2.5"/>
+                <TextView android:textSize="28px" android:textColor="#ff0000" android:id="@+id/fee2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="@string/mine_pay_pal_fee" android:layout_weight="1.5"/>
+                <TextView android:textSize="28px" android:textColor="#0f75e8" android:id="@+id/btn_credit_card" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20dp" android:text="@string/mine_credit_card"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

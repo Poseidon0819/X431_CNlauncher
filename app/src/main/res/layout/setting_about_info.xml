@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/light_gray" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/gv_scrollView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="10dp">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ll_set_about" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/img_set_about" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/ic_launcher" android:contentDescription="@string/app_name"/>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:layout_gravity="center_horizontal" android:id="@+id/tv_set_about_headtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name"/>
+            <RelativeLayout android:id="@+id/rl_set_about_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mine_area_margin">
+                <RelativeLayout android:id="@+id/rl_about_version" android:background="@drawable/item_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_centerHorizontal="true">
+                    <RelativeLayout android:id="@+id/rl_version_info" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <TextView android:textSize="@dimen/leftmenu_textsize" android:padding="@dimen/mineinfo_textviewpadding" android:text="@string/version_imformation" style="@style/textview_wrap_style"/>
+                        <ImageView android:id="@+id/iv_version_info" android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/rl_updated" android:background="@drawable/item_bg" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_below="@+id/rl_about_version" android:layout_centerHorizontal="true">
+                    <android.widget.LcTextView android:textSize="@dimen/leftmenu_textsize" android:id="@+id/check_updates" android:padding="@dimen/mineinfo_textviewpadding" android:text="@string/check_updated" style="@style/textview_wrap_style"/>
+                    <TextView android:id="@+id/update_tip" android:background="@drawable/bg_title_tip_red" android:visibility="visible" android:layout_width="18dp" android:layout_height="18dp" android:layout_toRightOf="@+id/check_updates" android:layout_centerVertical="true"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <android.widget.LcTextView android:textSize="@dimen/textsize_normal_S" android:textColor="@color/hint_text_color" android:id="@+id/latest_version_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+                        <ImageView android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/rl_auto_download" android:background="@drawable/item_bg" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginTop="@dimen/mine_area_margin" android:layout_below="@+id/rl_updated" android:layout_centerHorizontal="true">
+                    <android.widget.LcTextView android:textSize="@dimen/leftmenu_textsize" android:id="@+id/auto_download" android:padding="@dimen/mineinfo_textviewpadding" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/auto_wifi_download_title" android:layout_weight="2"/>
+                    <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2" android:layout_centerHorizontal="true">
+                        <android.widget.LcTextView android:textSize="16sp" android:textColor="@color/hint_text_color" android:id="@+id/auto_download_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auto_wifi_download" android:layout_toLeftOf="@+id/auto_download_img"/>
+                        <ImageView android:id="@+id/auto_download_img" android:layout_marginLeft="@dimen/dp_5" android:layout_marginRight="10dp" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" style="@style/img_arrow_style"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <RelativeLayout android:id="@+id/rl_argeement" android:background="@drawable/item_bg" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginTop="@dimen/mine_area_margin" android:layout_below="@+id/rl_auto_download" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="@dimen/leftmenu_textsize" android:padding="@dimen/mineinfo_textviewpadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/service_agreement" android:layout_centerVertical="true" style="@style/textview_wrap_style"/>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/rl_privacy" android:background="@drawable/item_bg" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginTop="@dimen/mine_area_margin" android:layout_below="@+id/rl_argeement" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="@dimen/leftmenu_textsize" android:padding="@dimen/mineinfo_textviewpadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_policy" android:layout_centerVertical="true" style="@style/textview_wrap_style"/>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:src="@drawable/right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/rl_about_statment" android:background="@drawable/item_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginTop="@dimen/mine_area_margin" android:layout_below="@+id/rl_privacy" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="@dimen/leftmenu_textsize" android:padding="@dimen/mineinfo_textviewpadding" android:text="@string/statement_title_txt" style="@style/textview_wrap_style"/>
+                    <ImageView android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/rl_about_guide" android:background="@drawable/item_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginTop="@dimen/mine_area_margin" android:layout_below="@+id/rl_about_statment" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="@dimen/leftmenu_textsize" android:padding="@dimen/mineinfo_textviewpadding" android:text="@string/guide_title_txt" style="@style/textview_wrap_style"/>
+                    <ImageView android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/rl_about_agreement" android:background="@drawable/item_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginTop="@dimen/mine_area_margin" android:layout_below="@+id/rl_about_guide" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="@dimen/leftmenu_textsize" android:padding="@dimen/mineinfo_textviewpadding" android:text="@string/agreement_title_txt" style="@style/textview_wrap_style"/>
+                    <ImageView android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

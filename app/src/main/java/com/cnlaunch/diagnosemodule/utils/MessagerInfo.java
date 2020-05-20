@@ -1,0 +1,54 @@
+package com.cnlaunch.diagnosemodule.utils;
+
+/* loaded from: classes.dex */
+public class MessagerInfo {
+    public static final int CLIENT_DEVICE_INFORMATION_CHANGED = 25;
+    public static final int CLIENT_DIAGNOSE_LOG_DATA = 16;
+    public static final int CLIENT_DiagnoseDatastreamRecord = 13;
+    public static final int CLIENT_FEEDBACK_INT_DATA = 27;
+    public static final int CLIENT_FeedbackCmd_BYTEDATA = 24;
+    public static final int CLIENT_FeedbackCmd_Mask = 15;
+    public static final int CLIENT_FeedbackCmd_Normal = 3;
+    public static final int CLIENT_FeedbackCmd_PageDataStream = 4;
+    public static final int CLIENT_FeedbackData_to_DiagSoft = 29;
+    public static final int CLIENT_FeedbackData_to_TpmsgunSoft = 30;
+    public static final int CLIENT_FeedbackData_to_so = 28;
+    public static final int CLIENT_InitMessager = 0;
+    public static final int CLIENT_KeyBack = 5;
+    public static final int CLIENT_LaunchAutoConnBluetooth = 11;
+    public static final int CLIENT_LaunchDiag = 1;
+    public static final int CLIENT_LaunchDiagWithDevice = 6;
+    public static final int CLIENT_LaunchRemoteDiag = 8;
+    public static final int CLIENT_LaunchWifi = 7;
+    public static final int CLIENT_READ_VIN_BY_OBD = 26;
+    public static final int CLIENT_RemoteDiagCmd_Menu = 17;
+    public static final int CLIENT_RemoteDiagCmd_Special = 18;
+    public static final int CLIENT_RemoteDiag_Config = 20;
+    public static final int CLIENT_RemoteDiag_ScrollPage = 22;
+    public static final int CLIENT_SendCustomDialog = 12;
+    public static final int EXIT_DIAGNOSE_WITH_HOME_BUTTON = 27;
+    public static final int REMOTE_CMD_MESSAGE = 37120;
+    public static final int REMOTE_FEEDBACK_JSON = 99;
+    public static final int REMOTE_FEEDBACK_TECH_JSON = 10055;
+    public static final int REMOTE_OTHER_MESSAGE = 104;
+    public static final int REMOTE_VEHICLES_INFO = 101;
+    public static final int SERVER_DIAGNOSE_COMMAND_LOCALSOCKET_SATAE = 105;
+    public static final int SERVER_REMOTE_VEHICLES_INFO = 102;
+    public static final int SERVER_WEB_REMOTE_TECH_CMD = 107;
+    public static final int SERVICE_DEVICE_INFORMATION_CHANGED = 57;
+    public static final int SERVICE_DEVICE_INFORMATION_NOT_QUIT_CAR = 58;
+    public static final int SERVICE_DIAGNOSE_ERROR_STATE = 106;
+    public static final int SERVICE_DIAGNOSE_ERROR_STATE_TYPE_2117_VERIFY = 1;
+    public static final int SERVICE_DIAGNOSE_ERROR_STATE_TYPE_DISCONNECT_STATUS = 2;
+    public static final int SERVICE_DIAGNOSE_LOG_DATA = 53;
+    public static final int SERVICE_DiagnoseData = 50;
+    public static final int SERVICE_RemoteDiagData_Click = 54;
+    public static final int SERVICE_RemoteDiagExit = 52;
+    public static final int SERVICE_RemoteDiagStatus = 51;
+    public static final int SERVICE_RemoteDiag_Config = 55;
+    public static final int SERVICE_RemoteDiag_ScrollPage = 56;
+    public static final int SERVICE_RemoteDiag_SetValues = 59;
+    public static final int SETTING_AUTO_CLEAR_DCT = 109;
+    public static final int UPDATE_VOLTAGE_SHOW = 108;
+    public static final int WEB_REMOTE_LISTENER = 103;
+}

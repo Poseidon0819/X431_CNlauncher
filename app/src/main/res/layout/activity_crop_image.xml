@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="#333333" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <view android:layout_gravity="center" android:id="@+id/gl_modify_avatar_image" android:layout_width="match_parent" android:layout_height="match_parent" class="com.cnlaunch.golo3.view.selectimg.CropImageView"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/gl_modify_avatar_bottom" android:background="?attr/mainTitleBackgroud" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <Button android:id="@+id/gl_modify_avatar_rotate_left" android:background="@drawable/gl_rotate_left" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+        <Button android:textSize="16sp" android:textColor="@android:color/white" android:id="@+id/gl_modify_avatar_cancel" android:paddingLeft="20dp" android:paddingTop="5dp" android:paddingRight="20dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0dp" android:text="@string/cancel_img" style="?attr/commomButtonStyle"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <Button android:textSize="16sp" android:textColor="@android:color/white" android:id="@+id/gl_modify_avatar_save" android:paddingLeft="20dp" android:paddingTop="5dp" android:paddingRight="20dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0dp" android:text="@string/confirm" style="?attr/commomButtonStyle"/>
+        <Button android:id="@+id/gl_modify_avatar_rotate_right" android:background="@drawable/gl_rotate_right" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+    </LinearLayout>
+</LinearLayout>

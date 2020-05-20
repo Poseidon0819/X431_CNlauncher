@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cnlaunch.golo3.view.selectimg.clip.ClipImageView android:id="@+id/clip_image_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom" app:civClipBorderWidth="300dp" app:civHeight="1" app:civMaskColor="@color/viewfinder_mask" app:civWidth="1"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bottom" android:background="@color/gray_bg_color" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="16sp" android:textColor="@android:color/white" android:id="@+id/cancel" android:paddingLeft="20dp" android:paddingTop="5dp" android:paddingRight="20dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0dp" android:text="@string/cancel_img" style="?attr/commomButtonStyle"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <Button android:textSize="16sp" android:textColor="@android:color/white" android:id="@+id/clip" android:paddingLeft="20dp" android:paddingTop="5dp" android:paddingRight="20dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0dp" android:text="@string/confirm" style="?attr/commomButtonStyle"/>
+    </LinearLayout>
+</RelativeLayout>

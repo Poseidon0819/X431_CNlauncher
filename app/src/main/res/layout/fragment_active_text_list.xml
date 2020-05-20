@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/diagnoseMainBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/lv_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ListViewStyle.Title.Linear">
+        <TextView android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/tv_datastream_title" android:singleLine="true" android:layout_weight="2" style="@style/ListViewStyle.Title.TextView"/>
+        <TextView android:id="@+id/value" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/tv_datastream_value" android:singleLine="true" android:layout_weight="1" style="@style/ListViewStyle.Title.TextView"/>
+        <TextView android:id="@+id/statue" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/tv_datastream_unit" android:singleLine="true" android:layout_weight="1" style="@style/ListViewStyle.Title.TextView"/>
+    </LinearLayout>
+    <ListView android:id="@+id/listview_activetest" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/lv_title"/>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ll_repair_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_60">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <android.widget.LcImageView android:layout_gravity="center_horizontal" android:id="@+id/cy_info" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cy_info_selector"/>
+                    <android.widget.LcTextView android:textSize="22sp" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/launch_repair_infomation"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <android.widget.LcImageView android:layout_gravity="center_horizontal" android:id="@+id/query_renew" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_query_and_renew"/>
+                    <android.widget.LcTextView android:textSize="22sp" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/cy_query_and_renew"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_60">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <android.widget.LcImageView android:layout_gravity="center_horizontal" android:id="@+id/repair_help" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/repair_info_selector"/>
+                    <android.widget.LcTextView android:textSize="22sp" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/repair_help"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

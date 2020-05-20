@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="carlogoItemColumnNum">5</integer>
+    <integer name="face_row_num_gay">6</integer>
+    <integer name="face_row_num_goose">8</integer>
+    <integer name="graph_VerticalSpacing">10</integer>
+    <integer name="graph_padding_top">20</integer>
+    <integer name="leftmenu_mainsize">75</integer>
+    <integer name="toolItemColumnNum">6</integer>
+</resources>

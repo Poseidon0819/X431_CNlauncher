@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="20sp" android:id="@+id/cy_order_type_id" android:paddingLeft="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10" android:text="@string/good_info"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/cy_order_ordered_container" android:background="@drawable/shape_cir_bg_blackborder" android:padding="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20sp" android:paddingLeft="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_order_no"/>
+                    <TextView android:textSize="20sp" android:textColor="@color/golo_gray_txt" android:id="@+id/cy_order_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20sp" android:paddingLeft="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/good_name"/>
+                    <TextView android:textSize="20sp" android:textColor="@color/golo_gray_txt" android:id="@+id/cy_order_type_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20sp" android:paddingLeft="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/goods_price"/>
+                    <TextView android:textSize="20sp" android:textColor="@color/red" android:id="@+id/cy_order_type_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20sp" android:paddingLeft="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/goods_detial"/>
+                    <TextView android:textSize="20sp" android:textColor="@color/golo_gray_txt" android:id="@+id/cy_order_type_remark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/cy_order_list_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.cnlaunch.x431pro.widget.ListViewForScrollView android:id="@+id/cy_order_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/sp_20" android:textColor="@color/red" android:gravity="center_horizontal" android:id="@+id/order_remarks" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/order_remarks"/>
+            <TextView android:textSize="@dimen/sp_20" android:textColor="@color/red" android:gravity="center_horizontal" android:id="@+id/order_pay_tips" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cy_order_tips"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/cy_order_user_specification" android:background="@drawable/shape_cir_bg_blackborder" android:padding="@dimen/dp_20" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10" android:layout_marginTop="@dimen/dp_20">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <View android:background="@android:color/holo_red_light" android:layout_width="@dimen/dp_80" android:layout_height="@dimen/dp_2"/>
+                    <TextView android:textSize="22sp" android:textStyle="bold" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" android:text="@string/cy_user_specification_title"/>
+                    <View android:background="@android:color/holo_red_light" android:layout_width="@dimen/dp_80" android:layout_height="@dimen/dp_2"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/cy_order_account_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="20sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cy_user_specification_account"/>
+                        <TextView android:textSize="20sp" android:textColor="@color/golo_gray_txt" android:id="@+id/cy_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="20sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cy_user_specification_password"/>
+                        <TextView android:textSize="20sp" android:textColor="@color/golo_gray_txt" android:id="@+id/cy_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="20sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cy_user_specification_effective_date"/>
+                        <TextView android:textSize="20sp" android:textColor="@color/golo_gray_txt" android:id="@+id/cy_effective_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10">
+                    <TextView android:textSize="@dimen/sp_18" android:textColor="@color/red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cy_user_specification_tip_symbol"/>
+                    <TextView android:textSize="@dimen/sp_18" android:textColor="@color/golo_gray_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cy_user_specification_tip_content"/>
+                </LinearLayout>
+                <TextView android:textSize="20sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/cy_user_specification_content_1"/>
+                <TextView android:textSize="20sp" android:id="@+id/cy_content_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/cy_user_specification_content_2"/>
+                <TextView android:textSize="20sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/cy_user_specification_content_3"/>
+                <TextView android:textSize="20sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/cy_user_specification_content_4"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <android.widget.LcButton android:textSize="@dimen/textsize_normal_S" android:id="@+id/order_now" android:paddingLeft="@dimen/dp_30" android:paddingRight="@dimen/dp_30" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/order_now" style="?attr/commomButtonStyle"/>
+        <android.widget.LcButton android:textSize="@dimen/textsize_normal_S" android:id="@+id/enter_pay" android:paddingLeft="@dimen/dp_30" android:paddingRight="@dimen/dp_30" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/enter_payment" style="?attr/commomButtonStyle"/>
+        <android.widget.LcButton android:textSize="@dimen/textsize_normal_S" android:id="@+id/cancel_order" android:paddingLeft="@dimen/dp_30" android:paddingRight="@dimen/dp_30" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cy_order_cancel" style="?attr/commomButtonStyle"/>
+    </LinearLayout>
+</LinearLayout>

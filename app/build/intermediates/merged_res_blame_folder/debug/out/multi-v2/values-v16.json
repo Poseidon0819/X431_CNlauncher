@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ifoer.expedition.pro.app-mergeDebugResources-3:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-v16\\styles.xml",
+                    "from": {
+                        "startLines": "2,9,15,23,32,48,55,65,79,86",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,434,824,1433,2091,3182,3636,4386,5323,5764",
+                        "endLines": "8,14,22,31,47,54,64,78,85,91",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "428,818,1427,2085,3176,3630,4380,5317,5758,6145"
+                    },
+                    "to": {
+                        "startLines": "3,10,16,24,33,49,56,66,80,87",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "121,491,875,1476,2125,3200,3647,4387,5310,5744",
+                        "endLines": "9,15,23,32,48,55,65,79,86,92",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "486,870,1471,2120,3195,3642,4382,5305,5739,6120"
+                    }
+                },
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-v16\\dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "65",
+                        "endOffsets": "118"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

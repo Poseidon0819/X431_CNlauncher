@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/history_title" android:background="#cac9cf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:id="@+id/tv_device_num" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/Historical_device_num_txt" android:layout_weight="1" style="@style/TextViewStyle.update.title"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/serialnumber_txt" style="@style/TextViewStyle.update.title"/>
+        <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tv_spinner_serialNo" android:background="@drawable/shape_cir_bg_noborder" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/serialnumber_txt" android:drawableRight="@drawable/down_red_arrow" android:drawablePadding="@dimen/dp_7" style="@style/TextViewStyle.update.title"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear_history_button_bottom" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_history_selectall" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:layout_weight="1" style="@style/IconButton.pageselectall"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_history_pageunselectall" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.unpageselectall"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_history_del" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.del"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_history_del_mode" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.delmode"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_history_cancledelMode" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.canlce_delmode"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_above="@+id/linear_history_button_bottom" android:layout_below="@+id/history_title">
+        <ListView android:id="@+id/history_date_list" android:background="#ff333333" android:layout_width="@dimen/history_ItemWidth" android:layout_height="match_parent" android:divider="#ff1d1d1d"/>
+        <GridView android:gravity="center" android:id="@+id/history_gridview" android:padding="@dimen/history_gridview_pading_top" android:fadingEdge="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:horizontalSpacing="@dimen/history_item_padding_v" android:verticalSpacing="@dimen/history_item_padding_v" android:stretchMode="columnWidth" android:numColumns="@integer/history_ItemColumnNum"/>
+    </LinearLayout>
+</RelativeLayout>

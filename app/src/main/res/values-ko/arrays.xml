@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>태도 불량</item>
+        <item>태도 일반</item>
+        <item>태도 매우 좋음</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>효율 낮음</item>
+        <item>효율 일반</item>
+        <item>효율 높음</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>가격성능대비 낮음</item>
+        <item>가격성능대비 일반</item>
+        <item>가격성능대비 높음</item>
+    </array>
+    <array name="area_selection">
+        <item>China</item>
+        <item>Others</item>
+    </array>
+    <array name="func_status">
+        <item>상태 없음</item>
+        <item>성공</item>
+        <item>실패</item>
+        <item>완료</item>
+        <item>고장코드 없음</item>
+        <item>통신 실패</item>
+        <item>ID 식별되지 않음</item>
+    </array>
+    <array name="func_type">
+        <item>시스템 스캔</item>
+        <item>빠른 테스트</item>
+        <item>시스템 엔트리</item>
+        <item>버전 정보</item>
+        <item>고장코드 판독</item>
+        <item>고장코드 삭제</item>
+        <item>데이터 스트림 판독</item>
+        <item>프리즈 프레임 판독</item>
+        <item>동작 테스트</item>
+        <item>특수 기능</item>
+        <item>브랜드</item>
+        <item>모델</item>
+        <item>연식</item>
+        <item>배출량</item>
+        <item>변속기</item>
+        <item>섀시</item>
+        <item>엔진</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>기타</item>
+        <item>셀프 진단 보고</item>
+        <item>전문가 진단 보고</item>
+        <item>고장코드 원키 삭제 보고</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>기타</item>
+        <item>대리 운전</item>
+        <item>지원</item>
+        <item>카풀</item>
+        <item>자동차 렌탈</item>
+        <item>택시</item>
+        <item>대행사</item>
+    </array>
+    <array name="languages">
+        <item>시스템 언어에 따라 달라집니다</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

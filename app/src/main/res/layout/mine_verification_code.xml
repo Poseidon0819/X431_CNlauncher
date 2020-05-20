@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/mine_black_border_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="30dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connector_Note" style="@style/MiniInfoItemTextStyle"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connector_explanation" style="@style/MiniInfoItemTextStyle"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mine_area_margin">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:background="@drawable/login_pop_register_serial_num_one" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connector_figure_one" style="@style/MiniInfoItemTextStyle"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:background="@drawable/login_pop_register_serial_num_two" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connector_figure_two" style="@style/MiniInfoItemTextStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/relat_item_root" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mine_item_height">
+    <ImageView android:id="@+id/iv_checkbox" android:background="@drawable/select_checkbox_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <TextView android:gravity="center" android:id="@+id/tv_serial_number" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_toRightOf="@+id/iv_checkbox" android:layout_alignBaseline="@+id/iv_checkbox" android:layout_centerInParent="true" style="@style/MiniInfoItemTextStyle"/>
+    <ImageButton android:id="@+id/btn_spinner_down" android:background="@drawable/spinner_down" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignBaseline="@+id/iv_checkbox" android:layout_alignParentRight="true" android:layout_centerInParent="true"/>
+</RelativeLayout>

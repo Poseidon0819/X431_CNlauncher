@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/diagnose_index_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cnlaunch.x431pro.widget.VinDropdownEditText android:textSize="@dimen/textSize_vin_base" android:textColor="@color/black" android:id="@+id/input_vin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/vin_input_btn_minwidth" android:hint="@string/vin_input" android:maxLength="17" android:drawableRight="@drawable/spinner_down" android:layout_centerInParent="true"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/vin_panel" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <com.cnlaunch.x431pro.widget.VinDropdownEditText android:textSize="@dimen/textSize_vin_base" android:textColor="@color/black" android:id="@+id/input_vin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/vin_input_btn_minwidth" android:hint="@string/vin_input" android:cursorVisible="true" android:maxLength="17" android:drawableRight="@drawable/spinner_down" android:layout_centerInParent="true" android:textCursorDrawable="@null"/>
+            <LinearLayout android:id="@+id/button_panel" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height" android:minWidth="@dimen/vin_input_btn_minwidth" android:layout_below="@+id/input_vin" android:layout_centerHorizontal="true">
+                <Button android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:id="@+id/input_vin_btn" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/common_confirm" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+                <Button android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:id="@+id/clear_input_vin_btn" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/btn_clear" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/input_panel" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <android.inputmethodservice.KeyboardView android:id="@+id/keyboard_view" android:background="@color/keyboardview_backgroud" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:shadowColor="@color/keyboardview_backgroud" android:shadowRadius="0" android:layout_alignParentBottom="true" android:keyBackground="@drawable/key_check" android:keyTextColor="@color/black"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

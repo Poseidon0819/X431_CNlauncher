@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>špatný přístup</item>
+        <item>přístup není špatný</item>
+        <item>Velmi dobrý přístup</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Špatná Účinnost</item>
+        <item>Účinnost není vysoká</item>
+        <item>Vysoká účinnost</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Nízký poměr ceny a výkonu</item>
+        <item>Poměr ceny a výkonu není vysoký</item>
+        <item>vysoký poměr ceny a výkonu</item>
+    </array>
+    <array name="area_selection">
+        <item>Čína</item>
+        <item>Ostatní</item>
+    </array>
+    <array name="func_status">
+        <item>Bez stavu</item>
+        <item>úspěch</item>
+        <item>Selhání</item>
+        <item>Hotový</item>
+        <item>Bez DTC</item>
+        <item>Komunikace se nezdařila</item>
+        <item>nemůže uznat ID pro vstup do systému</item>
+    </array>
+    <array name="func_type">
+        <item>skenování systému</item>
+        <item>Rychlý test</item>
+        <item>Vstup systému</item>
+        <item>Informace o verzi</item>
+        <item>Přečíst DTC</item>
+        <item>Vymazat DTC</item>
+        <item>Přečíst datový proud</item>
+        <item>Přečíst zmrazení obrazu</item>
+        <item>Test akce</item>
+        <item>Speciální funkce</item>
+        <item>Značka</item>
+        <item>Model</item>
+        <item>Rok</item>
+        <item>Výtlak</item>
+        <item>Typ převodovky</item>
+        <item>podvozek</item>
+        <item>motor</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>ostatní</item>
+        <item>Vlastní diagnostická zpráva</item>
+        <item>diagnostická zpráva odborníka</item>
+        <item>zpráva o čištění kódu jedním klíčem</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>ostatní</item>
+        <item>Prostor pro řidiče</item>
+        <item>pomoc</item>
+        <item>Spolujízda</item>
+        <item>pronájem auta</item>
+        <item>Taxi</item>
+        <item>agentura</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>態度が悪い</item>
+        <item>態度が普通</item>
+        <item>態度がいい</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>効率が遅い</item>
+        <item>効率が普通</item>
+        <item>効率が速い</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>性能対価格比が低い</item>
+        <item>性能対価格比が普通</item>
+        <item>性能対価格比が高い</item>
+    </array>
+    <array name="area_selection">
+        <item>中国</item>
+        <item>その他</item>
+    </array>
+    <array name="func_status">
+        <item>状態なし</item>
+        <item>成功</item>
+        <item>失敗</item>
+        <item>完了</item>
+        <item>DTCなし</item>
+        <item>通信失敗</item>
+        <item>システムアクセスID未識別</item>
+    </array>
+    <array name="func_type">
+        <item>システムスキャン</item>
+        <item>クイックテスト</item>
+        <item>システムアクセス</item>
+        <item>バージョン情報</item>
+        <item>DTC読取</item>
+        <item>DTC消去</item>
+        <item>データストリーム読取</item>
+        <item>フリーズフレーム読取</item>
+        <item>動作テスト</item>
+        <item>特殊機能</item>
+        <item>車種</item>
+        <item>モデル</item>
+        <item>年式</item>
+        <item>排気量</item>
+        <item>トランスミッション</item>
+        <item>シャシ</item>
+        <item>エンジン種類</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>そのほか</item>
+        <item>セルフ診断レポート</item>
+        <item>専門家診断レポート</item>
+        <item>ワンキーDTC消去レポート</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>そのほか</item>
+        <item>代行運転</item>
+        <item>支援</item>
+        <item>相乗り</item>
+        <item>レンタカー</item>
+        <item>タクシー</item>
+        <item>代行</item>
+    </array>
+    <array name="languages">
+        <item>システム言語によって変わります</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+    <array name="syste_error_choose">
+        <item>1. 火をつけるスィッチはキイIIとキイIIIのポジションがあります。エンジンを発動されました。</item>
+        <item>2. 接続診断はちゃんと接続して、伸ばすコードも使われていました。</item>
+        <item>3. 乗り物の電池の電圧と接続電圧は正常です。</item>
+        <item>4. 乗り物はそのシステムと整備されます。</item>
+        <item>5.ECU導火線とECU電線は正常です。</item>
+        <item>6.火をつけるスィッチは切ったり、付けたりしていました。</item>
+        <item>7. VCIの接続はおちたり、接続したりしていました。</item>
+        <item>8. ECUとOBDと繋がってある電線はオリジナルではありません。</item>
+        <item>9. 乗り物はOBD相関の自動車モデルと装置していません。</item>
+        <item>10. バスのスィッチを入れると利用することができます。</item>
+    </array>
+</resources>

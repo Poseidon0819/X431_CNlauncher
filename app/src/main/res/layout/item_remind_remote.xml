@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remote_request_id"/>
+        <TextView android:id="@+id/remote_request_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remote_user_name"/>
+        <TextView android:id="@+id/remote_user_name_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remote_nick_name"/>
+        <TextView android:id="@+id/remote_nick_name_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remote_car_type"/>
+        <TextView android:id="@+id/remote_car_type_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remote_car_num"/>
+        <TextView android:id="@+id/remote_car_num_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remote_create_time"/>
+        <TextView android:id="@+id/remote_create_time_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remote_description"/>
+        <TextView android:id="@+id/remote_description_dis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sss"/>
+    </LinearLayout>
+</LinearLayout>

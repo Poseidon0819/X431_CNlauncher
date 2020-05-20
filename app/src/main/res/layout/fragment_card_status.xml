@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbars="vertical" android:fadingEdge="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/height_base" android:layout_marginTop="@dimen/setting_button_top" android:layout_marginRight="@dimen/height_base">
+            <TextView android:textSize="18px" android:textColor="#0f75e8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_hint_card_no"/>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                <com.cnlaunch.x431pro.widget.ClearEditText android:ellipsize="end" android:id="@+id/card_code" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="13dp" android:singleLine="true" android:maxLength="12" android:layout_weight="1" android:inputType="number" android:imeOptions="actionGo" style="@style/setting_edittext_style"/>
+                <android.widget.LcButton android:textColor="@color/white" android:ellipsize="marquee" android:id="@+id/check" android:padding="@dimen/mineinfo_textviewpadding" android:focusable="true" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height" android:text="@string/mine_check" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="?attr/commonButtonLongStyle"/>
+            </LinearLayout>
+            <TextView android:textSize="28px" android:gravity="left" android:id="@+id/card_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="26dp" android:text="@string/mine_card_info"/>
+            <TableLayout android:id="@+id/info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mine_item_height">
+                    <TextView android:text="@string/mine_card_no" android:layout_weight="2" style="@style/TextViewStyle.CardStatus"/>
+                    <TextView android:id="@+id/card_no" android:layout_weight="3" style="@style/TextViewStyle.CardStatus"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mine_item_height">
+                    <TextView android:text="@string/mine_product_config" android:layout_weight="2" style="@style/TextViewStyle.CardStatus"/>
+                    <TextView android:id="@+id/product_config" android:layout_weight="3" style="@style/TextViewStyle.CardStatus"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mine_item_height">
+                    <TextView android:text="@string/mine_renewal_years" android:layout_weight="2" style="@style/TextViewStyle.CardStatus"/>
+                    <TextView android:id="@+id/renewal_years" android:layout_weight="3" style="@style/TextViewStyle.CardStatus"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mine_item_height">
+                    <TextView android:text="@string/mine_status" android:layout_weight="2" style="@style/TextViewStyle.CardStatus"/>
+                    <TextView android:id="@+id/status" android:layout_weight="3" style="@style/TextViewStyle.CardStatus"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mine_item_height">
+                    <TextView android:text="@string/mine_activate_date" android:layout_weight="2" style="@style/TextViewStyle.CardStatus"/>
+                    <TextView android:id="@+id/activate_date" android:layout_weight="3" style="@style/TextViewStyle.CardStatus"/>
+                </LinearLayout>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

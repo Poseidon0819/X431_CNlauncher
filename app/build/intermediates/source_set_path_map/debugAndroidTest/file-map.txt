@@ -1,0 +1,5 @@
+com.ifoer.expedition.pro.test.app-androidTest-0 D:\Workspace\Reverse\X431_CNlauncher\app\build\generated\res\resValues\androidTest\debug
+com.ifoer.expedition.pro.test.app-androidTest-1 D:\Workspace\Reverse\X431_CNlauncher\app\build\generated\res\rs\androidTest\debug
+com.ifoer.expedition.pro.test.app-mergeDebugAndroidTestResources-2 D:\Workspace\Reverse\X431_CNlauncher\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.ifoer.expedition.pro.test.app-mergeDebugAndroidTestResources-3 D:\Workspace\Reverse\X431_CNlauncher\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.ifoer.expedition.pro.test.app-merged_res-4 D:\Workspace\Reverse\X431_CNlauncher\app\build\intermediates\merged_res\debugAndroidTest

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/group_btn" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/btn_message" android:background="#efefef" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/im_message" android:contentDescription="@null"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/btn_friend" android:background="@drawable/select_btn_message__friend_tab" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/im_friends" android:contentDescription="@null"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.cnlaunch.x431pro.widget.pulltorefresh.PullToRefreshListView android:id="@+id/lv_message" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#d5d5d5" android:dividerHeight="1px" android:layout_above="@+id/group_btn" android:footerDividersEnabled="true" style="@style/ListViewStyle.ListView.golo"/>
+    <LinearLayout android:background="#d5d5d5" android:layout_width="match_parent" android:layout_height="1px" android:layout_below="@+id/lv_message"/>
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Dålig inställning</item>
+        <item>Inställning Inte dålig</item>
+        <item>Mycket Bra Inställning</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Dålig effektivitet</item>
+        <item>Effektivitet Inte Hög</item>
+        <item>Hög Effektivitet</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Lågkostnad Prestanda</item>
+        <item>Kostnadsprestanda Inte Hög</item>
+        <item>Hög Kostnadsprestanda</item>
+    </array>
+    <array name="area_selection">
+        <item>Kina</item>
+        <item>Andra</item>
+    </array>
+    <array name="func_status">
+        <item>Ingen Status</item>
+        <item>Framgång</item>
+        <item>Misslyckades</item>
+        <item>Slutfört</item>
+        <item>Ingen DTC</item>
+        <item>Kommunikation misslyckades</item>
+        <item>ID Hittades inte</item>
+    </array>
+    <array name="func_type">
+        <item>System Scan</item>
+        <item>Snabb Test</item>
+        <item>System Enter</item>
+        <item>Versions information</item>
+        <item>Läs DTC</item>
+        <item>Rensa DTC</item>
+        <item>Spela in Dataström</item>
+        <item>Visa Freeze Frame</item>
+        <item>Åtgärds test</item>
+        <item>Specialfunktion</item>
+        <item>Gör</item>
+        <item>Modell</item>
+        <item>År</item>
+        <item>Förskjutning</item>
+        <item>Överföring</item>
+        <item>Chassis</item>
+        <item>Motor</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Annan</item>
+        <item>Självdiagnostik rapport</item>
+        <item>Expert diagnostisk rapport</item>
+        <item>DTC en-nyckel rensa rapport</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Annan</item>
+        <item>Utsedd drivrutin</item>
+        <item>Hjälp</item>
+        <item>Samåk</item>
+        <item>BILUTHYRNING</item>
+        <item>Taxi</item>
+        <item>Byrån</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

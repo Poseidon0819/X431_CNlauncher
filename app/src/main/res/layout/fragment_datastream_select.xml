@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/diagnoseMainBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/head_title" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_diagnose_subtitle"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear_button_bottom" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:id="@+id/btn_selectall" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:layout_weight="1" style="@style/IconButton.selectall"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_pageselectall" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.pageselectall"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_pageunselectall" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.unpageselectall"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_home" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.home"/>
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:id="@+id/btn_print" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.print"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_graph_confirm" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.graph"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_value_confirm" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.confirm"/>
+    </LinearLayout>
+    <com.cnlaunch.x431pro.widget.staggeredgridview.StaggeredGridView android:id="@+id/gridview_select" android:paddingLeft="@dimen/horizontal_margin" android:paddingRight="@dimen/horizontal_margin" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/linear_button_bottom" android:layout_below="@+id/head_title" app:column_count_landscape="2" app:column_count_portrait="1"/>
+    <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:background="#00000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/linear_button_bottom">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="@color/transparent" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/blue_textsize" android:textStyle="bold" android:textColor="@color/red" android:layout_gravity="center_vertical" android:id="@+id/tv_sel_number_current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1"/>
+            <TextView android:textSize="@dimen/blue_textsize" android:textStyle="bold" android:textColor="#313131" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" / "/>
+            <TextView android:textSize="@dimen/blue_textsize" android:textStyle="bold" android:textColor="#313131" android:layout_gravity="center_vertical" android:id="@+id/tv_datastream_number_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

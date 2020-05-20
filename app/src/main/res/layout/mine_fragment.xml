@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/container_friends" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <com.cnlaunch.x431pro.widget.MarqueeScrollView android:id="@+id/btn_my_friends" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/my_friends" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <TextView android:textSize="@dimen/golo_tip_textsize" android:textColor="@color/white" android:gravity="center" android:id="@+id/mine_no_read" android:background="@drawable/bg_title_tip_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/golobind_content_padding" android:minWidth="@dimen/golo_tip_minsize" android:minHeight="@dimen/golo_tip_minsize"/>
+                <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/below_container_friends" android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <com.cnlaunch.x431pro.widget.MarqueeScrollView android:id="@+id/btn_myconnector" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/mine_connector_title" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <com.cnlaunch.x431pro.widget.MarqueeScrollView android:id="@+id/btn_dpu_link_manager" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/text_dpu_link_manager" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <com.cnlaunch.x431pro.widget.MarqueeScrollView android:id="@+id/btn_connector_activate" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/mine_activation_title" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <TextView android:id="@+id/btn_firmware_fix" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/mine_firmware_fix" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/voltage_container_divider" android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/voltage_container" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <com.cnlaunch.x431pro.widget.MarqueeScrollView android:ellipsize="marquee" android:id="@+id/btn_vehicle_voltage" android:paddingLeft="10dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/mine_vehicle_voltage" android:singleLine="true" android:drawablePadding="10dp" android:layout_weight="1" android:marqueeRepeatLimit="marquee_forever" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <com.cnlaunch.x431pro.widget.MarqueeScrollView android:id="@+id/btn_myreport" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/mine_myreport_title" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <com.cnlaunch.x431pro.widget.MarqueeScrollView android:id="@+id/btn_mineinfo" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/mine_info_title" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <com.cnlaunch.x431pro.widget.MarqueeScrollView android:id="@+id/btn_modify_password" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/mine_modify_password_title" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/pincard_container" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ll_my_order" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <com.cnlaunch.x431pro.widget.MarqueeScrollView android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/mine_my_order" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ll_card_status" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <com.cnlaunch.x431pro.widget.MarqueeScrollView android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/mine_card_status" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <com.cnlaunch.x431pro.widget.MarqueeScrollView android:id="@+id/btn_help" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/mine_help_title" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/online_service" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                <com.cnlaunch.x431pro.widget.MarqueeScrollView android:id="@+id/btn_customer_service" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/mine_customer_service_title" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:id="@+id/btn_logout" android:padding="@dimen/mineinfo_textviewpadding" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin" android:layout_marginBottom="@dimen/mine_area_margin" android:text="@string/mine_logout" android:drawablePadding="10dp" style="?attr/commonButtonLongStyle"/>
+    </LinearLayout>
+</ScrollView>

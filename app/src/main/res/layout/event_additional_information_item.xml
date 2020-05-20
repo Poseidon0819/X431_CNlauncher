@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/image_show_more_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/image_show_layout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+            <ImageView android:id="@+id/image1" android:background="@drawable/golo_other_default_image" android:visibility="gone" android:clickable="true" android:layout_width="70dp" android:layout_height="70dp" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:contentDescription="@string/app_name"/>
+            <ImageView android:id="@+id/image2" android:background="@drawable/golo_other_default_image" android:visibility="gone" android:clickable="true" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginLeft="5dp" android:scaleType="centerCrop" android:layout_toRightOf="@+id/image1" android:contentDescription="@string/app_name"/>
+            <ImageView android:id="@+id/image3" android:background="@drawable/golo_other_default_image" android:visibility="gone" android:clickable="true" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginLeft="5dp" android:scaleType="centerCrop" android:layout_toRightOf="@+id/image2" android:contentDescription="@string/app_name"/>
+            <ImageView android:id="@+id/icon_enter_image4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/icon_enter" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView android:id="@+id/image_single_show_image" android:background="@drawable/golo_other_default_image" android:visibility="gone" android:clickable="true" android:layout_width="120dp" android:layout_height="120dp" android:scaleType="centerCrop" android:contentDescription="@string/app_name"/>
+</LinearLayout>

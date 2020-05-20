@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Dårlige stillinger</item>
+        <item>Stillingen er ikke så dårlig</item>
+        <item>Meget god stilling</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Dårlig Effektivitet</item>
+        <item>Effektivitet Ikke Høj</item>
+        <item>Høj Effektivitet</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Lav Pris Udførelse</item>
+        <item>Pris Udførelse Ikke Høj</item>
+        <item>Høj Pris Udførelse</item>
+    </array>
+    <array name="area_selection">
+        <item>Kina</item>
+        <item>Andre</item>
+    </array>
+    <array name="func_status">
+        <item>Ingen Status</item>
+        <item>Succes</item>
+        <item>Mislykket</item>
+        <item>Afsluttet</item>
+        <item>Ingen DTC</item>
+        <item>Kommunikation Mislykkedes</item>
+        <item>Kunne ikke finde ID</item>
+        <item>Function Start</item>
+        <item>Function End</item>
+        <item>Datastream Unsort</item>
+    </array>
+    <array name="func_type">
+        <item>System Skandere</item>
+        <item>Hurtig Test</item>
+        <item>System Indtræd</item>
+        <item>Version Information</item>
+        <item>Læs DTC</item>
+        <item>Rens DTC</item>
+        <item>Læs Datastrøm</item>
+        <item>Læs Freeze Frame</item>
+        <item>Aktion Prøvelse</item>
+        <item>Speciel Funktion</item>
+        <item>Fabrikat</item>
+        <item>Model</item>
+        <item>År</item>
+        <item>Afsættelse</item>
+        <item>Transmission</item>
+        <item>Chassis</item>
+        <item>Lokomotiv</item>
+        <item>System ID</item>
+        <item>DTC Report</item>
+        <item>Set ODO data</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Andre</item>
+        <item>Selv diagnostisk rapport</item>
+        <item>Ekspert diagnostisk rapport</item>
+        <item>DTC en-nøgle rensning rapport</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Andre</item>
+        <item>Designeret vognstyrer</item>
+        <item>Hjælp</item>
+        <item>Samkørselsgruppe</item>
+        <item>Biludlejning</item>
+        <item>Taxi</item>
+        <item>Bureau</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+    <array name="syste_error_choose">
+        <item>1. The ignition switch is in keyII or keyIII position or the engine is started</item>
+        <item>2. The diagnostic connector is properly connected and extension cord has been used</item>
+        <item>3. Vehicle battery voltage and communication pin voltage are normal</item>
+        <item>4. The vehicle is equipped with the system</item>
+        <item>5. The ECU fuse and ECU line are normal</item>
+        <item>6. The ignition switch has been turned off and turned on again</item>
+        <item>7. The VCI has been disconnected and connected again, or the host device has been restarted</item>
+        <item>8. Lines related to the ECU and OBD are not original.</item>
+        <item>9. The vehicle is not equipped with the OBD-related car model</item>
+        <item>10. The bus switch is on if it is available</item>
+    </array>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/left_backgroud" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cnlaunch.x431pro.widget.NestRadioGroup android:orientation="vertical" android:id="@+id/radiogroup_menu" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RadioButton android:id="@+id/btn_diagnose" android:text="@string/tab_menu_diagnose" android:drawableLeft="@drawable/select_btn_diagnose" style="@style/left_menu_button_style"/>
+        <RadioButton android:id="@+id/btn_info" android:text="@string/tab_menu_info" android:drawableLeft="@drawable/select_btn_info" style="@style/left_menu_button_style"/>
+        <FrameLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/btn_upgrade" android:text="@string/tab_menu_upgrade" android:drawableLeft="@drawable/select_btn_upgrade" style="@style/left_menu_button_style"/>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="5dp">
+                <TextView android:textSize="@dimen/dp_18" android:textColor="@color/white" android:gravity="center" android:id="@+id/upgrade_num_tip" android:background="@drawable/reddot" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </FrameLayout>
+        <RadioButton android:id="@+id/btn_mall" android:visibility="gone" android:text="@string/mall" android:drawableLeft="@drawable/select_btn_mall" style="@style/left_menu_button_style"/>
+        <FrameLayout android:id="@+id/feedback_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/btn_feedback" android:text="@string/setting_onekey_feedback_txt" android:drawableLeft="@drawable/select_btn_feedback" style="@style/left_menu_button_style"/>
+            <TextView android:textSize="18dp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="right" android:id="@+id/tv_tips" android:background="@drawable/reddot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginRight="5dp"/>
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:id="@+id/golo_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/btn_golo" android:text="@string/tab_menu_golo" android:drawableLeft="@drawable/select_btn_golo" style="@style/left_menu_button_style"/>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="5dp">
+                <TextView android:textSize="@dimen/dp_18" android:textColor="@color/white" android:gravity="center" android:id="@+id/seller_message_count_tip" android:background="@drawable/reddot" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </FrameLayout>
+        <RadioButton android:id="@+id/btn_tools" android:visibility="gone" android:text="@string/tab_menu_tools" android:drawableLeft="@drawable/select_btn_tools" style="@style/left_menu_button_style"/>
+        <FrameLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/btn_mine" android:text="@string/tab_menu_mine" android:drawableLeft="@drawable/select_btn_mine" style="@style/left_menu_button_style"/>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="5dp">
+                <TextView android:textSize="@dimen/dp_18" android:textColor="@color/white" android:gravity="center" android:id="@+id/mine_message_count_tip" android:background="@drawable/reddot" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </FrameLayout>
+        <RadioButton android:id="@+id/btn_setting" android:text="@string/tab_menu_setting" android:drawableLeft="@drawable/select_btn_setting" style="@style/left_menu_button_style"/>
+    </com.cnlaunch.x431pro.widget.NestRadioGroup>
+</ScrollView>

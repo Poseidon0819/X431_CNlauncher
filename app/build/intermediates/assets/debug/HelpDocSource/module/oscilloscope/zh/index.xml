@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<filterSection>
+  <sections  title="示波器" iconname ="oscilloscope.png">
+           <section title="模块简介" ref="index.html" />
+		       <section title="界面指引" ref="osc_synopsis.html" />
+		       <section title="参数设置" ref="ParaSetting.html" />
+		       <section title="专家设置" ref="professorSetting.html" />
+		       <section title="文件" ref="snapshot.html" />
+		       <section title="视图" ref="view.html" />
+		       <section title="测量" ref="metrology.html" />
+			     <section title="其他" ref="other.html" />
+   </sections>
+  <keywords namespace ="launch.com.oscilloscope.1.0" >      
+           <keyword name="模块简介" ref="index.html" />
+		       <keyword name="界面指引" ref="osc_synopsis.html" />
+		       <keyword name="参数设置" ref="ParaSetting.html" />
+		       <keyword name="专家设置" ref="professorSetting.html" />
+		       <keyword name="文件" ref="snapshot.html" />
+		       <keyword name="视图" ref="view.html" />
+		       <keyword name="测量" ref="metrology.html" />
+			     <keyword name="其他" ref="other.html" />
+   </keywords>     
+ </filterSection>
+

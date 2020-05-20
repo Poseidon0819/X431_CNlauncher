@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/diagnoseMainBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear_button_bottom" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.home"/>
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:id="@+id/btn_print" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.print"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.help"/>
+    </LinearLayout>
+    <ScrollView android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/linear_button_bottom">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/textsize_large_S" android:textColor="@color/black" android:gravity="top|left" android:id="@+id/tv_datashow" android:layout_width="@dimen/argingwindow_text_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/argingwindow_margin_top" android:singleLine="false" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.3"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

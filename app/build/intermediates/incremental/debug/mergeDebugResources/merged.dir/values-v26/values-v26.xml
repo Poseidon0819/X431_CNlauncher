@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:defaultFocusHighlightEnabled">false</item>
+        <item name="activebutton_bg_more">@drawable/bg_more_popwindow</item>
+        <item name="activebutton_disenable">@color/activebutton_disable</item>
+        <item name="activebutton_normal">@color/activebutton_normal</item>
+        <item name="activebutton_press">@color/activebutton_press</item>
+        <item name="backgroud">@color/blue_backgroud</item>
+        <item name="btnsize">@dimen/blue_btnsize</item>
+        <item name="commomButtonStyle">@style/DialogStyle_Button_red</item>
+        <item name="commonButtonLongStyle">@style/ButtonStyle.Long.red</item>
+        <item name="diagnoseButtonBackgroud">@drawable/select_bottombutton</item>
+        <item name="diagnoseButtonTextColor">@drawable/select_text_black_yellow</item>
+        <item name="diagnoseDialogBackground">@color/white</item>
+        <item name="diagnoseDialogButtonBackground">#ffededed</item>
+        <item name="diagnoseDialogButtonStyle">@style/DialogStyle_Button_red</item>
+        <item name="diagnoseDialogTitleBackground">@drawable/shape_cir_top_red_bg</item>
+        <item name="diagnoseItemBackground">@drawable/select_listview_faultcode</item>
+        <item name="diagnoseMainBackground">@color/white</item>
+        <item name="diagnoseMainTextColor">@drawable/select_text_black_russet</item>
+        <item name="dialogTitleBackgroud">@drawable/shape_cir_top_red_bg</item>
+        <item name="dialogbottomBackgroud">@color/white</item>
+        <item name="layout_padding_left">@dimen/blue_layout_padding_left</item>
+        <item name="layout_padding_right">@dimen/blue_layout_padding_right</item>
+        <item name="left_backgroud">@color/blue_left_backgroud</item>
+        <item name="mainLogosBackground">@color/dark_red</item>
+        <item name="mainTitleBackgroud">@drawable/select_comom_head_bg</item>
+        <item name="maintitleTextColor">@drawable/select_headcar_txt_item</item>
+        <item name="slidingMenuLayout">@layout/layout_slidingmenu_default</item>
+        <item name="textcolor">@color/blue_textcolor</item>
+        <item name="textsize">@dimen/blue_textsize</item>
+        <item name="theme_color">#cc0000</item>
+        <item name="tipsize">@dimen/blue_tipsize</item>
+        <item name="titlesize">@dimen/blue_titlesize</item>
+    </style>
+    <style name="LaunchTheme.Activty.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:defaultFocusHighlightEnabled">false</item>
+        <item name="commomButtonStyle">@style/DialogStyle_Button_red</item>
+        <item name="dialogTitleBackgroud">@drawable/shape_cir_top_red_bg</item>
+        <item name="theme_color">#cc0000</item>
+    </style>
+    <style name="LaunchTheme.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:defaultFocusHighlightEnabled">false</item>
+        <item name="commomButtonStyle">@style/DialogStyle_Button_red</item>
+        <item name="dialogTitleBackgroud">@drawable/shape_cir_top_red_bg</item>
+        <item name="theme_color">#cc0000</item>
+    </style>
+</resources>

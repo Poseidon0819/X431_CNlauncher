@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cnlaunch.x431pro.activity.setting.wifi.CommonWiFiConnectionGuideView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/layout_wifi_settings_with_sta_mode_no_interaction_setup_guide"/>
+</com.cnlaunch.x431pro.activity.setting.wifi.CommonWiFiConnectionGuideView>

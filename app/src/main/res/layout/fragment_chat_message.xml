@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/lr_chat" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:gravity="center" android:id="@+id/connect_hit" android:background="#fffacd" android:padding="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/connect_service_failed" android:layout_alignParentTop="true"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/connect_hit">
+            <com.cnlaunch.p169im.widget.MImageView android:id="@+id/chat_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+            <RelativeLayout android:id="@+id/lr_chat_tips" android:background="#fffacd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="30dp">
+                <ImageView android:id="@+id/chat_warning" android:background="@drawable/share_fail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_centerVertical="true"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/common_network_unavailable" android:layout_toRightOf="@+id/chat_warning" android:layout_centerVertical="true"/>
+                <TextView android:background="#adaeb1" android:layout_width="match_parent" android:layout_height="0.1dp" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <com.cnlaunch.p169im.widget.ChatListView android:id="@+id/chat_list_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@color/transparent" android:layout_above="@+id/chat_bottom_layout" android:layout_below="@+id/im_clear"/>
+            <TextView android:textSize="@dimen/sp_20" android:textColor="@color/golo_gray_txt" android:gravity="center" android:id="@+id/im_clear" android:padding="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tips_clear" android:layout_alignParentRight="true"/>
+            <RelativeLayout android:id="@+id/lr_chat_ear" android:background="#b0000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="30dp">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView android:background="@drawable/ear_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_centerVertical="true"/>
+                    <TextView android:textColor="@color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:text="ear_more"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@+id/car_group_noti_area" android:background="#b0000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp">
+                    <TextView android:textSize="12sp" android:textColor="@color/white" android:ellipsize="end" android:id="@+id/car_group_noti_text" android:layout_width="wrap_content" android:layout_height="30dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:maxLines="2" android:layout_centerInParent="true"/>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/icon_enter" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/track_member_area" android:background="#b0000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp">
+                    <TextView android:id="@+id/area_line" android:background="#ff222222" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="10dp"/>
+                    <TextView android:textSize="12sp" android:textColor="@color/white" android:id="@+id/track_member_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="xxx分享了轨迹给你" android:layout_centerInParent="true"/>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/icon_enter" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/chat_bottom_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <TextView android:background="#adaeb1" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/chatmessage_input_minheight" android:contentDescription="{base:width,minHeight:0.132}">
+                    <Button android:id="@+id/chat_btn_select" android:background="@drawable/chat_activity_btn_select" android:layout_width="33dp" android:layout_height="33dp" android:layout_marginLeft="11dp" android:layout_centerVertical="true" android:contentDescription="{base:width,width:0.09,height:0.09,left:0.031}"/>
+                    <RelativeLayout android:id="@+id/chat_text_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_centerVertical="true" android:contentDescription="{base:width,minHeight:0.132}">
+                        <Button android:id="@+id/chat_btn_voice" android:background="@drawable/chat_activity_btn_voice" android:layout_width="33dp" android:layout_height="33dp" android:layout_marginLeft="54dp" android:layout_centerVertical="true" android:contentDescription="{base:width,width:0.09,height:0.09,left:0.149}"/>
+                        <com.cnlaunch.p169im.widget.InputText android:textSize="18sp" android:id="@+id/chat_edit_input" android:background="@drawable/chat_input_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="11dp" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:minHeight="36dp" android:maxLines="4" android:maxLength="200" android:layout_toLeftOf="@+id/chat_btn_send_text" android:layout_toRightOf="@+id/chat_btn_voice" android:layout_centerVertical="true" android:inputType="textNoSuggestions" android:contentDescription="{base:width,left:0.031,top:0.016,bottom:0.016,textSize:0.05,minHeight:0.100}"/>
+                        <Button android:textSize="18sp" android:id="@+id/chat_btn_send_text" android:background="@drawable/chat_windows_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginTop="6dp" android:layout_marginRight="2dp" android:layout_marginBottom="6dp" android:minHeight="36dp" android:text="@string/chatSend" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="{base:width,width:0.148,height:0.087,left:0.031,right:0.031,textSize:0.04}"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@+id/chat_voice_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <Button android:id="@+id/chat_btn_text" android:background="@drawable/chat_activity_btn_text" android:layout_width="33dp" android:layout_height="33dp" android:layout_marginLeft="54dp" android:layout_centerVertical="true" android:contentDescription="{base:width,width:0.09,height:0.09,left:0.149}"/>
+                        <Button android:textSize="15sp" android:gravity="center" android:id="@+id/chat_btn_send_voice" android:background="@drawable/shape_more_button" android:layout_width="match_parent" android:layout_height="32dp" android:layout_marginLeft="11dp" android:layout_marginTop="9dp" android:layout_marginRight="11dp" android:layout_marginBottom="9dp" android:text="@string/record_voice" android:layout_toRightOf="@+id/chat_btn_text" android:layout_centerVertical="true" android:contentDescription="{base:width,height:0.087,left:0.031,right:0.031,top:0.023,bottom:0.023,textSize:0.04}"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+                <TextView android:background="#adaeb1" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+                <RelativeLayout android:id="@+id/chat_select_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.cnlaunch.p169im.widget.ChatViewPager android:id="@+id/select_grid" android:background="#ededed" android:layout_width="wrap_content" android:layout_height="@dimen/select_grid_height" android:contentDescription="@string/description_select_layout"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/face_bar" android:layout_width="match_parent" android:layout_height="@dimen/face_bar_height" android:layout_below="@+id/select_grid" android:contentDescription="{base:width,height:0.1}">
+                        <ImageButton android:id="@+id/yellow_face" android:background="@color/transparent" android:layout_width="72dp" android:layout_height="wrap_content" android:src="@drawable/face_2_satisfied" android:scaleType="fitCenter" android:contentDescription="{base:width,width:0.2}"/>
+                        <TextView android:background="#c6c6c6" android:layout_width="1px" android:layout_height="match_parent"/>
+                        <ImageButton android:id="@+id/goose_face" android:background="@color/transparent" android:layout_width="72dp" android:layout_height="wrap_content" android:src="@drawable/face_goose_001" android:scaleType="fitCenter" android:contentDescription="{base:width,width:0.2}"/>
+                        <TextView android:id="@+id/goose_face_line" android:background="#c6c6c6" android:layout_width="1px" android:layout_height="match_parent"/>
+                        <ImageButton android:id="@+id/gay_face" android:background="@color/transparent" android:layout_width="72dp" android:layout_height="wrap_content" android:src="@drawable/face_gay_001" android:scaleType="fitCenter" android:contentDescription="{base:width,width:0.2}"/>
+                        <TextView android:id="@+id/gay_face_line" android:background="#c6c6c6" android:layout_width="1px" android:layout_height="match_parent"/>
+                        <ImageButton android:id="@+id/car_face" android:background="@color/transparent" android:layout_width="72dp" android:layout_height="wrap_content" android:src="@drawable/face_car_001" android:scaleType="fitCenter" android:contentDescription="{base:width,width:0.2}"/>
+                        <TextView android:id="@+id/car_face_line" android:background="#c6c6c6" android:layout_width="1px" android:layout_height="match_parent"/>
+                        <ImageButton android:id="@+id/custom_face" android:background="@color/transparent" android:layout_width="72dp" android:layout_height="wrap_content" android:scaleType="fitCenter" android:contentDescription="{base:width,width:0.2}"/>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="16sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/tv_remote_prompt" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="gone" android:clickable="true" android:layout_width="220dp" android:layout_height="220dp"/>
+</FrameLayout>

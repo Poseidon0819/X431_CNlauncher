@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/diagnoseMainBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_10">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@+id/tv_plate_title" android:text="车牌号:" style="@style/TextViewStyle.CloudDiagnose.title"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/btn_scan_plate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="@dimen/dp_10"/>
+                <TextView android:textSize="@dimen/textsize_normal_S" android:textColor="@color/yello" android:layout_marginLeft="@dimen/dp_10" android:text="@string/cloud_scan_plate_number" style="@style/TextViewStyle.CloudDiagnose"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16">
+            <TextView android:id="@+id/tv_brand_title" android:text="@string/my_customer_car_brand" style="@style/TextViewStyle.CloudDiagnose"/>
+            <TextView android:id="@+id/tv_brand" android:layout_marginLeft="@dimen/dp_10" android:text="保时捷" style="@style/TextViewStyle.CloudDiagnose"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/tv_year_title" android:text="@string/my_customer_car_year" style="@style/TextViewStyle.CloudDiagnose"/>
+            <TextView android:id="@+id/tv_year" android:layout_marginLeft="@dimen/dp_10" android:text="1990" style="@style/TextViewStyle.CloudDiagnose"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_10">
+            <TextView android:id="@+id/tv_vin_title" android:text="@string/my_customer_car_vin" style="@style/TextViewStyle.CloudDiagnose"/>
+            <TextView android:id="@+id/tv_vin" android:layout_marginLeft="@dimen/dp_10" android:text="VIN22223345568" style="@style/TextViewStyle.CloudDiagnose"/>
+        </LinearLayout>
+        <Button android:id="@+id/btn_diagnose" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="45dp" android:text="@string/diagnose_immediately" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+    </LinearLayout>
+    <TextView android:id="@+id/tv_history_title" android:layout_marginLeft="@dimen/dp_10" android:text="@string/history_report" style="@style/TextViewStyle.CloudDiagnose.title"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/view_history_tip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/no_history_report" style="@style/TextViewStyle.CloudDiagnose.title"/>
+        </LinearLayout>
+        <com.cnlaunch.x431pro.widget.pulltorefresh.PullToRefreshListView android:id="@+id/lv_diagnose_history" style="@style/ListViewStyle.ListView.Cloud"/>
+    </FrameLayout>
+</LinearLayout>

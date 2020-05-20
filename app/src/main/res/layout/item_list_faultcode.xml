@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="?attr/diagnoseItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.5" style="@style/ListViewStyle.Item.TextView.faultcode"/>
+    <TextView android:id="@+id/value" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ListViewStyle.Item.TextView.faultcode"/>
+    <TextView android:id="@+id/statue" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.5" style="@style/ListViewStyle.Item.TextView.faultcode"/>
+    <TextView android:id="@+id/sys" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.5" style="@style/ListViewStyle.Item.TextView.faultcode"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/searchBtn" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.5">
+        <TextView android:layout_gravity="center" android:background="@drawable/fittings_search" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/helpBtn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.5">
+        <TextView android:layout_gravity="center" android:id="@+id/tvHelpBtn" android:background="@drawable/btn_help_normal" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

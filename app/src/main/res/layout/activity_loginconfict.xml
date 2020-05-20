@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@drawable/shape_cir_bg_noborder" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp">
+    <TextView android:gravity="center" android:id="@+id/tv_title" android:background="?attr/dialogTitleBackgroud" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/common_title_tips" style="@style/BaseDialogStyle_Title_Text"/>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/layout_dialog_message"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linearlayout_bottom_btn" android:background="@drawable/shape_cir_bg_noborder" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btn_confirm" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/common_confirm" android:layout_weight="1" style="@style/DialogStyle_Button_red"/>
+        <Button android:id="@+id/btn_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/common_cancel" android:layout_weight="1" style="@style/DialogStyle_Button_red"/>
+    </LinearLayout>
+</LinearLayout>

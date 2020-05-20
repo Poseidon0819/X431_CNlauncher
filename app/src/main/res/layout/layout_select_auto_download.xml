@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="@dimen/dp_20" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textColor="@color/black" android:text="@string/auto_wifi_download_title" style="@style/TextViewStyle.Common.Size3"/>
+    <RadioGroup android:id="@+id/radioGroup" android:background="@drawable/shape_cir_bg_blackborder" android:padding="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:minHeight="@dimen/dp_130">
+        <RadioButton android:textColor="@color/black" android:id="@+id/btn_select_1" android:checked="true" android:text="@string/auto_wifi_download" style="@style/TextViewStyle.Common.Size5"/>
+        <RadioButton android:textColor="@color/black" android:id="@+id/btn_select_2" android:text="@string/close_auto_download" style="@style/TextViewStyle.Common.Size5"/>
+    </RadioGroup>
+</LinearLayout>

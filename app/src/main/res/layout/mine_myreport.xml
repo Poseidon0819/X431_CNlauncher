@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RadioGroup android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/radioGroup" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cnlaunch.x431pro.widget.button.MequeeRadioButton android:gravity="center" android:id="@+id/tv_diagnosis_report" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/mine_tv_diagnosis_report" android:layout_weight="1" style="@style/mine_main_radio_style"/>
+        <com.cnlaunch.x431pro.widget.button.MequeeRadioButton android:gravity="center" android:id="@+id/tv_remote_diagnosis_report" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_tv_remote_diagnosis" android:layout_weight="1" style="@style/mine_main_radio_style"/>
+        <com.cnlaunch.x431pro.widget.button.MequeeRadioButton android:gravity="center" android:id="@+id/tv_diagnosis_playback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_tv_diagnosis_playback" android:layout_weight="1" style="@style/mine_main_radio_style"/>
+    </RadioGroup>
+    <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bottom" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textColor="@color/black" android:gravity="center" android:id="@+id/btn_more" android:background="@drawable/shape_more_button" android:layout_width="match_parent" android:layout_height="68dp" android:text="@string/btn_more" style="@style/RemoteDiagWindowsTextStyle"/>
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:id="@+id/btn_selectall" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:layout_weight="1" style="@style/IconButton.selectall"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/iv_share_report" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.share"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_delete" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.del"/>
+    </LinearLayout>
+    <com.cnlaunch.x431pro.widget.pulltorefresh.PullToRefreshListView android:id="@+id/lv_myreport" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@null" android:layout_above="@+id/bottom" android:layout_below="@+id/radioGroup"/>
+</RelativeLayout>

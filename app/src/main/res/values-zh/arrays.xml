@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>态度很差</item>
+        <item>态度一般</item>
+        <item>态度很好</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>效率很低</item>
+        <item>效率一般</item>
+        <item>效率很高</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>性价比很低</item>
+        <item>性价比一般</item>
+        <item>性价比很高</item>
+    </array>
+    <array name="func_status">
+        <item>无状态</item>
+        <item>成功</item>
+        <item>失败</item>
+        <item>完成</item>
+        <item>无故障码</item>
+        <item>通讯失败</item>
+        <item>系统进入ID不识别</item>
+        <item>功能开始</item>
+        <item>功能结束</item>
+        <item>数据流类型、冻结帧类型的数据流界面不需要显示程序排序</item>
+    </array>
+    <array name="func_type">
+        <item>系统扫描</item>
+        <item>快速测试</item>
+        <item>系统进入</item>
+        <item>版本信息</item>
+        <item>读故障码</item>
+        <item>清除故障码</item>
+        <item>读数据流</item>
+        <item>读冻结帧</item>
+        <item>动作测试</item>
+        <item>特殊功能</item>
+        <item>车型</item>
+        <item>子车型，系列</item>
+        <item>年款</item>
+        <item>排量</item>
+        <item>波箱类型</item>
+        <item>底盘</item>
+        <item>发动机类型</item>
+        <item>诊断记录的系统ECUID信息</item>
+        <item>快速测试故障码报告</item>
+        <item>设置ODO数据</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>其它</item>
+        <item>自助诊断报告</item>
+        <item>专家诊断报告</item>
+        <item>一键清码报告</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>其他</item>
+        <item>代驾</item>
+        <item>求援</item>
+        <item>拼车</item>
+        <item>租车</item>
+        <item>的士</item>
+        <item>代办</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+    <array name="syste_error_choose">
+        <item>1.点火开关已处于是keyII或者keyIII状态或者发动机启动状态。</item>
+        <item>2.诊断接头连接未见松动，且尝试过使用延长线或不使用延长线测试。</item>
+        <item>3.车辆蓄电池电压正常，通讯引脚电压正常</item>
+        <item>4.确认车辆装配该系统</item>
+        <item>5.ECU保险丝正常，ECU线路正常</item>
+        <item>6.已尝试过关闭点火开关再打开点火开关的情况</item>
+        <item>7.已尝试过再重新拔插接头或者重启平板测试的情况</item>
+        <item>8.车辆未改装过与电控，OBD相关的线路</item>
+        <item>9.车辆未配有与OBD有关的车机</item>
+        <item>10.如果存在总线开关,则开关已处于打开状态</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>正在扫描...</item>
+        <item>正在连接...</item>
+        <item>正在进行身份验证...</item>
+        <item>正在获取IP地址...</item>
+        <item>已连接</item>
+        <item>已暂停</item>
+        <item>正在断开连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已停用</item>
+        <item>暂时关闭（网络状况不佳）</item>
+        <item>正在检查网络是否是一个强制网络门户</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item />
+        <item>正在扫描...</item>
+        <item>正在连接到 %1$s...</item>
+        <item>正在通过 %1$s 进行身份验证...</item>
+        <item>正在从%1$s获取IP地址...</item>
+        <item>已连接到 %1$s</item>
+        <item>已暂停</item>
+        <item>正在断开与 %1$s 的连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已停用</item>
+        <item>暂时关闭（网络状况不佳）</item>
+        <item>正在检查网络是否是一个强制网络门户</item>
+    </array>
+</resources>

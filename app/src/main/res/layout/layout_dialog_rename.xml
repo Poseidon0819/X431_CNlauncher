@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/russet" android:paddingLeft="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="@dimen/dp_50">
+        <TextView android:textSize="@dimen/textsize_large_S" android:textColor="@color/white" android:id="@+id/text_rename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/file_rename"/>
+    </LinearLayout>
+    <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_rename" android:background="@drawable/mine_info_item_bg" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_margin="15dp" android:singleLine="true"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_10">
+        <Button android:textSize="@dimen/textsize_large_S" android:textColor="?attr/maintitleTextColor" android:id="@+id/btn_rename" android:background="@drawable/select_btn_search" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="@dimen/dp_50" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="@string/common_confirm" android:layout_weight="1"/>
+        <Button android:textSize="@dimen/textsize_large_S" android:textColor="?attr/maintitleTextColor" android:id="@+id/btn_cancle" android:background="@drawable/select_btn_search" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="@string/btn_canlce" android:layout_weight="1"/> &gt; 
+    </LinearLayout>
+</LinearLayout>

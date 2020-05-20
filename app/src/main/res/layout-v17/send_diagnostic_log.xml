@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/question_checkbox_L" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_20" android:layout_marginRight="@dimen/dp_20">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/gray_9b9b9b" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/feedback_question_type"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20">
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <CheckBox android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:gravity="top" android:id="@+id/cb_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/round_checkbox_selector" android:text="@string/feedback_vehicle_not_exist"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <CheckBox android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:gravity="top" android:id="@+id/cb_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/round_checkbox_selector" android:text="@string/feedback_enter_system_failed"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <CheckBox android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:gravity="top" android:id="@+id/cb_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/round_checkbox_selector" android:text="@string/feedback_error_code_question"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <CheckBox android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:gravity="top" android:id="@+id/cb_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/round_checkbox_selector" android:text="@string/feedback_data_stream_question"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20">
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <CheckBox android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:gravity="top" android:id="@+id/cb_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/round_checkbox_selector" android:text="@string/feedback_motion_test_question"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <CheckBox android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:gravity="top" android:id="@+id/cb_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/round_checkbox_selector" android:text="@string/feedback_specific_function_question"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <CheckBox android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:gravity="top" android:id="@+id/cb_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/round_checkbox_selector" android:text="@string/feedback_others"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <CheckBox android:gravity="top" android:id="@+id/cb_8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/round_checkbox_selector"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_20" android:layout_marginRight="@dimen/dp_20">
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/gray_9b9b9b" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/feedback_question_description"/>
+            <EditText android:textSize="@dimen/leftmenu_textsize" android:gravity="top" android:id="@+id/edit_question_description" android:background="@drawable/edit_item_bg_gray_stroke" android:paddingLeft="@dimen/edit_padding_left" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="200dp" android:layout_marginTop="@dimen/dp_8" android:hint="@string/feedback_question_description_hint" android:inputType="textMultiLine"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_20" android:layout_marginRight="@dimen/dp_20">
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/gray_9b9b9b" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/feedback_contact"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8">
+                <Spinner android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:gravity="center" android:id="@+id/area_selection" android:background="#eeeeee" android:layout_width="0dp" android:layout_height="@dimen/dp_50" android:layout_marginRight="@dimen/dp_20" android:layout_weight="3"/>
+                <EditText android:textSize="20sp" android:textColor="@color/black" android:id="@+id/edit_contact" android:background="@drawable/edit_item_bg_gray_stroke" android:paddingLeft="@dimen/edit_padding_left" android:layout_width="0dp" android:layout_height="@dimen/dp_50" android:hint="@string/register_hint_email" android:layout_weight="6" android:layout_toRightOf="@+id/area_selection" android:inputType="textNoSuggestions"/>
+                <TextView android:textSize="20sp" android:gravity="center" android:id="@+id/upload_proportion" android:layout_width="wrap_content" android:layout_height="@dimen/dp_50" android:text="ddd" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+            </LinearLayout>
+            <ProgressBar android:id="@+id/pb_feed_back_progressBar" android:background="@drawable/bg_progressbar" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:maxHeight="2dp" android:indeterminateOnly="false" style="?android:attr/progressBarStyleHorizontal"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_20" android:layout_marginRight="@dimen/dp_20">
+            <android.widget.LcButton android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:layout_gravity="center" android:id="@+id/btn_cancel" android:background="@drawable/btn_gray_bg" android:layout_width="0dp" android:layout_height="60dp" android:text="@string/common_cancel" android:layout_weight="1"/>
+            <android.widget.LcButton android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:ellipsize="end" android:layout_gravity="center" android:id="@+id/btn_submit_log" android:layout_width="0dp" android:layout_height="60dp" android:layout_marginLeft="@dimen/dp_20" android:text="@string/upload_log" android:singleLine="true" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

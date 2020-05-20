@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Comportament rau</item>
+        <item>comportament mediu</item>
+        <item>Comportament bun</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Nu este eficient</item>
+        <item>Eficienta slaba</item>
+        <item>Eficienta buna</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Raport pret/calitate slab</item>
+        <item>Raport pret/calitate mediu</item>
+        <item>Raport pret/calitate bun</item>
+    </array>
+    <array name="area_selection">
+        <item>China</item>
+        <item>Altele</item>
+    </array>
+    <array name="func_status">
+        <item>Fara stare</item>
+        <item>Succes</item>
+        <item>Esec</item>
+        <item>Terminat</item>
+        <item>Fara DTC</item>
+        <item>Esuare comunicare</item>
+        <item>Nu s-a gasit ID</item>
+    </array>
+    <array name="func_type">
+        <item>Scanare Sistem</item>
+        <item>Test Rapid</item>
+        <item>Intrare sistem</item>
+        <item>Informatie Versiune</item>
+        <item>Citire DTC</item>
+        <item>Stergere DTC</item>
+        <item>Citire Flux Date</item>
+        <item>Citire Cadru Inghetat</item>
+        <item>Test Miscare</item>
+        <item>Functie Speciala</item>
+        <item>Marca</item>
+        <item>Model, serie</item>
+        <item>An</item>
+        <item>cilindree</item>
+        <item>Transmisie</item>
+        <item>Sasiu</item>
+        <item>Tip motor</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Altele</item>
+        <item>Raport autodiagnostic</item>
+        <item>Raport diagnostic expert</item>
+        <item>Raport DTC sterge cu o singura tasta</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Altele</item>
+        <item>Sofer desemnat</item>
+        <item>Asistenta</item>
+        <item>Impartasire autovehicul</item>
+        <item>Inchiriere autovehicul</item>
+        <item>Taxi</item>
+        <item>Agentie</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

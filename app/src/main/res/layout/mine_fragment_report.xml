@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/bottom" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.cnlaunch.x431pro.widget.button.IconButton android:textColor="@color/black" android:id="@+id/btn_more" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_more" style="@style/IconButton.pageselectall"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.cnlaunch.x431pro.widget.button.IconRadioButton android:id="@+id/btn_selectall" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:layout_weight="1" style="@style/IconButton.selectall"/>
+            <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_rename" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.rename"/>
+            <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/iv_share_report" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.share"/>
+            <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_delete" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.del"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <com.cnlaunch.x431pro.widget.PagerSlidingTabStrip android:id="@+id/tabs" android:background="@drawable/background_tab" android:layout_width="match_parent" android:layout_height="@dimen/report_tip_title_height"/>
+    <android.support.p012v4.view.ViewPager android:id="@+id/pager" android:background="#ededed" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/bottom" android:layout_below="@+id/tabs"/>
+</RelativeLayout>

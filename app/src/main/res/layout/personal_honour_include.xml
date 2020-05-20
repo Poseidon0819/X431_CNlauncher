@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/rlEmergency" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dp_45">
+        <TextView android:textSize="@dimen/sp_16" android:textColor="@color/black_font_color" android:id="@+id/txtsHelp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:text="@string/personal_infomation_help" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/sp_14" android:textColor="@color/gray_text_color" android:gravity="right" android:id="@+id/txtHelp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_20" android:text="累计0次" android:layout_toRightOf="@+id/txtsHelp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_10" android:src="@drawable/icon_enter" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <TextView android:id="@+id/txtlineHelp" android:background="@color/divider_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.01dp"/>
+    <TextView android:id="@+id/txtlineEmergency" android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="0.01dp"/>
+    <RelativeLayout android:id="@+id/rlHonour" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/dp_45">
+        <TextView android:textSize="@dimen/sp_16" android:textColor="@color/black_font_color" android:id="@+id/txtsHonour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:text="@string/personal_infomation_honor" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/sp_14" android:textColor="@color/gray_text_color" android:id="@+id/txtHonour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_20" android:text="累计0次" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_10" android:src="@drawable/icon_enter" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <TextView android:id="@+id/txtlineHonor" android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="0.01dp"/>
+</LinearLayout>

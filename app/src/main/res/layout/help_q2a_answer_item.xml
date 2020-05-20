@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/textsize_help_content" android:textStyle="bold" android:textColor="#224678" android:gravity="center" android:id="@+id/answer_item" android:paddingLeft="@dimen/answer_paddingleft" android:paddingRight="50dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="match_parent"/>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="200dp">
+    <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:id="@+id/tv_deviceInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mineinfo_textviewpadding" android:layout_marginTop="@dimen/mineinfo_textviewpadding"/>
+    <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:id="@+id/tv_poptext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mineinfo_textviewpadding"/>
+    <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:id="@+id/tv_softInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mineinfo_textviewpadding" android:layout_marginBottom="@dimen/mineinfo_textviewpadding"/>
+    <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:id="@+id/tv_serialno_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mineinfo_textviewpadding" android:layout_marginBottom="@dimen/mineinfo_textviewpadding"/>
+</LinearLayout>

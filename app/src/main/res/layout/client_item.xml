@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/lin_newcustomer" android:background="@drawable/golo_customerbg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/textsize_normal_M" android:textColor="#454545" android:gravity="center_vertical" android:id="@+id/newcustomertitle" android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/new_customer"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/lin_customer" android:background="@drawable/golo_customerbg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textsize_normal_M" android:textColor="#454545" android:gravity="center_vertical" android:id="@+id/customertitle" android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/title_customer"/>
+    </LinearLayout>
+    <LinearLayout android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textsize_normal_M" android:textColor="#454545" android:id="@+id/catalog" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/client_parent" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/golo_remotehistory_item_minheight" android:layout_weight="@dimen/item_list_messge_weight_bind">
+            <ImageView android:id="@+id/client_userimage" android:padding="5dp" android:layout_width="@dimen/golo_user_face_size" android:layout_height="@dimen/golo_user_face_size" android:layout_marginLeft="10dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear_car_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/golo_nickname_left_padding" android:layout_toRightOf="@+id/client_userimage" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                    <RelativeLayout android:id="@+id/linear_car_icon_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:layout_alignParentRight="true">
+                        <ImageView android:id="@+id/car_icon" android:layout_width="@dimen/golo_online_icon_size" android:layout_height="@dimen/golo_online_icon_size" android:layout_marginLeft="10dp" android:layout_centerVertical="true" android:contentDescription="@null"/>
+                        <TextView android:textSize="@dimen/golo_list_textsize" android:id="@+id/car_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_centerVertical="true"/>
+                    </RelativeLayout>
+                    <ImageView android:id="@+id/online_status" android:background="@drawable/technician_offline" android:layout_width="@dimen/golo_online_icon_size" android:layout_height="@dimen/golo_online_icon_size" android:layout_marginLeft="10dp" android:layout_toLeftOf="@+id/linear_car_icon_name" android:layout_centerVertical="true" android:contentDescription="@null"/>
+                    <TextView android:textSize="@dimen/golo_list_textsize" android:id="@+id/client_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@+id/online_status" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/golo_list_textsize" android:textColor="#b9b9b9" android:id="@+id/tv_signature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/golo_tip_textsize" android:textColor="@color/white" android:gravity="center" android:id="@+id/no_read" android:background="@drawable/bg_title_tip_red" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/golo_tip_minsize" android:minHeight="@dimen/golo_tip_minsize" android:layout_toLeftOf="@+id/linear_car_msg" android:layout_alignParentTop="true"/>
+            <TextView android:textSize="@dimen/golo_tip_new_textsize" android:textColor="@color/white" android:gravity="center" android:id="@+id/new_msg" android:background="@drawable/bg_title_tip" android:padding="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tip_string_new" android:layout_toLeftOf="@+id/linear_car_msg" android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/golo_remotehistory_item_minheight" android:layout_weight="@dimen/item_list_lasttime_weight_bind">
+            <TextView android:textSize="@dimen/golo_list_lasttime_textsize" android:textColor="#b9b9b9" android:gravity="center" android:id="@+id/last_msg_time" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="30dp" android:layout_alignParentRight="true"/>
+            <TextView android:textSize="@dimen/golo_list_textsize" android:gravity="center" android:id="@+id/last_msg_text" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20dp" android:singleLine="true" android:layout_toLeftOf="@+id/last_msg_time"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

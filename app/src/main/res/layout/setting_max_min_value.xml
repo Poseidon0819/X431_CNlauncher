@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:padding="10dp" android:layout_width="@dimen/login_dialog_width" android:layout_height="wrap_content">
+    <EditText android:textSize="@dimen/login_textsize" android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_setMaxValue" android:background="@drawable/item_bg" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="@dimen/edit_txt_height" android:hint="@string/setMaxMin_max" android:inputType="numberDecimal"/>
+    <EditText android:textSize="@dimen/login_textsize" android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_setMinValue" android:background="@drawable/item_bg" android:paddingLeft="10dp" android:paddingRight="@dimen/padding_right" android:layout_width="match_parent" android:layout_height="@dimen/edit_txt_height" android:layout_marginTop="10dp" android:hint="@string/setMaxMin_min" android:inputType="numberDecimal"/>
+</LinearLayout>

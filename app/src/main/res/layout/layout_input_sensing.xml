@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#ededed" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollview" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/dp_4" android:layout_height="@dimen/dp_14" android:src="@color/red" style="@style/TextStyle_head_report"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_sight" style="@style/TextStyle_report_input"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10">
+                <TextView android:id="@+id/tv_light" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/sight_light" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:id="@+id/tv_smoke" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/sight_smoke" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:id="@+id/tv_fluid" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/sight_fluid" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:id="@+id/tv_corrosion" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/sight_corrosion" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/dp_4" android:layout_height="@dimen/dp_14" android:src="@color/red" style="@style/TextStyle_head_report"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_hear" style="@style/TextStyle_report_input"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10">
+                <TextView android:id="@+id/tv_ratting" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/hear_rattling" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:id="@+id/tv_hissing" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/hear_hissing" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:id="@+id/tv_squeak" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/hear_squeak" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:id="@+id/tv_clicking" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/hear_clicking" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/dp_4" android:layout_height="@dimen/dp_14" android:src="@color/red" style="@style/TextStyle_head_report"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_smell" style="@style/TextStyle_report_input"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10">
+                <TextView android:id="@+id/tv_gasoline" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/smell_gasoline" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:id="@+id/tv_oil" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/smell_oil" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:id="@+id/tv_coolant" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/smell_coolant" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:id="@+id/tv_electrical" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/smell_electrical" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/dp_4" android:layout_height="@dimen/dp_14" android:src="@color/red" style="@style/TextStyle_head_report"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_feel" style="@style/TextStyle_report_input"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10">
+                <TextView android:id="@+id/tv_shaking" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/feel_shaking" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:id="@+id/tv_vibrating" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/feel_vibrating" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:id="@+id/tv_shutter" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/feel_shutter" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:visibility="invisible" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/dp_4" android:layout_height="@dimen/dp_14" android:src="@color/red" style="@style/TextStyle_head_report"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_other" style="@style/TextStyle_report_input"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10">
+                <TextView android:id="@+id/tv_no_crank" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/other_no_crank" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:id="@+id/tv_crank" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/other_crank" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:textSize="14sp" android:visibility="invisible" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+                <TextView android:visibility="invisible" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" style="@style/TextStyle_sensing_item"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

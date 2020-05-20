@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/textsize_firmware" android:textColor="#696969" android:gravity="left" android:id="@+id/fix_message" android:paddingLeft="@dimen/height_base" android:paddingRight="@dimen/height_base" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_button_top"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_padding_left_right" android:layout_marginRight="@dimen/content_padding_left_right">
+        <Button android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:ellipsize="marquee" android:id="@+id/positiveButton" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginTop="@dimen/setting_button_top" android:text="@string/mine_firmware_fix" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="?attr/commomButtonStyle"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/textsize_firmware" android:layout_gravity="center_horizontal" android:id="@+id/progress_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/height_base" android:layout_marginTop="20dp" android:layout_marginRight="@dimen/height_base" style="@style/DownloadBinUpdateHit"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/height_base" android:layout_marginTop="5dp" android:layout_marginRight="@dimen/height_base">
+        <ProgressBar android:gravity="center_vertical" android:id="@+id/progress_dialog" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:progress="0" android:layout_weight="1" style="@style/ProgressBarStyle.YellowStyle"/>
+        <TextView android:gravity="center_vertical" android:id="@+id/progress_msg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="0%" style="@style/DownloadBinUpdateRotio"/>
+    </LinearLayout>
+</LinearLayout>

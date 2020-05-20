@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="#c5c5c5" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:gravity="center" android:id="@+id/fitting_search_ok" android:background="@drawable/fittings_search" android:padding="20dp" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginTop="10dp" android:layout_alignParentRight="true"/>
+        <RelativeLayout android:orientation="horizontal" android:background="@drawable/mine_info_item_bg" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginRight="50dp">
+            <HorizontalScrollView android:id="@+id/keys_horview" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@+id/keys_layout" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:background="@drawable/fittingsearch_pre_adimage" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="50dp"/>
+</LinearLayout>

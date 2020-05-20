@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/shape_cir_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp">
+    <RelativeLayout android:id="@+id/frame_bluetooth_list" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@+id/linear_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <TextView android:gravity="center_vertical" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tv_bluetoothlist_title" style="@style/DialogTitleTextStyle.bluetooth"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear_button_bottom" android:background="#ffededed" android:layout_width="match_parent" android:layout_height="wrap_content" android:height="110dp" android:layout_alignParentBottom="true">
+            <Button android:enabled="false" android:textSize="@dimen/textsize_normal_S" android:layout_gravity="start|center_vertical" android:id="@+id/btn_scan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/bluetooth_scaning" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+            <Button android:textSize="@dimen/textsize_normal_S" android:layout_gravity="start|center_vertical" android:id="@+id/btn_exit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/btn_canlce" android:layout_weight="1" style="@style/DialogStyle_Button_grey"/>
+        </LinearLayout>
+        <ListView android:id="@+id/listview_show" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@color/french_gray" android:dividerHeight="1dp" android:layout_above="@+id/linear_button_bottom" android:layout_below="@+id/linear_top"/>
+        <TextView android:textSize="@dimen/textsize_normal_S" android:gravity="center_vertical" android:id="@+id/textview_discovery_empty" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/bluetooth_discovery_empty_tips" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/frame_bluetooth_error_tips" android:background="@drawable/shape_cir_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="@+id/frame_bluetooth_list">
+        <LinearLayout android:id="@+id/tips_linear_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <TextView android:gravity="center_vertical" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tv_bluetoothlist_title" style="@style/DialogTitleTextStyle.bluetooth"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/tips_linear_button_bottom" android:background="#ffededed" android:layout_width="match_parent" android:layout_height="wrap_content" android:height="110dp" android:layout_alignParentBottom="true">
+            <Button android:textSize="@dimen/textsize_normal_S" android:layout_gravity="center" android:id="@+id/btn_confirm" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/common_confirm" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+        </LinearLayout>
+        <ScrollView android:scrollbars="none" android:fadingEdge="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/tips_linear_button_bottom" android:layout_below="@+id/tips_linear_top">
+            <TextView android:textSize="@dimen/textsize_normal_S" android:textColor="@color/black" android:id="@+id/textview_bluetooth_error_tips" android:paddingLeft="10dp" android:paddingRight="10dp" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bluetooth_connect_error_tips"/>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

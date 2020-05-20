@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/select_car_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/img_icon" android:layout_width="wrap_content" android:layout_height="@dimen/carlogoItemsize_h" android:src="@drawable/ic_help"/>
+    <TextView android:textSize="20sp" android:layout_gravity="bottom|center_horizontal" android:id="@+id/tv_title" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</FrameLayout>

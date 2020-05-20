@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cnlaunch.x431pro.widget.SlidingUpPanelLayout android:gravity="bottom" android:id="@+id/sliding_layout" android:layout_width="match_parent" android:layout_height="match_parent" sothree:collapsedHeight="@dimen/remotediag_windows_title_height" sothree:dragView="@+id/windowstitle" sothree:shadowHeight="4dp">
+        <FrameLayout android:id="@+id/layout_fragment_contanier" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/sliding_contanier" android:background="#eee" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:background="@drawable/remotediag_windows_title" android:layout_width="match_parent" android:layout_height="@dimen/remotediag_windows_title_height">
+                <Button android:id="@+id/btn_recordvoice" android:background="@drawable/carmode_ani_gray_1" android:layout_width="@dimen/remotediag_windows_vioce_size" android:layout_height="@dimen/remotediag_windows_vioce_size" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/windowstitle" android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/btn_recordvoice"/>
+                <TextView android:ellipsize="end" android:layout_gravity="center" android:id="@+id/chatwindow_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="10" android:layout_centerInParent="true" style="@style/RemoteDiagWindowsTextStyle"/>
+            </RelativeLayout>
+            <FrameLayout android:id="@+id/fragment_chat" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </com.cnlaunch.x431pro.widget.SlidingUpPanelLayout>
+</RelativeLayout>

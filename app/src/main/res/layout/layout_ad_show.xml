@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@+id/webview_progressbar" android:background="@color/white" android:layout_width="match_parent" android:layout_height="8dp" android:layout_alignParentTop="true" style="?android:attr/progressBarStyleHorizontal"/>
+    <WebView android:id="@+id/webview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/webview_progressbar"/>
+    <ImageView android:id="@+id/close" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="3dp" android:layout_marginRight="3dp" android:src="@drawable/lau" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+</RelativeLayout>

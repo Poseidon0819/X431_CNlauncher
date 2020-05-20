@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layout_top" android:layout_width="match_parent" android:layout_height="@dimen/regit_head_height">
+        <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/editText1" android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/register" android:layout_weight="1"/>
+        <LinearLayout android:background="@drawable/register_head_1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/editText2_0" android:background="@drawable/register_head_5" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/red" android:gravity="center" android:layout_gravity="center" android:id="@+id/editText2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/joint_activate"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/merchant_title" android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:background="@drawable/register_head_4" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/regist_merchant"/>
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/editText4_0" android:background="@drawable/register_head_5" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/editText4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/finish"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/register_itemt_check" android:layout_marginRight="@dimen/register_itemt_check">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_weight="3">
+            <EditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_serianumber" android:background="@drawable/item_bg" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:hint="@string/joint_activate_hint_seria_number" android:maxLength="12" android:numeric="integer"/>
+            <EditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_verify_dcode" android:background="@drawable/item_bg" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginTop="15dp" android:hint="@string/joint_activate_hint_identify_code" android:maxLength="8" android:numeric="integer" android:imeOptions="actionDone"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:textColor="@color/white" android:id="@+id/bt_activate" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="@dimen/register_itemt_check" android:layout_marginTop="@dimen/dp_15" android:layout_marginRight="@dimen/register_itemt_check" android:text="@string/connector_activate" style="?attr/commonButtonLongStyle"/>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="@dimen/register_itemt_check" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/register_itemt_check">
+        <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/glossy_green" android:gravity="center_vertical" android:id="@+id/tv_veryficode" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/mine_tv_getcode" style="@style/MiniInfoItemTextStyle"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginTop="15dp" android:layout_marginRight="50dp">
+        <TextView android:textSize="20sp" android:id="@+id/text_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/joint_activate_skip" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@+id/btn_timeout_remind" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:button="@null" android:text="@string/diagnose_software_remind_txt" android:drawableRight="@drawable/select_btn_cbox_ring" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+    </LinearLayout>
+</LinearLayout>

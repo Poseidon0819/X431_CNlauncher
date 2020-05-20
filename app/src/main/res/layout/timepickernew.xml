@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#ffffff" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_20">
+    <TextView android:textSize="@dimen/sp_18" android:textColor="#959595" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/select_time"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10">
+        <LinearLayout android:orientation="vertical" android:id="@+id/year_layout" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <View style="@style/timepicker_view"/>
+            <com.cnlaunch.golo3.view.timepicker.WheelView android:id="@+id/year" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10"/>
+            <View style="@style/timepicker_view"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <View style="@style/timepicker_view"/>
+            <com.cnlaunch.golo3.view.timepicker.WheelView android:id="@+id/month" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10"/>
+            <View style="@style/timepicker_view"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/day_layout" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <View style="@style/timepicker_view"/>
+            <com.cnlaunch.golo3.view.timepicker.WheelView android:id="@+id/day" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10"/>
+            <View style="@style/timepicker_view"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <View style="@style/timepicker_view"/>
+            <com.cnlaunch.golo3.view.timepicker.WheelView android:id="@+id/hour" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10"/>
+            <View style="@style/timepicker_view"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <View style="@style/timepicker_view"/>
+            <com.cnlaunch.golo3.view.timepicker.WheelView android:id="@+id/min" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10"/>
+            <View style="@style/timepicker_view"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/sp_18" android:textColor="#ffffff" android:id="@+id/btnSetDateCancle" android:background="@drawable/cance_seletor" android:padding="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10" android:text="@string/cancel_img" android:layout_weight="1"/>
+        <Button android:textSize="@dimen/sp_18" android:textColor="#ffffff" android:id="@+id/btnSetDateConfirm" android:background="@drawable/green_btn_bg" android:padding="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10" android:text="@string/confirm" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/car_icon" android:background="@drawable/icon_jili_truck" android:visibility="gone" android:layout_width="80dp" android:layout_height="50dp" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="20dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/car_icon" style="@style/ListViewStyle.Item.TextView.menu"/>
+    <ImageView android:id="@+id/helpbt" android:background="@drawable/btn_help_normal" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="20dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

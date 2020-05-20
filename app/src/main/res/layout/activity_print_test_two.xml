@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/marginptopbottom">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linehot" android:layout_width="match_parent" android:layout_height="@dimen/buttonheight" android:layout_marginLeft="18px" android:layout_marginTop="@dimen/marginpx1" android:layout_marginRight="22px">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="@dimen/marginpx2" android:textColor="@color/black" android:id="@+id/host" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/NetName" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+                <EditText android:textSize="@dimen/marginpx2" android:textColor="@color/black" android:id="@+id/pt2ssid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:editable="false" android:layout_toLeftOf="@+id/butscan" android:layout_toRightOf="@+id/host" android:layout_centerVertical="true"/>
+                <Button android:id="@+id/butscan" android:layout_width="100px" android:layout_height="match_parent" android:layout_margin="0dp" android:text="@string/ScanWifi" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?attr/commomButtonStyle"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linestyle" android:layout_width="match_parent" android:layout_height="@dimen/marginpx5" android:layout_marginLeft="18px" android:layout_marginTop="@dimen/marginpx1" android:layout_marginRight="22px" android:layout_below="@+id/linehot">
+            <TextView android:textSize="@dimen/marginpx26" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Encrypt"/>
+            <Spinner android:id="@+id/wps" android:layout_width="@dimen/marginsp200" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/linepsw" android:layout_width="match_parent" android:layout_height="@dimen/marginpx8" android:layout_marginLeft="18px" android:layout_marginTop="@dimen/marginpx1" android:layout_marginRight="22px" android:layout_below="@+id/linestyle">
+            <RelativeLayout android:id="@+id/linepassword" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/marginpx2" android:textColor="@color/black" android:id="@+id/spwd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/PassWord" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+                <EditText android:textSize="@dimen/marginpx2" android:textColor="@color/black" android:id="@+id/pwd" android:layout_width="@dimen/marginsp200" android:layout_height="wrap_content" android:layout_marginLeft="10sp" android:password="true" android:singleLine="true" android:layout_toLeftOf="@+id/isshowpwd" android:layout_toRightOf="@+id/spwd" android:layout_centerVertical="true"/>
+                <CheckBox android:textSize="@dimen/marginpx2" android:textColor="@color/black" android:id="@+id/isshowpwd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/ShowPassWord" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_centerVertical="true" style="@style/MyPrinterCheckBox"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="@dimen/marginpvertical" android:layout_above="@+id/lineBottom" android:layout_below="@+id/linepsw">
+            <TextView android:enabled="false" android:textSize="@dimen/marginpx2" android:textColor="@color/black" android:id="@+id/show" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1sp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/lineBottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="25px" android:layout_marginTop="@dimen/marginpvertical" android:layout_marginRight="25px" android:layout_alignParentBottom="true">
+            <Button android:id="@+id/btnConnet" android:layout_width="match_parent" android:layout_height="@dimen/buttonheight" android:layout_margin="0dp" android:layout_marginBottom="15px" android:text="@string/Confirm" style="?attr/commomButtonStyle"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

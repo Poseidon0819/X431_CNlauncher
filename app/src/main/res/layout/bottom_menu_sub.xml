@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/bottom_menu_sub_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="#eeeeee" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16sp" android:gravity="bottom|center_horizontal" android:id="@+id/bottom_menu_sub_golo_friend" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/bottom_menu_sub_golo_friend" android:drawableTop="@drawable/bottom_menu_sub_golo_friend_b" android:layout_weight="1"/>
+        <TextView android:background="#c6c6c6" android:layout_width="0.1dp" android:layout_height="match_parent"/>
+        <TextView android:textSize="16sp" android:gravity="bottom|center_horizontal" android:id="@+id/bottom_menu_sub_golo_friend_circle" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/bottom_menu_sub_golo_friend_circle" android:drawableTop="@drawable/bottom_menu_sub_golo_friend_circle_b" android:layout_weight="1"/>
+        <TextView android:background="#c6c6c6" android:layout_width="0.1dp" android:layout_height="match_parent"/>
+        <TextView android:textSize="16sp" android:gravity="bottom|center_horizontal" android:id="@+id/bottom_menu_sub_qq_friend" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/bottom_menu_sub_qq_friend" android:drawableTop="@drawable/bottom_menu_sub_qq_b" android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView android:background="#c6c6c6" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="#eeeeee" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16sp" android:gravity="bottom|center_horizontal" android:id="@+id/bottom_menu_sub_qq_zone" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/bottom_menu_sub_qq_zone" android:drawableTop="@drawable/bottom_menu_sub_zone_b" android:layout_weight="1"/>
+        <TextView android:background="#c6c6c6" android:layout_width="0.1dp" android:layout_height="match_parent"/>
+        <TextView android:textSize="16sp" android:gravity="bottom|center_horizontal" android:id="@+id/bottom_menu_sub_wechar_friend" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/bottom_menu_sub_wechar_friend" android:drawableTop="@drawable/bottom_menu_sub_wechar_b" android:layout_weight="1"/>
+        <TextView android:background="#c6c6c6" android:layout_width="0.1dp" android:layout_height="match_parent"/>
+        <TextView android:textSize="16sp" android:gravity="bottom|center_horizontal" android:id="@+id/bottom_menu_sub_wechar_friend_circle" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/bottom_menu_sub_wechar_friend_circle" android:drawableTop="@drawable/bottom_menu_sub_wechar_circle_b" android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView android:background="#c6c6c6" android:layout_width="match_parent" android:layout_height="0.1dp"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="#eeeeee" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16sp" android:gravity="bottom|center_horizontal" android:id="@+id/bottom_menu_sub_qq_sin_weibo" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/bottom_menu_sub_qq_sin_weibo" android:drawableTop="@drawable/bottom_menu_sub_sinweibo_b" android:layout_weight="1"/>
+        <TextView android:background="#c6c6c6" android:layout_width="0.1dp" android:layout_height="match_parent"/>
+        <TextView android:gravity="bottom|center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+        <TextView android:background="#c6c6c6" android:layout_width="0.1dp" android:layout_height="match_parent"/>
+        <TextView android:gravity="bottom|center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

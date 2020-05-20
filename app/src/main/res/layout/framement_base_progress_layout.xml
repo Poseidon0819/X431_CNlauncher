@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/load_base_progress_all_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/load_base_progress_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:id="@+id/base_progress" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:indeterminateDrawable="@drawable/progress_rotate" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/sp_16" android:id="@+id/load_tishi_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_loading" android:layout_below="@+id/base_progress" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/err_tishi_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/blank_info_bg" android:layout_centerInParent="true"/>
+    <RelativeLayout android:gravity="center" android:id="@+id/err_tishi_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="78dp" android:layout_alignLeft="@+id/err_tishi_img" android:layout_alignRight="@+id/err_tishi_img" android:layout_alignBottom="@+id/err_tishi_img">
+        <TextView android:textSize="@dimen/sp_14" android:textColor="#959595" android:ellipsize="end" android:id="@+id/err_tishi_text" android:paddingLeft="@dimen/sp_10" android:paddingRight="@dimen/sp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/sp_14" android:textColor="@color/green_text_color" android:ellipsize="end" android:id="@+id/err_guide_text" android:paddingLeft="@dimen/sp_10" android:paddingRight="@dimen/sp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@+id/err_tishi_text" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/drawer_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textColor="#ffffff" android:id="@+id/btn_send" android:background="#e51c23" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:minHeight="48dp" android:text="发送TCP命令"/>
+        <Button android:textColor="#ffffff" android:id="@+id/btn_link_tcp" android:background="#e51c23" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:minHeight="48dp" android:text="连接TCP"/>
+        <Button android:textColor="#ffffff" android:id="@+id/btn_break_tcp" android:background="#e51c23" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:minHeight="48dp" android:text="断开TCP"/>
+        <Button android:textColor="#ffffff" android:id="@+id/btn_link_UDP" android:background="#e51c23" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:minHeight="48dp" android:text="连接UDP并且发送数据"/>
+        <Button android:textColor="#ffffff" android:id="@+id/btn_recive" android:background="#e51c23" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:minHeight="48dp" android:text="接受数据"/>
+    </LinearLayout>
+    <EditText android:id="@+id/et_input_show" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:singleLine="true" android:numeric="integer" android:layout_above="@+id/ll_button"/>
+    <TextView android:id="@+id/tv_show" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/et_input_show" android:layout_alignParentTop="true"/>
+</RelativeLayout>

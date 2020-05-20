@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#ededed" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="#ededed" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:padding="@dimen/golo_appraise_ring_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="@dimen/golo_apprise_left_weight">
+                <RelativeLayout android:layout_gravity="center_horizontal" android:background="@drawable/bg_ring_five_start" android:layout_width="@dimen/golo_appraise_ring_size" android:layout_height="@dimen/golo_appraise_ring_size">
+                    <RatingBar android:id="@+id/ratingBar_gobal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/golo_appraise_start_size" android:numStars="5" android:layout_centerInParent="true" style="@style/RingStart"/>
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/golo_apprise_textsize" android:textColor="@color/red" android:layout_gravity="center_horizontal" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tip_appraise_gobal"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="@dimen/golo_apprise_right_weight">
+                <RelativeLayout android:padding="@dimen/golo_appraise_ring_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/icon_face" android:layout_width="@dimen/golo_user_face_size" android:layout_height="@dimen/golo_user_face_size" android:layout_marginLeft="10dp" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:contentDescription="@null"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear_usermsg" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/icon_face">
+                        <TextView android:textSize="@dimen/golo_apprise_textsize" android:textColor="#202020" android:layout_gravity="center_vertical" android:id="@+id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <ImageView android:layout_gravity="center_vertical" android:id="@+id/img_sex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/golo_appraise_text_padding" android:layout_toRightOf="@+id/tv_name" android:contentDescription="@null"/>
+                        <ImageView android:layout_gravity="center_vertical" android:id="@+id/car_icon" android:layout_width="@dimen/golo_tip_car_icon_size" android:layout_height="@dimen/golo_tip_car_icon_size" android:layout_marginLeft="@dimen/golo_appraise_text_padding" android:layout_toRightOf="@+id/img_sex" android:contentDescription="@null"/>
+                    </LinearLayout>
+                    <TextView android:id="@+id/tv_signature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/icon_face" android:layout_below="@+id/linear_usermsg" style="@style/TextViewStyle.Appraise.Message.light"/>
+                </RelativeLayout>
+                <TextView android:id="@+id/line_01" android:background="#dcdcdc" android:padding="10dp" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginLeft="10dp"/>
+                <RelativeLayout android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/tv_carnum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@style/TextViewStyle.Appraise.Message.drak"/>
+                    <TextView android:id="@+id/tv_carname_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_car_name" android:layout_below="@+id/tv_carnum" style="@style/TextViewStyle.Appraise.Message.drak"/>
+                    <TextView android:id="@+id/tv_carname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/tv_carname_title" android:layout_below="@+id/tv_carnum" style="@style/TextViewStyle.Appraise.Message.light"/>
+                    <TextView android:id="@+id/tv_carstyle_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/diagnose_report_carname" android:layout_below="@+id/tv_carname_title" style="@style/TextViewStyle.Appraise.Message.drak"/>
+                    <TextView android:id="@+id/tv_carstyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/tv_carstyle_title" android:layout_below="@+id/tv_carname" style="@style/TextViewStyle.Appraise.Message.light"/>
+                    <TextView android:id="@+id/tv_date_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onekeyfeedback_car_date" android:layout_below="@+id/tv_carstyle_title" style="@style/TextViewStyle.Appraise.Message.drak"/>
+                    <TextView android:id="@+id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/tv_date_title" android:layout_below="@+id/tv_carstyle" style="@style/TextViewStyle.Appraise.Message.light"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:id="@+id/line_02" android:background="#dcdcdc" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="2dp"/>
+        <LinearLayout android:orientation="horizontal" android:background="#ffffff" android:padding="@dimen/golo_appraise_ring_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:id="@+id/tv_attitude" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextViewStyle.Appraise.red"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:id="@+id/tv_serve" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextViewStyle.Appraise.red"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:id="@+id/tv_skill" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextViewStyle.Appraise.red"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:id="@+id/tv_appraise_content" android:background="#ffffff" android:paddingLeft="50dp" android:paddingTop="20dp" android:paddingRight="50dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextViewStyle.Appraise.Message.drak"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/golo_sidebar_show_textsize" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@+id/appraise_show" android:background="@drawable/shape_cir_toast" android:padding="15dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:minWidth="100dp" android:minHeight="100dp" android:shadowColor="#bb000000" android:shadowRadius="2.75" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

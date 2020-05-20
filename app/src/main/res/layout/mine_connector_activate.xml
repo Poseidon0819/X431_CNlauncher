@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="@dimen/activate_connector_marign" android:layout_marginTop="@dimen/mine_area_margin" android:layout_weight="1">
+            <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_serialno" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/joint_activate_hint_seria_number" android:maxLength="12" android:numeric="integer" style="@style/MiniInfoItemTextStyle"/>
+        </LinearLayout>
+        <CheckBox android:layout_gravity="center_vertical" android:id="@+id/cb_serialno" android:background="@drawable/select_btn_cbox_check" android:visibility="invisible" android:layout_width="@dimen/activate_connector_cb_marign" android:layout_height="@dimen/activate_connector_cb_marign" android:checked="true" android:button="@null"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="@dimen/activate_connector_marign" android:layout_marginTop="@dimen/mine_area_margin" android:layout_weight="1">
+            <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_password" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/joint_activate_hint_identify_code" android:maxLength="8" android:numeric="integer" style="@style/MiniInfoItemTextStyle"/>
+        </LinearLayout>
+        <CheckBox android:layout_gravity="center_vertical" android:id="@+id/cb_password" android:background="@drawable/select_btn_cbox_check" android:visibility="invisible" android:layout_width="@dimen/activate_connector_cb_marign" android:layout_height="@dimen/activate_connector_cb_marign" android:checked="true" android:button="@null"/>
+    </LinearLayout>
+    <Button android:textColor="@color/white" android:id="@+id/btn_activate" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="@dimen/activate_connector_marign" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/activate_connector_marign" android:text="@string/connector_activate" style="?attr/commonButtonLongStyle"/>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="@dimen/activate_connector_marign" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/activate_connector_marign">
+        <TextView android:textColor="@color/glossy_green" android:gravity="center_vertical" android:id="@+id/tv_get_code" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/mine_tv_getcode" style="@style/MiniInfoItemTextStyle"/>
+    </LinearLayout>
+</LinearLayout>

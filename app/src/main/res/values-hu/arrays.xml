@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Rossz hozzáállás</item>
+        <item>Nem rossz hozzáállás</item>
+        <item>Nagyon jó hozzáállás</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Gyenge hatásfok</item>
+        <item>Nem túl magas hatásfok</item>
+        <item>Magas hatásfok</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Alacsony ár-teljesítmény</item>
+        <item>Nem túl magas ár-teljesítmény</item>
+        <item>Magas ár-teljesítmény</item>
+    </array>
+    <array name="area_selection">
+        <item>Kína</item>
+        <item>Egyéb</item>
+    </array>
+    <array name="func_status">
+        <item>Nincs státusz</item>
+        <item>Siker</item>
+        <item>Sikertelen</item>
+        <item>Kész</item>
+        <item>Nincs DTC</item>
+        <item>A kommunikáció sikertelen</item>
+        <item>Az azonosító nem található</item>
+    </array>
+    <array name="func_type">
+        <item>Rendszerszkennelés</item>
+        <item>Gyorsteszt</item>
+        <item>Rendszer belépés</item>
+        <item>Verzió információ</item>
+        <item>A DTC olvasása</item>
+        <item>A DTC törlése</item>
+        <item>Az adatfolyam olvasása</item>
+        <item>Az állókép olvasása</item>
+        <item>Akcióteszt</item>
+        <item>Speciális funkció</item>
+        <item>Gyártó</item>
+        <item>Modell</item>
+        <item>Év</item>
+        <item>Elmozdulás</item>
+        <item>Sebességváltó</item>
+        <item>Alváz</item>
+        <item>Motor</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Egyéb</item>
+        <item>Öndiagnosztikai jelentés</item>
+        <item>Szakértői diagnosztikai jelentés</item>
+        <item>DTC egykulcsos törlési jelentés</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Egyéb</item>
+        <item>Kijelölt sofőr</item>
+        <item>Segítség</item>
+        <item>Gépkocsiállomány</item>
+        <item>Autókölcsönzés</item>
+        <item>Taxi</item>
+        <item>Ügynökség</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

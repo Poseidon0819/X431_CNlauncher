@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ifoer.expedition.pro.app-mergeDebugResources-3:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-hdpi\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "333"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "852",
+                        "endLines": "20",
+                        "endColumns": "12",
+                        "endOffsets": "1124"
+                    }
+                },
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,112,168,224,279,333,395,452,518,578,640,693,752,812",
+                        "endColumns": "53,54,54,53,52,60,55,64,58,60,51,57,58,54",
+                        "endOffsets": "106,162,218,273,327,389,446,512,572,634,687,746,806,862"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,164,219,273,326,387,443,508,567,628,680,738,797",
+                        "endColumns": "53,54,54,53,52,60,55,64,58,60,51,57,58,54",
+                        "endOffsets": "104,159,214,268,321,382,438,503,562,623,675,733,792,847"
+                    }
+                }
+            ]
+        }
+    ]
+}

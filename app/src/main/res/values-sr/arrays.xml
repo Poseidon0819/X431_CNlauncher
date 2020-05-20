@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Лош положај</item>
+        <item>Положај није лош</item>
+        <item>Веома добар положај</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Слаба ефикасност</item>
+        <item>Ефикасност није висока</item>
+        <item>Висока ефикасност</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Јефтине перформансе</item>
+        <item>Трошкови перформанси нису високи</item>
+        <item>Скупе перформансе</item>
+    </array>
+    <array name="area_selection">
+        <item>Кина</item>
+        <item>Остали</item>
+    </array>
+    <array name="func_status">
+        <item>Нема статуса</item>
+        <item>Успешно</item>
+        <item>Неуспешно</item>
+        <item>Завршено</item>
+        <item>Нема дијагностичког кôда проблема</item>
+        <item>Неуспела веза</item>
+        <item>Идентификацијски број није пронађен</item>
+    </array>
+    <array name="func_type">
+        <item>Скенирање система</item>
+        <item>Брзи тест</item>
+        <item>Улаз у систем</item>
+        <item>Информације о верзији</item>
+        <item>Обрада кôда дијагностичког проблема</item>
+        <item>Брисање кôда дијагностичког проблема</item>
+        <item>Обрада тока података</item>
+        <item>Обрада смрзнуте слике</item>
+        <item>Тест активности</item>
+        <item>Посебна функција</item>
+        <item>Израђено</item>
+        <item>Модел</item>
+        <item>Година</item>
+        <item>Замена</item>
+        <item>Пренос</item>
+        <item>Шасија</item>
+        <item>Мотор</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Друго</item>
+        <item>Самодијагностички извештај</item>
+        <item>Стручни дијагностички извештај</item>
+        <item>Брисање једног кључног извештаја кôда дијагностичког проблема</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Друго</item>
+        <item>Одређени возач</item>
+        <item>Подршка</item>
+        <item>Дељење превоза</item>
+        <item>Изнајмљивање аутомобила</item>
+        <item>Такси</item>
+        <item>Агенција</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

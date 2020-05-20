@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/item_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+    <TextView android:textSize="28px" android:textColor="#313131" android:id="@+id/card_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/mine_pin_card_number"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="24px" android:textColor="#313131" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginBottom="10dp" android:text="@string/mine_pin_card_activate_date"/>
+        <TextView android:textSize="24px" android:textColor="#0f75e8" android:id="@+id/activate_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="#919191" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+    <TextView android:textSize="24px" android:textColor="#0f75e8" android:layout_gravity="center" android:id="@+id/sn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/mine_sn"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="24px" android:textColor="#313131" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginBottom="10dp" android:text="@string/mine_pin_card_software_name"/>
+        <TextView android:textSize="24px" android:textColor="#0f75e8" android:id="@+id/software_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+    <TextView android:textSize="24px" android:textColor="#313131" android:gravity="center" android:id="@+id/expiration_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="@string/mine_expiration_date"/>
+</LinearLayout>

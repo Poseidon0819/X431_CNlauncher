@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="?attr/mainLogosBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <GridView android:gravity="center" android:id="@+id/repairinfo_gridview" android:paddingLeft="@dimen/repair_info_leftpading" android:paddingRight="@dimen/repair_info_leftpading" android:scrollbars="none" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/repair_info_toppading" android:listSelector="@android:color/transparent" android:horizontalSpacing="@dimen/repair_info_horizontalSpacing" android:verticalSpacing="@dimen/repair_info_verticalSpacing" android:numColumns="3"/>
+</LinearLayout>

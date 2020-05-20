@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Κακή στάση</item>
+        <item>Γενική στάση</item>
+        <item>Καλή στάση</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Χαμηλή αποτελεσματικότητα</item>
+        <item>Κανονική αποτελεσματικότητα</item>
+        <item>Υψηλή αποτελεσματικότητα</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Χαμηλό ποσοστό επίδοσης και τιμής</item>
+        <item>Κανονικό ποσοστό επίδοσης και τιμής</item>
+        <item>Υψηλό ποσοστό επίδοσης και τιμής</item>
+    </array>
+    <array name="func_status">
+        <item>Χωρίς κατάσταση</item>
+        <item>Επιτυχία</item>
+        <item>Αποτυχία</item>
+        <item>Ολοκλήρωση</item>
+        <item>Δεν έχει κώδικο σφάλματος</item>
+        <item>Απέτυχε η επικοινωνία</item>
+        <item>Εισάγετε στο σύστημα αλλά δεν αναγνωρίζει</item>
+    </array>
+    <array name="func_type">
+        <item>Συστηματικό σάρωση</item>
+        <item>Γρήγορη εξέταση</item>
+        <item>Εισάγετε στο σύστημα</item>
+        <item>Πληροφορίες έκδοσης</item>
+        <item>Διαβάστε τον κωδικό σφάλματος</item>
+        <item>Διαγράφει τον κωδικό σφάλματος</item>
+        <item>Διαβάστε τη ροή δεδομένων</item>
+        <item>Διαβάστε τη παγωμένη κορνίζα</item>
+        <item>Εξέταση συμπεριφοράς</item>
+        <item>Ειδική λειτουργία</item>
+        <item>Τύπος οχήματος</item>
+        <item>θυγατρικός τύπος και θυγατρική ομάδα οχήματος</item>
+        <item>Ετός</item>
+        <item>Εκπομπή</item>
+        <item>Τύπος κιβωτίου ταχυτήτων</item>
+        <item>Σασί</item>
+        <item>Τύπος του κινητήρα</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Άλλο</item>
+        <item>Αυτο-βοήθεια διαγνωστική έκθεση</item>
+        <item>Διαγνωστική έκθεση του εμπειρογνώμονα</item>
+        <item>Έκθεση κωδικού καθαρισμένου με ένα κουμπί</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Άλλο</item>
+        <item>Οδηγός υποκαταστάτου</item>
+        <item>Ζητάει βοήθεια</item>
+        <item>Μερικά προσώπα χρησιμοποιούνται το ίδιο αυτοκίνητο μαζί ταυτόχρονα</item>
+        <item>Νοικιάζει ένα αυτοκίνητο</item>
+        <item>Ταξί</item>
+        <item>Υλοποίηση υποκαταστάτου</item>
+    </array>
+</resources>

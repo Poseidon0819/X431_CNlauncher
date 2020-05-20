@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Прохладное отношение</item>
+        <item>Нормальное отношение</item>
+        <item>Предупредительное отношение</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Низкая эффективность</item>
+        <item>Нормальная эффективность</item>
+        <item>Высокая эффективность</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Плохое соотношение «цена/качество»</item>
+        <item>Нормальное соотношение «цена/качество»</item>
+        <item>Наилучшее соотношение «цена/качество»</item>
+    </array>
+    <array name="area_selection">
+        <item>Китай</item>
+        <item>Другие</item>
+    </array>
+    <array name="func_status">
+        <item>Нет состояния</item>
+        <item>Успешно</item>
+        <item>Неудачно</item>
+        <item>Завершен</item>
+        <item>Нет кодов ошибок</item>
+        <item>Не удалось соединить связь</item>
+        <item>ID не найден</item>
+        <item>Function Start</item>
+        <item>Function End</item>
+        <item>Datastream Unsort</item>
+    </array>
+    <array name="func_type">
+        <item>Сканирование системы</item>
+        <item>Быстрое тестирование</item>
+        <item>Система доступа</item>
+        <item>Информация о версии</item>
+        <item>Считывание кодов ошибок</item>
+        <item>Удаление кодов ошибок</item>
+        <item>Чтение потока данных</item>
+        <item>Считывание стоп-кадра</item>
+        <item>Action Test</item>
+        <item>Специальная функция</item>
+        <item>Модель</item>
+        <item>Подмодель</item>
+        <item>Год выпуска</item>
+        <item>Литраж</item>
+        <item>КП</item>
+        <item>Шасси</item>
+        <item>Двигатель</item>
+        <item>System ID</item>
+        <item>Dtc Report</item>
+        <item>Set Odo</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Другие</item>
+        <item>Отчёт по самодиагностике</item>
+        <item>Отчёт о диагностике эксперта</item>
+        <item>Отчёт о удалении кодов ошибок с помощью нажатия одной кнопки</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Другие</item>
+        <item>Трезвый водитель</item>
+        <item>Просить помощи</item>
+        <item>Карпул</item>
+        <item>Аренда а/м</item>
+        <item>Такси</item>
+        <item>Услуга агента</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>烹腌黹ά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Portugu阺</item>
+        <item>Română</item>
+        <item>畜耨觇</item>
+        <item>佯徼ј</item>
+        <item>Svenska</item>
+        <item>T黵kçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

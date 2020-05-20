@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/guide_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="步骤一:获取公共网络信息"/>
+    <ScrollView android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/guide_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="为获取公共网络信息，请先连接到合适的公共网络"/>
+    </ScrollView>
+    <ScrollView android:id="@+id/middle_content_scrollview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fadeScrollbars="false"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/bottom_button_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true">
+        <Button android:layout_gravity="start|center_vertical" android:id="@+id/guide_button1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:minHeight="48dp" android:maxLines="2" android:layout_weight="1"/>
+        <Button android:layout_gravity="center" android:id="@+id/guide_button2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:minHeight="48dp" android:maxLines="2" android:layout_weight="1"/>
+        <Button android:layout_gravity="end|center_vertical" android:id="@+id/guide_button3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:minHeight="48dp" android:maxLines="2" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Schlechte Haltung</item>
+        <item>Haltung normal</item>
+        <item>Sehr gute Haltung</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Schlechte Leistung</item>
+        <item>Leistung normal</item>
+        <item>Hohe Leistung</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Niedriges Preis/Leistungsverhältnis</item>
+        <item>Normales Preis/Leistungsverhältnis</item>
+        <item>Hohes Preis/Leistungsverhältnis</item>
+    </array>
+    <array name="area_selection">
+        <item>China</item>
+        <item>Andere</item>
+    </array>
+    <array name="func_status">
+        <item>Kein Status</item>
+        <item>Erfolgreich</item>
+        <item>Ausgefallen</item>
+        <item>Fertig</item>
+        <item>Kein DTC</item>
+        <item>Kommunikation ausgefallen</item>
+        <item>ID nicht gefunden</item>
+    </array>
+    <array name="func_type">
+        <item>Systemscannen</item>
+        <item>Schnelltest</item>
+        <item>Zugriff auf System</item>
+        <item>Versionsinformationen</item>
+        <item>DTC lesen</item>
+        <item>DTC löschen</item>
+        <item>Datenstrom lesen</item>
+        <item>Freeze-Frame lesen</item>
+        <item>Betätigungstest</item>
+        <item>Sonderfunktion</item>
+        <item>Fahrzeugmarke</item>
+        <item>Fahrzeugmodell</item>
+        <item>Modelljahr</item>
+        <item>Hubraum</item>
+        <item>Getriebeart</item>
+        <item>Chassis</item>
+        <item>Motorart</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Anderes</item>
+        <item>Bericht der Selbstdiagnose</item>
+        <item>Bericht der fachmännischen Diagnose</item>
+        <item>Bericht vom Löschen der DTCs mit One-Click</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Andere</item>
+        <item>Fahrservice</item>
+        <item>Rettung</item>
+        <item>Fahrgemeinschaft</item>
+        <item>Autovermietung</item>
+        <item>Taxi</item>
+        <item>Agentur</item>
+    </array>
+    <array name="languages">
+        <item>Variiert nach Systemsprache</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

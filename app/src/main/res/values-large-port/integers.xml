@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="carlogoItemColumnNum">3</integer>
+    <integer name="face_row_num_goose">7</integer>
+    <integer name="history_ItemColumnNum">3</integer>
+    <integer name="leftmenu_mainsize">65</integer>
+    <integer name="toolItemColumnNum">4</integer>
+</resources>

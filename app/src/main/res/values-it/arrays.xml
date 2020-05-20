@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Cattive attitudini</item>
+        <item>Attitudine buona</item>
+        <item>Attitudine molto buona</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Efficienza scarsa</item>
+        <item>Efficienza non buona</item>
+        <item>Molto efficiente</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Costi prestazioni bassi</item>
+        <item>Costi prestazioni non alti</item>
+        <item>Costi prestazioni alti</item>
+    </array>
+    <array name="area_selection">
+        <item>Cina</item>
+        <item>Altri</item>
+    </array>
+    <array name="func_status">
+        <item>Nessuno stato</item>
+        <item>Avvenuto</item>
+        <item>Fallito</item>
+        <item>Finito</item>
+        <item>Nessun DTC</item>
+        <item>Comunicazione fallita</item>
+        <item>ID non trovato</item>
+    </array>
+    <array name="func_type">
+        <item>Scansione sistema</item>
+        <item>Test veloce</item>
+        <item>Entra nel sistema</item>
+        <item>Informazione versione</item>
+        <item>Leggi DTC</item>
+        <item>Cancella codici guasto</item>
+        <item>Leggi parametri</item>
+        <item>Leggi Freeze frame</item>
+        <item>Test attuatori</item>
+        <item>Funzioni speciali</item>
+        <item>Tipo di veicolo</item>
+        <item>Modello</item>
+        <item>Anno modello</item>
+        <item>Cilindrata</item>
+        <item>Trasmissione</item>
+        <item>Telaio</item>
+        <item>Motore</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Altro</item>
+        <item>Report self diagnosis</item>
+        <item>Report diagnosi esperto</item>
+        <item>Report cancellazione DTC one-key</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Altro</item>
+        <item>Conducente</item>
+        <item>Assistenza</item>
+        <item>Carpool</item>
+        <item>Noleggio vettura</item>
+        <item>Taxi</item>
+        <item>Agenzia</item>
+    </array>
+    <array name="languages">
+        <item>variare con lingua del sistema</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>Inglese</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

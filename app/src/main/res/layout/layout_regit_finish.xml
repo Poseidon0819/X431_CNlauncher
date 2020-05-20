@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layout_top" android:layout_width="match_parent" android:layout_height="@dimen/regit_head_height">
+        <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/editText1" android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/register" android:layout_weight="1"/>
+        <LinearLayout android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/editText2_0" android:background="@drawable/register_head_5" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/editText2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/joint_activate"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/merchant_title" android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:background="@drawable/register_head_5" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/regist_merchant"/>
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/register_head_1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/editText4_1" android:background="@drawable/register_head_5" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/red" android:gravity="center" android:layout_gravity="center" android:id="@+id/editText4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/finish"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="20sp" android:layout_gravity="center_horizontal" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="50dp" android:layout_marginRight="10dp" android:text="@string/register_finish"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="50dp" android:layout_marginRight="10dp">
+        <Button android:textSize="20sp" android:textColor="@color/white" android:id="@+id/button_toupdate" android:background="@drawable/login_button" android:layout_width="0dp" android:layout_height="60dp" android:text="@string/yes" android:singleLine="true" android:layout_weight="1"/>
+        <Button android:textSize="20sp" android:textColor="@color/white" android:id="@+id/button_later" android:background="@drawable/login_button" android:layout_width="0dp" android:layout_height="60dp" android:layout_marginLeft="20dp" android:text="@string/no" android:singleLine="true" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

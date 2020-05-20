@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ifoer.expedition.pro.app-mergeDebugResources-3:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-port\\bools.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "55",
+                        "endOffsets": "108"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                },
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-port\\dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "57",
+                        "endOffsets": "110"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "111",
+                        "endColumns": "57",
+                        "endOffsets": "164"
+                    }
+                }
+            ]
+        }
+    ]
+}

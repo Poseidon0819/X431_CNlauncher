@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/shape_cir_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp">
+    <LinearLayout android:id="@+id/vin_linear_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:ellipsize="marquee" android:gravity="center_vertical" android:id="@+id/vinscan_title" android:paddingLeft="10dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/vinscanTitle" android:singleLine="true" style="@style/DialogTitleTextStyle.bluetooth"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear_button_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:layout_marginBottom="50dp">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/vin_obd_l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:background="@drawable/vin_obd" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/textSize_vin_base" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/vin_self_test"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/vin_scan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:background="@drawable/vin_scan" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/textSize_vin_base" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/vin_camera"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/vin_input_l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:background="@drawable/vin_input" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/textSize_vin_base" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/vin_input_vin"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cnlaunch.p169im.widget.CornerText android:textSize="11sp" android:textColor="@color/white" android:id="@+id/chat_item_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/public_news_border" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:contentDescription="{base:width,width:0.9375}">
+        <RelativeLayout android:id="@+id/news_item_0" android:layout_width="match_parent" android:layout_height="190dp" android:contentDescription="{base:width,height:0.5281}">
+            <ImageView android:id="@+id/news_content_image" android:layout_width="match_parent" android:layout_height="178dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:scaleType="fitXY" android:layout_centerInParent="true" android:contentDescription="{base:width,width:0.875,height:0.4922}"/>
+            <TextView android:textSize="18sp" android:textColor="#ffffff" android:gravity="center_vertical" android:id="@+id/news_content_title" android:background="#7f000000" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="34dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="texttttttttttttttttttttttttttttttttttttttttttttttttttttttttt" android:singleLine="true" android:layout_alignBottom="@+id/news_content_image" android:layout_centerHorizontal="true" android:contentDescription="{base:width,width:0.875,height:0.09375,textSize:0.05}"/>
+        </RelativeLayout>
+        <include android:id="@+id/news_item_1" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/aamsg_list_item_news_content"/>
+        <include android:id="@+id/news_item_2" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/aamsg_list_item_news_content"/>
+        <include android:id="@+id/news_item_3" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/aamsg_list_item_news_content"/>
+        <include android:id="@+id/news_item_4" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/aamsg_list_item_news_content"/>
+    </LinearLayout>
+</LinearLayout>

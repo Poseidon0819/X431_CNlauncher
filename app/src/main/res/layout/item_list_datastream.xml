@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="?attr/diagnoseItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@+id/cb_list_select" android:background="@drawable/select_checkbox_red" android:focusable="false" android:layout_width="@dimen/datastream_select_size" android:layout_height="@dimen/datastream_select_size" android:layout_marginRight="@dimen/item_text_padding" android:button="@null"/>
+        <TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListViewStyle.Item.TextView.datashow"/>
+    </LinearLayout>
+    <TextView android:layout_gravity="center_vertical" android:id="@+id/value" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ListViewStyle.Item.TextView.datashow"/>
+    <TextView android:layout_gravity="center_vertical" android:id="@+id/standValue" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ListViewStyle.Item.TextView.datashow"/>
+    <TextView android:layout_gravity="center_vertical" android:id="@+id/unit" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ListViewStyle.Item.TextView.datashow"/>
+</LinearLayout>

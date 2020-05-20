@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description_face_image_gay">{base:width,width:0.1,height:0.12}</string>
+    <string name="description_face_image_raddit">{base:width,width:0.1,height:0.15}</string>
+    <string name="description_select_grid">{base:width,width:0.1,height:0.1}</string>
+    <string name="face_description">{base:width,width:0.1,height:0.1}</string>
+    <string name="face_page_num_goose">14.0</string>
+</resources>

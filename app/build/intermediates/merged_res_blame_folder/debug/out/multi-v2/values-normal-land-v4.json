@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ifoer.expedition.pro.app-mergeDebugResources-3:/values-normal-land-v4/values-normal-land-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-normal-land\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,110,162,214,262,318,374,442,510,558,619,678,736,806,856,907,969,1035,1102,1163,1220",
+                        "endColumns": "51,50,50,46,54,54,66,66,46,59,57,56,68,48,49,60,64,65,59,55,50",
+                        "endOffsets": "104,156,208,256,312,368,436,504,552,613,672,730,800,850,901,963,1029,1096,1157,1214,1266"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,107,158,209,256,311,366,433,500,547,607,665,722,791,840,890,951,1016,1082,1142,1198",
+                        "endColumns": "51,50,50,46,54,54,66,66,46,59,57,56,68,48,49,60,64,65,59,55,50",
+                        "endOffsets": "102,153,204,251,306,361,428,495,542,602,660,717,786,835,885,946,1011,1077,1137,1193,1244"
+                    }
+                },
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-normal-land\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,159,255,345,426,508,556,607,658",
+                        "endColumns": "100,94,88,79,80,46,49,49,51",
+                        "endOffsets": "153,249,339,420,502,550,601,652,705"
+                    },
+                    "to": {
+                        "startLines": "31,32,33,34,35,36,37,38,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1635,1736,1831,1920,2000,2081,2128,2178,2228",
+                        "endColumns": "100,94,88,79,80,46,49,49,51",
+                        "endOffsets": "1731,1826,1915,1995,2076,2123,2173,2223,2275"
+                    }
+                },
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-normal-land\\integers.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,111,158,208,258,310,357,406",
+                        "endColumns": "52,45,48,48,50,45,47,43",
+                        "endOffsets": "105,152,202,252,304,351,400,445"
+                    },
+                    "to": {
+                        "startLines": "23,24,25,26,27,28,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "1249,1302,1348,1397,1446,1497,1543,1591",
+                        "endColumns": "52,45,48,48,50,45,47,43",
+                        "endOffsets": "1297,1343,1392,1441,1492,1538,1586,1630"
+                    }
+                },
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-normal-land\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "204"
+                    },
+                    "to": {
+                        "startLines": "40",
+                        "startColumns": "4",
+                        "startOffsets": "2280",
+                        "endLines": "42",
+                        "endColumns": "12",
+                        "endOffsets": "2425"
+                    }
+                }
+            ]
+        }
+    ]
+}

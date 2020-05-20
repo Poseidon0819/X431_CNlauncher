@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="caricon_item_height">163dp</dimen>
+    <dimen name="caricon_item_width">195dp</dimen>
+    <dimen name="golo_remotehistory_button_minheight">120dp</dimen>
+    <dimen name="golo_remotehistory_button_minwidth">580dp</dimen>
+    <dimen name="graph_item_layout_height">220dp</dimen>
+    <dimen name="graph_item_layout_width">224dp</dimen>
+    <dimen name="item_list_last_weight_history">1.2</dimen>
+    <dimen name="item_list_last_weight_order">1.5</dimen>
+    <dimen name="item_list_last_weight_warntip">1</dimen>
+    <dimen name="item_list_lasttime_weight_bind">1</dimen>
+    <dimen name="item_list_start_weight_warntip_sub_end">1.3</dimen>
+    <dimen name="report_item_logo">150dp</dimen>
+    <dimen name="report_margin_horizontal">20dp</dimen>
+    <dimen name="rtu_content_width">600dp</dimen>
+    <dimen name="search_cars_input_width">175dp</dimen>
+    <dimen name="select_grid_height">250dp</dimen>
+    <integer name="carlogoItemColumnNum">3</integer>
+    <integer name="face_row_num_goose">7</integer>
+    <integer name="history_ItemColumnNum">3</integer>
+    <integer name="leftmenu_mainsize">65</integer>
+    <integer name="toolItemColumnNum">4</integer>
+    <string name="description_face_image_gay">{base:width,width:0.1,height:0.12}</string>
+    <string name="description_face_image_raddit">{base:width,width:0.1,height:0.15}</string>
+    <string name="description_select_grid">{base:width,width:0.1,height:0.1}</string>
+    <string name="face_description">{base:width,width:0.1,height:0.1}</string>
+    <string name="face_page_num_goose">14.0</string>
+</resources>

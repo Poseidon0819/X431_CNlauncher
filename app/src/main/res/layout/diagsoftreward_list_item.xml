@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_serialNo" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="safsdf" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+    <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_vehicle_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="safsdf" android:layout_weight="1.2" style="@style/MiniInfoItemTextStyle"/>
+    <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_warranty_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="safsdf" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+    <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_feed_end_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="safsdf" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+</LinearLayout>

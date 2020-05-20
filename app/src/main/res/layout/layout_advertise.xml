@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <fragment android:name="com.cnlaunch.x431pro.widget.cycleviewpager.CycleViewPager" android:id="@+id/fragment_cycle_viewpager_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    <RelativeLayout android:layout_gravity="bottom|center_horizontal" android:id="@+id/button_jump" android:background="@drawable/button_jump_selector" android:layout_width="wrap_content" android:layout_height="@dimen/jump_btn_minheight" android:layout_marginBottom="@dimen/jump_marginbottom">
+        <TextView android:textSize="@dimen/dialog_mytxt_size" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/statement_btn_txt" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</FrameLayout>

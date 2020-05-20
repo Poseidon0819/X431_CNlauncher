@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll_table_list" android:background="@drawable/shape_table_boder" android:paddingBottom="@dimen/dp_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divier_linearlayout_matco" android:showDividers="middle">
+        <TextView android:textSize="@dimen/textsize_normal_S" android:gravity="center_vertical" android:id="@+id/tv_item_name" android:padding="@dimen/dp_10" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2"/>
+        <TextView android:textSize="@dimen/textsize_normal_S" android:gravity="center" android:id="@+id/tv_item_status" android:padding="@dimen/dp_10" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/textsize_normal_S" android:gravity="center_vertical" android:id="@+id/tv_item_description" android:padding="@dimen/dp_10" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3"/>
+    </LinearLayout>
+</LinearLayout>

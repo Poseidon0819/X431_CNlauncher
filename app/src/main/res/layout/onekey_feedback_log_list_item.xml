@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <CheckBox android:id="@+id/cb_feedback_logfile_choice" android:background="@drawable/select_checkbox_red" android:focusable="false" android:clickable="false" android:layout_width="@dimen/datastream_select_size" android:layout_height="@dimen/datastream_select_size" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:button="@null"/>
+    <TextView android:gravity="center" android:id="@+id/tv_feedback_log_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="safsdf" android:layout_weight="1.2" style="@style/MiniInfoItemTextStyle"/>
+    <TextView android:gravity="center" android:id="@+id/tv_feedback_log_filename" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="safsdf" android:layout_weight="0.9" style="@style/MiniInfoItemTextStyle"/>
+    <TextView android:gravity="center" android:id="@+id/tv_feedback_log_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="safsdf" android:layout_weight="1.2" style="@style/MiniInfoItemTextStyle"/>
+</LinearLayout>

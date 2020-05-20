@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_feedback_log_history_name" android:layout_width="match_parent" android:layout_height="match_parent" android:text="safsdf" style="@style/MiniInfoItemTextStyle"/>
+        <ImageView android:id="@+id/iv_tip" android:layout_width="15dp" android:layout_height="15dp" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:src="@drawable/bg_title_tip"/>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_feedback_log_history_time" android:layout_width="0dp" android:layout_height="wrap_content" android:text="safsdf" android:layout_weight="0.9" style="@style/MiniInfoItemTextStyle"/>
+    <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_feedback_log_history_filename" android:layout_width="0dp" android:layout_height="wrap_content" android:text="safsdf" android:layout_weight="1.1" style="@style/MiniInfoItemTextStyle"/>
+    <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_feedback_log_history_remark" android:layout_width="0dp" android:layout_height="wrap_content" android:text="safsdf" android:layout_weight="1.1" style="@style/MiniInfoItemTextStyle"/>
+</LinearLayout>

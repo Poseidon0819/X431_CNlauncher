@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/grey_stone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:id="@+id/car_number" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textsize_normal_S" android:id="@+id/tv_report_title" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/line01" android:background="@color/lightgray" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="2dp" android:layout_below="@+id/car_number"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/car_message" android:background="@drawable/shape_cir_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_below="@+id/line01">
+        <TextView android:textSize="@dimen/textsize_small_M" android:textColor="#505050" android:gravity="left" android:id="@+id/tv_car_name" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/report_car_name"/>
+        <TextView android:textSize="@dimen/textsize_small_M" android:textColor="#505050" android:gravity="left" android:id="@+id/tv_car_vin" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/report_car_vin"/>
+        <TextView android:textSize="@dimen/textsize_small_M" android:textColor="#505050" android:gravity="left" android:id="@+id/tv_diagnose_time" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/report_diagnose_time"/>
+        <TextView android:textSize="@dimen/textsize_small_M" android:textColor="#505050" android:gravity="left" android:id="@+id/tv_master_name" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/report_master_name"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/line02" android:background="@color/lightgray" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="2dp" android:layout_below="@+id/car_message"/>
+    <RelativeLayout android:id="@+id/report_result" android:background="@color/grey_stone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_report_remote" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/textsize_small_M" android:textColor="@color/TextColorWhite" android:id="@+id/btn_send" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:minHeight="48dp" android:text="@string/btn_send_report" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?attr/commomButtonStyle"/>
+        <EditText android:textSize="@dimen/textsize_small_M" android:id="@+id/et_result" android:background="@drawable/shape_cir_bg_noborder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:button="@null" android:minHeight="48dp" android:hint="@string/hint_remote_report" android:layout_toLeftOf="@+id/btn_send" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/line03" android:background="@color/lightgray" android:visibility="visible" android:layout_width="match_parent" android:layout_height="2dp" android:layout_above="@+id/report_result"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/code_message" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/line03" android:layout_below="@+id/line02">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/textsize_small_M" android:id="@+id/codenumetitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+            <TextView android:textSize="@dimen/textsize_small_M" android:id="@+id/codenume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/codenumetitle"/>
+        </RelativeLayout>
+        <ScrollView android:background="@drawable/shape_cir_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+            <TextView android:textSize="@dimen/textsize_small_M" android:textColor="#505050" android:gravity="left" android:id="@+id/tv_fault_code" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

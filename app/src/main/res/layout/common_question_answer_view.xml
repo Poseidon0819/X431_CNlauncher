@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:shrinkColumns="0,1">
+        <TableRow android:gravity="center">
+            <Button android:id="@+id/function_display" android:background="@drawable/help_btn_common" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_function_display" android:drawableLeft="@drawable/function_btn_head" style="@style/help_btn_style"/>
+            <Button android:textColor="#ffffff" android:id="@+id/common_question_answer" android:background="@drawable/help_btn_choiced" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="@string/help_common_question_answer" android:drawableLeft="@drawable/q2a_btn_head" style="@style/help_btn_style"/>
+        </TableRow>
+    </TableLayout>
+    <ScrollView android:id="@+id/Q2A_container" android:scrollbars="vertical" android:fadingEdge="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/help_Q2A_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+</LinearLayout>

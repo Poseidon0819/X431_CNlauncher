@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@+id/tv_delay" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/caruser" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="车主" android:layout_weight="1" android:onClick="setClickListener"/>
+            <Button android:id="@+id/master" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="技师" android:layout_weight="1" android:onClick="setClickListener"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/start" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="连接服务器" android:layout_weight="1" android:onClick="setClickListener"/>
+            <Button android:id="@+id/stop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="关闭Socket" android:layout_weight="1" android:onClick="setClickListener"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/heart" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="发送心跳" android:layout_weight="1" android:onClick="setClickListener"/>
+            <Button android:id="@+id/send" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Send数据" android:layout_weight="1" android:onClick="setClickListener"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:id="@+id/tv_send" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </ScrollView>
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:id="@+id/tv_recived" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

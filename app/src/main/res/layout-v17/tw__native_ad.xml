@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/tw__ad_mopub_layout" style="@style/tw__ad_container">
+    <com.twitter.sdk.android.mopub.internal.RoundedImageView android:id="@+id/native_ad_main_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true"/>
+    <RelativeLayout android:id="@+id/native_ad_card" android:padding="@dimen/tw__ad_space_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/native_ad_icon_image" android:layout_width="@dimen/tw__ad_icon_size" android:layout_height="@dimen/tw__ad_icon_size" android:layout_marginLeft="@dimen/tw__ad_icon_margin_left" android:layout_marginRight="@dimen/tw__ad_icon_margin_right" android:layout_alignParentLeft="true"/>
+        <TextView android:textSize="@dimen/tw__ad_text_size_large" android:textStyle="bold" android:textColor="@color/tw__ad_light_text_primary_color" android:id="@+id/native_ad_title" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tw__ad_title_margin_left" android:layout_toRightOf="@+id/native_ad_icon_image"/>
+        <TextView android:textSize="@dimen/tw__ad_text_size_medium" android:textColor="@color/tw__ad_light_text_primary_color" android:id="@+id/native_ad_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/native_ad_title" android:layout_alignLeft="@+id/native_ad_title"/>
+    </RelativeLayout>
+    <Button android:id="@+id/native_ad_cta" android:textAllCaps="false" style="@style/tw__ad_cta_button"/>
+    <RelativeLayout android:id="@+id/native_ad_privacy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tw__ad_privacy_margin_left">
+        <ImageView android:id="@+id/native_ad_privacy_info_icon_image" android:background="@null" android:padding="@dimen/tw__ad_privacy_icon_padding" android:layout_width="@dimen/tw__ad_privacy_icon_size" android:layout_height="@dimen/tw__ad_privacy_icon_size" android:contentDescription="@string/tw__privacy_icon_content_desc"/>
+        <TextView android:textSize="@dimen/tw__ad_text_size_small" android:id="@+id/native_ad_privacy_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tw__ad_privacy_text_margin_left" android:text="@string/tw__sponsored" android:layout_centerInParent="true" android:layout_toEndOf="@+id/native_ad_privacy_info_icon_image"/>
+    </RelativeLayout>
+</LinearLayout>

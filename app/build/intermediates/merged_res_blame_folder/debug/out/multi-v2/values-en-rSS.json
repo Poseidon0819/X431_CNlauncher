@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ifoer.expedition.pro.app-mergeDebugResources-3:/values-en-rSS/values-en-rSS.xml",
+            "map": [
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-en-rSS\\plurals.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,213,368",
+                        "endLines": "5,9,13",
+                        "endColumns": "14,14,14",
+                        "endOffsets": "207,362,517"
+                    },
+                    "to": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,207,358",
+                        "endLines": "5,9,13",
+                        "endColumns": "14,14,14",
+                        "endOffsets": "202,353,504"
+                    }
+                },
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-en-rSS\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,134,200,266,337,414,478,534,588,649,732,810,887,945,1026,1153,1241,1308,1385,1472",
+                        "endColumns": "75,64,64,69,75,62,54,52,59,81,76,75,56,79,125,86,65,75,85,66",
+                        "endOffsets": "128,194,260,331,408,472,528,582,643,726,804,881,939,1020,1147,1235,1302,1379,1466,1534"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "509,585,650,715,785,861,924,979,1032,1092,1174,1251,1327,1384,1464,1590,1677,1743,1819,1905",
+                        "endColumns": "75,64,64,69,75,62,54,52,59,81,76,75,56,79,125,86,65,75,85,66",
+                        "endOffsets": "580,645,710,780,856,919,974,1027,1087,1169,1246,1322,1379,1459,1585,1672,1738,1814,1900,1967"
+                    }
+                }
+            ]
+        }
+    ]
+}

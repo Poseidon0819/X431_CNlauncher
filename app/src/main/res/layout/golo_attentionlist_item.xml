@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/golo_user_img" android:layout_width="@dimen/golo_user_face_size" android:layout_height="@dimen/golo_user_face_size" android:layout_marginLeft="10dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <TextView android:textSize="20sp" android:textColor="@color/black" android:id="@+id/golo_user_lasttime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/golo_user_msg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_toLeftOf="@+id/golo_user_lasttime" android:layout_toRightOf="@+id/golo_user_img">
+        <TextView android:textSize="20sp" android:textColor="@color/black" android:id="@+id/tv_name" android:padding="2dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+        <TextView android:textSize="18sp" android:textColor="@color/golo_gray_txt" android:id="@+id/tv_carmsg" android:padding="2dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cnlaunch.golo3.widget.KJListView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/friends_kj_listview" android:background="@color/white" android:scrollbars="none" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:cacheColorHint="#00000000" android:divider="@null"/>

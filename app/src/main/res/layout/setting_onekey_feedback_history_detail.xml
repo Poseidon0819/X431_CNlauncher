@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll_serialno_title" android:background="@drawable/nav_head_bg" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textsize_large_S" android:textColor="#333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/serialnumber_txt"/>
+        <TextView android:textSize="@dimen/textsize_large_S" android:textColor="#333333" android:id="@+id/tv_detail_num" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll_detail_title" android:background="@color/khaki" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/ll_serialno_title">
+        <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_history_detail_car_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp"/>
+        <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_history_detail_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50dp"/>
+        <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_history_detail_currentState" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+    <com.cnlaunch.x431pro.widget.AutoLinefeedLayout android:orientation="horizontal" android:id="@+id/ll_car_base_info" android:background="@color/khaki" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/ll_detail_title">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <android.widget.LcTextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_make" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/my_customer_car_brand"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_model" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/my_customer_car_model"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <android.widget.LcTextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/my_customer_car_year"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_vin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/my_customer_car_vin"/>
+        </LinearLayout>
+    </com.cnlaunch.x431pro.widget.AutoLinefeedLayout>
+    <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/ll_car_base_info">
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_history_detail_wrongemssage" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ll_title_line_a" android:background="@color/mineinfo_item" android:padding="2dp" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <TextView android:textSize="@dimen/textsize_large_S" android:textColor="#333333" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/diagloghistorydetail_errorMessage" style="@style/textviewdiagloghistorydetailstyle"/>
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/golo_tip_textsize" android:textColor="#333333" android:id="@+id/tv_history_detail_wrongemssage" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/textviewdiagloghistorydetailstyle"/>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_history_detail_remark" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:textSize="@dimen/textsize_large_S" android:textColor="#333333" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/diagloghistorydetail_remark" style="@style/textviewdiagloghistorydetailstyle"/>
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/golo_tip_textsize" android:textColor="#333333" android:id="@+id/tv_history_detail_remark" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/textviewdiagloghistorydetailstyle"/>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_history_detail_analyse" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ll_title_line_b" android:background="@color/mineinfo_item" android:padding="2dp" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <TextView android:textSize="@dimen/textsize_large_S" android:textColor="#333333" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/diagloghistorydetail_solution" style="@style/textviewdiagloghistorydetailstyle"/>
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/golo_tip_textsize" android:textColor="#333333" android:id="@+id/tv_history_detail_solution" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/textviewdiagloghistorydetailstyle"/>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_history_detail_way" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ll_title_line_c" android:background="@color/mineinfo_item" android:padding="2dp" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <TextView android:textSize="@dimen/textsize_large_S" android:textColor="#333333" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/diagloghistorydetail_userOperatePath" style="@style/textviewdiagloghistorydetailstyle"/>
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/golo_tip_textsize" android:textColor="#333333" android:id="@+id/tv_history_detail_way" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/textviewdiagloghistorydetailstyle"/>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/backgroud" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:background="?attr/mainTitleBackgroud" android:layout_width="match_parent" android:layout_height="@dimen/maintitle_height">&quot; 
+        <TextView android:textSize="@dimen/maintitle_text_size" android:textColor="@color/white" android:id="@+id/tv_link_mode_wifi_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_dpu_link_manager"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/fragment_navigation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginTop="0dp"/>
+</LinearLayout>

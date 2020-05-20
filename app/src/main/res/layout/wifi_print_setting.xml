@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/printset_stepone_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="#696969" android:layout_gravity="center" android:background="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/print_launch_set_onestep_notice" android:layout_weight="3"/>
+            <Button android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:id="@+id/setprintButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="20dp" android:layout_marginRight="5dp" android:layout_marginBottom="10dp" android:text="@string/print_launch_set_onestep_setbutton" android:layout_weight="1" style="?attr/commonButtonLongStyle"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/printset_steptwo_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3">
+                    <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="#696969" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/print_launch_set_twostep_wifiname"/>
+                    <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="#696969" android:gravity="center_vertical" android:id="@+id/wifi_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/tv_unconnect"/>
+                </LinearLayout>
+                <Button android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:id="@+id/selectwifiButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:layout_marginRight="5dp" android:layout_marginBottom="10dp" android:text="@string/print_launch_set_twostep_setbutton" android:layout_weight="1" style="?attr/commonButtonLongStyle"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="#696969" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/print_launch_set_twostep_notice" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/printset_stepthree_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="#696969" android:layout_gravity="center" android:background="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/print_launch_set_threestep_notice" android:layout_weight="3"/>
+                <Button android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:id="@+id/attachprintButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:layout_marginRight="5dp" android:layout_marginBottom="10dp" android:text="@string/print_launch_set_threestep_connectbutton" android:layout_weight="1" style="?attr/commonButtonLongStyle"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="100dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3">
+                    <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="#696969" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:text="@string/print_launch_set_threestep_connectresult"/>
+                    <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="#696969" android:id="@+id/result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text=""/>
+                </LinearLayout>
+                <Button android:enabled="false" android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@+id/testprintButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="10dp" android:text="@string/print_launch_set_threestep_printtest" android:layout_weight="1" style="?attr/commonButtonLongStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

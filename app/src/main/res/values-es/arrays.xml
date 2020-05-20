@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Malos hábitos</item>
+        <item>Hábitos razonables</item>
+        <item>Buenos hábitos</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Eficiencia pobre</item>
+        <item>La eficiencia no es alta</item>
+        <item>Alta eficiencia</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Rendimiento bajo coste</item>
+        <item>Funcionamiento de coste no es elevado</item>
+        <item>Rendimiento de alto coste</item>
+    </array>
+    <array name="area_selection">
+        <item>China</item>
+        <item>Otros</item>
+    </array>
+    <array name="func_status">
+        <item>Sin estado</item>
+        <item>Correcto</item>
+        <item>Fallido</item>
+        <item>Terminado</item>
+        <item>No DTC</item>
+        <item>Fallo en la comunicación</item>
+        <item>ID no encontrado</item>
+    </array>
+    <array name="func_type">
+        <item>Escaneo del sistema</item>
+        <item>Prueba rápida</item>
+        <item>Entrada sistema</item>
+        <item>Información de la versión</item>
+        <item>Leer DTC</item>
+        <item>Borrar DTC</item>
+        <item>Leer flujo de datos</item>
+        <item>Leer datos congelados</item>
+        <item>Prueba de actuadores</item>
+        <item>Función Especial</item>
+        <item>Marca</item>
+        <item>Modelo</item>
+        <item>Año</item>
+        <item>Cilindrada</item>
+        <item>Transmisión</item>
+        <item>Chasis</item>
+        <item>Motor</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Otro</item>
+        <item>Informe de autodiagnóstico</item>
+        <item>Informe de diagnóstico de experto</item>
+        <item>DTC one-key clear report</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Otro</item>
+        <item>Conductor asignado</item>
+        <item>Asistencia</item>
+        <item>Compartir coche</item>
+        <item>Alquiler de coches</item>
+        <item>Taxi</item>
+        <item>Agencia</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

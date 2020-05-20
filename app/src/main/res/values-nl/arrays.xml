@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Slechte houding</item>
+        <item>Houding niet slecht</item>
+        <item>Zeer goede houding</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Arme efficiëntie</item>
+        <item>Efficiëntie niet hoog</item>
+        <item>Hoog Efficiëntie</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Low-Cost prestaties</item>
+        <item>Cost Performance Niet hoog</item>
+        <item>Hoge kosten performance</item>
+    </array>
+    <array name="area_selection">
+        <item>China</item>
+        <item>Overigens</item>
+    </array>
+    <array name="func_status">
+        <item>Geen Status</item>
+        <item>Succes</item>
+        <item>Is mislukt</item>
+        <item>Voltooid</item>
+        <item>Geen DTC</item>
+        <item>Communicatie is mislukt</item>
+        <item>ID niet gevonden</item>
+    </array>
+    <array name="func_type">
+        <item>Systeemscan</item>
+        <item>Snelle Test</item>
+        <item>Systeem invoeren</item>
+        <item>Versie-informatie</item>
+        <item>Lees DTC</item>
+        <item>Duidelijk DTC</item>
+        <item>Lees gegevensstroom</item>
+        <item>Lees Frame stilzetten</item>
+        <item>Actie Test</item>
+        <item>Speciale functie</item>
+        <item>Maken</item>
+        <item>Model</item>
+        <item>Jaar</item>
+        <item>Verplaatsing</item>
+        <item>Transmissie</item>
+        <item>Chasis</item>
+        <item>Motor</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Ander</item>
+        <item>Zelf diagnostisch rapport</item>
+        <item>Deskundige diagnostisch rapport</item>
+        <item>DTC een-toets duidelijk verslag</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Ander</item>
+        <item>Aangewezen bestuurder</item>
+        <item>Bijstand</item>
+        <item>Carpool</item>
+        <item>Autoverhuur</item>
+        <item>Taxi</item>
+        <item>Agentschap</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>Scanning…</item>
+        <item>Verbinden…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
+        <item>Verbonden</item>
+        <item>Uitgesteld</item>
+        <item>Verbroken…</item>
+        <item>Verbroken</item>
+        <item>Niet succesvol</item>
+        <item>Geblokkeerd</item>
+        <item>Temporarily avoiding poor connection</item>
+        <item>Checking if network is a captive portal</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item />
+        <item>Scanning…</item>
+        <item>Verbonden naar%1$s…</item>
+        <item>Authenticating with %1$s…</item>
+        <item>Obtaining IP address from %1$s…</item>
+        <item>Verbonden naar%1$s</item>
+        <item>Uitgesteld</item>
+        <item>Verbroken van%1$s…</item>
+        <item>Verbroken</item>
+        <item>Niet succesvol</item>
+        <item>Geblokkeerd</item>
+        <item>Temporarily avoiding poor connection</item>
+        <item>Checking if network is a captive portal</item>
+    </array>
+</resources>

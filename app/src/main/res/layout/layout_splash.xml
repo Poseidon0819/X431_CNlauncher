@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:background="@drawable/launch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="30dp"/>
+    <ImageView android:background="@drawable/x431_pro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <ImageView android:background="@drawable/website" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="24dp" android:textColor="@color/white" android:id="@+id/x431_addr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25dp" android:text="http://www.cnlaunch.com" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="24dp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="http://www.x431.com " android:layout_above="@+id/x431_addr" android:layout_centerHorizontal="true"/>
+    <FrameLayout android:id="@+id/view_group" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <TextView android:textSize="20dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/skip_view" android:background="#55ffffff" android:padding="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="50dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+</RelativeLayout>

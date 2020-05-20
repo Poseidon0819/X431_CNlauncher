@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:gravity="center" android:id="@+id/confict_hit" android:background="#fffacd" android:padding="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/login_conflict_dialog_hit"/>
+    <LinearLayout android:orientation="horizontal" android:background="#ededed" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/LayoutStyle.golo.titlelinear">
+            <TextView android:gravity="center" android:id="@+id/golo_title_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tip_txt" style="@style/ItemStyle.golo.TextView"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:background="#838383" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear_remote" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:layout_weight="1" style="@style/LayoutStyle.golo.titlelinear">
+            <TextView android:gravity="center" android:id="@+id/golo_title_remote" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/remote_dialog_title" style="@style/ItemStyle.golo.TextView"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:background="#838383" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/LayoutStyle.golo.titlelinear">
+            <TextView android:gravity="center" android:id="@+id/golo_title_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/title_message" style="@style/ItemStyle.golo.TextView"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/golo_fragment_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

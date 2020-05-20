@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Mauvaise Attitude</item>
+        <item>Attitude Moyenne</item>
+        <item>Très bonne attitude</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Pauvre Efficacité</item>
+        <item>Efficacité moyenne</item>
+        <item>Haute Efficacité</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Rapport coût-efficacité très bas</item>
+        <item>Rapport coût-efficacité moyen</item>
+        <item>Rapport coût-efficacité très élevé</item>
+    </array>
+    <array name="area_selection">
+        <item>Chine</item>
+        <item>Autres</item>
+    </array>
+    <array name="func_status">
+        <item>Aucun statut</item>
+        <item>Succès</item>
+        <item>Échoué</item>
+        <item>Fini</item>
+        <item>Aucun DTC</item>
+        <item>Communication Échouée</item>
+        <item>ID Non Trouvée</item>
+    </array>
+    <array name="func_type">
+        <item>Balayage système</item>
+        <item>Test rapide</item>
+        <item>Accès système</item>
+        <item>Information Version</item>
+        <item>Lire DTCs</item>
+        <item>Effacer DTCs</item>
+        <item>Lire flux de données</item>
+        <item>Lire trame figée</item>
+        <item>Tester les mouvements</item>
+        <item>Fonction spéciale</item>
+        <item>Modèle</item>
+        <item>sous-modèle, série</item>
+        <item>Année</item>
+        <item>Déplacement</item>
+        <item>Boîte de vitesses</item>
+        <item>Châssis</item>
+        <item>Moteur</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Autre</item>
+        <item>Rapport auto-diagnostic</item>
+        <item>Rapport diagnostic expert</item>
+        <item>Rapport d&apos;effacement DTCs en un clic</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Autre</item>
+        <item>Conducteur désigné</item>
+        <item>Assistance</item>
+        <item>Covoiturage</item>
+        <item>Location voiture</item>
+        <item>Taxi</item>
+        <item>Agence</item>
+    </array>
+    <array name="languages">
+        <item>varier avec la langue du système</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>Anglais</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scrollview" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:background="@drawable/subscription_renewal_card_sample" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="13dp"/>
+        <TextView android:textSize="18px" android:textColor="#0f75e8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" android:layout_marginBottom="13dp" android:text="@string/mine_hint_card_code"/>
+        <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/card_code" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" android:minHeight="@dimen/item_model_height" android:singleLine="true" android:maxLength="24" android:inputType="number" android:imeOptions="actionGo" style="@style/EditTextStyle"/>
+        <android.widget.LcButton android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:ellipsize="marquee" android:id="@+id/submit" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="@dimen/item_model_height" android:layout_margin="13dp" android:text="@string/mine_submit" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="?attr/commonButtonLongStyle"/>
+    </LinearLayout>
+</ScrollView>

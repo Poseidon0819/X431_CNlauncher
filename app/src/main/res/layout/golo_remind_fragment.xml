@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pullrefresh="http://schemas.android.com/apk/res/com.ifoer.expedition.pro" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linear_info" android:background="@drawable/golo_blank_info_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+        <RelativeLayout android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/textsize_small_M" android:textColor="#dfdfdf" android:id="@+id/tv_info" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.cnlaunch.x431pro.widget.pulltorefresh.PullToRefreshListView android:id="@+id/remind_refresh_listview" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#d5d5d5" android:dividerHeight="1px" style="@style/ListViewStyle.ListView.golo"/>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bottom" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:gravity="center_horizontal" android:id="@+id/iv_print_report" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.print"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:gravity="center_horizontal" android:id="@+id/iv_share_report" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.share"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:gravity="center_horizontal" android:id="@+id/iv_delete_report" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.del"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/reprot_text_textsize" android:id="@+id/tv_report_texts" android:paddingTop="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/bottom" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.3"/>
+    <ImageView android:id="@+id/iv_report_images" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/bottom" android:contentDescription="@null"/>
+    <FrameLayout android:id="@+id/fragment_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom"/>
+</RelativeLayout>

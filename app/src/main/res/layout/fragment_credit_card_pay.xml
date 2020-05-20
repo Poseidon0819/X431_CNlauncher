@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="13dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/textsize_normal_M" android:textColor="#313131" android:gravity="left" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mine_credit_card_number"/>
+    <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/card_num" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginTop="5dp" android:layout_marginBottom="15dp" android:maxLength="19" android:inputType="number" style="@style/EditTextStyle"/>
+    <TextView android:textSize="@dimen/textsize_normal_M" android:textColor="#313131" android:gravity="left" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mine_credit_expiration_date"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginTop="5dp" android:layout_marginBottom="15dp">
+        <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/exp_mm" android:layout_width="100dp" android:layout_height="match_parent" android:hint="MM" android:maxLength="2" android:inputType="number" style="@style/EditTextStyle"/>
+        <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/exp_yy" android:layout_width="97dp" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:hint="YY" android:maxLength="2" android:inputType="number" style="@style/EditTextStyle"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/textsize_normal_M" android:textColor="#313131" android:gravity="left" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mine_credit_security_code"/>
+    <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/security_code" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginTop="5dp" android:layout_marginBottom="15dp" android:maxLength="3" android:inputType="number" style="@style/EditTextStyle"/>
+    <android.widget.LcButton android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:id="@+id/btn_submit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="0dp" android:text="@string/confirm" style="?attr/commomButtonStyle"/>
+</LinearLayout>

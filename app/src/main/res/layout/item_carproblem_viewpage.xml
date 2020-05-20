@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cnlaunch.x431pro.widget.pulltorefresh.PullToRefreshListView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bind_refresh_listview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="30dp" android:divider="#ededed" android:dividerHeight="10dp" style="@style/ListViewStyle.ListView.golo"/>

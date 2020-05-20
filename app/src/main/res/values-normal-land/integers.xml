@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="carlogoItemColumnNum">5</integer>
+    <integer name="face_row_num">11</integer>
+    <integer name="face_row_num_car">6</integer>
+    <integer name="face_row_num_gay">9</integer>
+    <integer name="face_row_num_goose">9</integer>
+    <integer name="sidebar_text">14</integer>
+    <integer name="sidebaroffset">155</integer>
+    <integer name="sidebartemp">0</integer>
+</resources>

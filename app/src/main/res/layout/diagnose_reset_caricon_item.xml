@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/select_car_bg" android:layout_width="@dimen/caricon_item_width" android:layout_height="@dimen/caricon_item_height">
+    <TextView android:textSize="@dimen/foreign_diagnose_car_name_text_size" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@+id/car_name" android:layout_width="wrap_content" android:layout_height="@dimen/carlogoItemsize_h" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"/>
+</RelativeLayout>

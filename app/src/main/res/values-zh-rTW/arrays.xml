@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>態度很差</item>
+        <item>態度一般</item>
+        <item>態度很好</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>效率很低</item>
+        <item>效率一般</item>
+        <item>效率很高</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>性價比很低</item>
+        <item>性價比一般</item>
+        <item>性價比很高</item>
+    </array>
+    <array name="area_selection">
+        <item>中國</item>
+        <item>其他</item>
+    </array>
+    <array name="func_status">
+        <item>無狀態</item>
+        <item>成功</item>
+        <item>失敗</item>
+        <item>完成</item>
+        <item>無故障碼</item>
+        <item>通訊失敗</item>
+        <item>系統進入ID不識別</item>
+        <item>功能開始</item>
+        <item>功能結束</item>
+        <item>資料流程類型、凍結框架類型的資料流程介面不需要顯示程式排序</item>
+    </array>
+    <array name="func_type">
+        <item>系統掃描</item>
+        <item>快速測試</item>
+        <item>系統進入</item>
+        <item>版本資訊</item>
+        <item>讀故障碼</item>
+        <item>清除故障碼</item>
+        <item>讀資料流程</item>
+        <item>讀凍結幀</item>
+        <item>動作測試</item>
+        <item>特殊功能</item>
+        <item>車型</item>
+        <item>子車型，系列</item>
+        <item>年款</item>
+        <item>排量</item>
+        <item>波箱類型</item>
+        <item>底盤</item>
+        <item>發動機類型</item>
+        <item>診斷記錄的系統ECUID資訊</item>
+        <item>快速測試故障碼報告</item>
+        <item>設置ODO數據</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>其它</item>
+        <item>自助診斷報告</item>
+        <item>專家診斷報告</item>
+        <item>一鍵清碼報告</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>其他</item>
+        <item>代駕</item>
+        <item>求援</item>
+        <item>拼車</item>
+        <item>租車</item>
+        <item>的士</item>
+        <item>代辦</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(簡體)</item>
+        <item>中文(繁體)</item>
+    </array>
+    <array name="syste_error_choose">
+        <item>1.點火開關已處於是keyII或者keyIII狀態或者發動機啟動狀態。</item>
+        <item>2.診斷接頭連接未見鬆動，且嘗試過使用延長線或不使用延長線測試。</item>
+        <item>3.車輛蓄電池電壓正常，通訊引腳電壓正常</item>
+        <item>4.確認車輛裝配該系統</item>
+        <item>5.ECU保險絲正常，ECU線路正常</item>
+        <item>6.已嘗試過關閉點火開關再打開點火開關的情況</item>
+        <item>7.已嘗試過再重新拔插接頭或者重啟平板測試的情況</item>
+        <item>8.車輛未改裝過與電控，OBD相關的線路</item>
+        <item>9.車輛未配有與OBD有關的車機</item>
+        <item>10.如果存在匯流排開關，則開關已處於打開狀態</item>
+    </array>
+</resources>

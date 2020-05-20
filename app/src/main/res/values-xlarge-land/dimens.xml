@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="caricon_item_height">180dp</dimen>
+    <dimen name="caricon_item_padding_v">5dp</dimen>
+    <dimen name="caricon_item_width">245dp</dimen>
+    <dimen name="carlogotitle_width">140dp</dimen>
+    <dimen name="diagnose_gridcar_pading_top">3dp</dimen>
+    <dimen name="graph_item_layout_height">168dp</dimen>
+    <dimen name="graph_item_layout_width">224dp</dimen>
+    <dimen name="item_list_messge_weight_bind">2</dimen>
+    <dimen name="leftmenu_button_height">125dp</dimen>
+    <dimen name="rename_popup_height">94dp</dimen>
+</resources>

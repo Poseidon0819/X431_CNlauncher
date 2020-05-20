@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/nav_head_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:textColor="@color/black" android:id="@+id/tv_allcar_num" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+        <TextView android:textSize="18sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:text="@string/serialnumber_txt"/>
+        <TextView android:textSize="18sp" android:gravity="center_vertical" android:id="@+id/tv_clear_serialNo" android:background="@drawable/spinner_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="152dp" android:text="@string/serialnumber_txt" android:drawableRight="@drawable/down_red_arrow"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <GridView android:gravity="center" android:id="@+id/clear_gridview" android:padding="@dimen/diagnose_gridcar_pading_top" android:scrollbars="none" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:verticalSpacing="@dimen/caricon_item_padding_v" android:stretchMode="columnWidth" android:numColumns="@integer/carlogoItemColumnNum"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:paddingTop="5dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lastest_version_num_txt"/>
+        <TextView android:textSize="18sp" android:layout_gravity="center_vertical" android:id="@+id/tv_select_lastest_number" android:background="@drawable/spinner_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100dp" android:minWidth="100dp" android:text="@string/serialnumber_txt" android:drawableRight="@drawable/down_red_arrow"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/radio_clear" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.del"/>
+    </LinearLayout>
+</LinearLayout>

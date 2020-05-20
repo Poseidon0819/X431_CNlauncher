@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <ImageView android:id="@+id/img_face" android:layout_width="64dp" android:layout_height="64dp" android:src="@drawable/login_default" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <RelativeLayout android:id="@+id/rl_mine_name" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height">
+                <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mine_tv_name" style="@style/MiniInfoItemTextStyle"/>
+                <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/tv_mine_name" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_alignParentRight="true" style="@style/MiniInfoItemTextStyle"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <RelativeLayout android:id="@+id/rl_mine_nickname" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height">
+                <TextView android:gravity="center_vertical" android:id="@+id/nickname_id" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/detail_golo_nikename" style="@style/MiniInfoItemTextStyle"/>
+                <TextView android:ellipsize="end" android:gravity="center" android:id="@+id/tv_mine_nickname" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_toRightOf="@+id/nickname_id" android:layout_alignParentRight="true" style="@style/MiniInfoItemTextStyle"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <RelativeLayout android:id="@+id/rl_mine_sex" android:background="@drawable/select_item_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/mine_item_height">
+                <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_tv_sex" android:layout_centerVertical="true" style="@style/MiniInfoItemTextStyle"/>
+                <TextView android:gravity="center_vertical" android:id="@+id/tv_mine_sex" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:layout_alignParentRight="true" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:visibility="gone" android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                <RadioGroup android:orientation="horizontal" android:id="@+id/radiogroup_sex_setting" android:background="@drawable/bg_radio_setting_pink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:minWidth="@dimen/radio_setting_minwidth" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <RadioButton android:id="@+id/radio_female" android:checked="true" android:text="@string/mine_tv_female" android:layout_weight="1" style="@style/ItemStyle.setting.RadioButton"/>
+                    <RadioButton android:id="@+id/radio_male" android:text="@string/mine_tv_male" android:layout_weight="1" style="@style/ItemStyle.setting.RadioButton"/>
+                </RadioGroup>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear_contact_info" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <RelativeLayout android:id="@+id/rl_mine_company" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height">
+                <TextView android:gravity="center" android:id="@+id/company_red" android:background="@drawable/rec" android:visibility="gone" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="3dp" android:layout_marginTop="3dp" android:layout_marginRight="10dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true"/>
+                <TextView android:gravity="center_vertical" android:id="@+id/tv_company" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/register_hint_company" style="@style/MiniInfoItemTextStyle"/>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toRightOf="@+id/tv_company">
+                    <ImageView android:id="@+id/img_company" android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/tv_mine_company" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_toLeftOf="@+id/img_company" style="@style/MiniInfoItemTextStyle"/>
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <RelativeLayout android:id="@+id/rl_mine_address" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height">
+                <TextView android:gravity="center" android:id="@+id/address_red" android:background="@drawable/rec" android:visibility="gone" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="3dp" android:layout_marginTop="3dp" android:layout_marginRight="10dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true"/>
+                <TextView android:gravity="center_vertical" android:id="@+id/tv_address" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/register_hint_address" style="@style/MiniInfoItemTextStyle"/>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toRightOf="@+id/tv_address">
+                    <ImageView android:id="@+id/img_address" android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                    <TextView android:ellipsize="end" android:gravity="center" android:id="@+id/tv_mine_address" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_toLeftOf="@+id/img_address" style="@style/MiniInfoItemTextStyle"/>
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <RelativeLayout android:id="@+id/rl_mine_contact" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height">
+                <TextView android:gravity="center" android:id="@+id/contact_red" android:background="@drawable/rec" android:visibility="gone" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="3dp" android:layout_marginTop="3dp" android:layout_marginRight="10dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true"/>
+                <TextView android:gravity="center_vertical" android:id="@+id/text_contact" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/register_hint_contact" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:id="@+id/img_contact" android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                <TextView android:ellipsize="end" android:gravity="center" android:id="@+id/tv_mine_contact" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_toLeftOf="@+id/img_contact" android:layout_toRightOf="@+id/text_contact" style="@style/MiniInfoItemTextStyle"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <RelativeLayout android:id="@+id/rl_mine_qq" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height">
+                <TextView android:gravity="center" android:id="@+id/qq_red" android:background="@drawable/rec" android:visibility="gone" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="3dp" android:layout_marginTop="3dp" android:layout_marginRight="10dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true"/>
+                <TextView android:gravity="center_vertical" android:id="@+id/text_qq" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/register_hint_qq" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:id="@+id/img_qq" android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                <TextView android:ellipsize="end" android:gravity="center" android:id="@+id/tv_mine_qq" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_toLeftOf="@+id/img_qq" android:layout_toRightOf="@+id/text_qq" style="@style/MiniInfoItemTextStyle"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <RelativeLayout android:id="@+id/rl_mine_weixin" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height">
+                <TextView android:gravity="center" android:id="@+id/weixin_red" android:background="@drawable/rec" android:visibility="gone" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="3dp" android:layout_marginTop="3dp" android:layout_marginRight="10dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true"/>
+                <TextView android:gravity="center_vertical" android:id="@+id/register_hint_weixin" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/register_hint_weixin" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:id="@+id/img_weixin" android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                <TextView android:ellipsize="end" android:gravity="center" android:id="@+id/tv_mine_weixin" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_toLeftOf="@+id/img_weixin" android:layout_toRightOf="@+id/register_hint_weixin" style="@style/MiniInfoItemTextStyle"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <RelativeLayout android:id="@+id/rl_mine_email" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height">
+                <TextView android:gravity="center_vertical" android:id="@+id/text_email" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mine_tv_email" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:id="@+id/img_email" android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                <TextView android:gravity="center_vertical" android:id="@+id/tv_bind_email_state" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@+id/img_email" style="@style/MiniInfoItemTextStyle"/>
+                <TextView android:ellipsize="end" android:gravity="center" android:id="@+id/tv_mine_email" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_toLeftOf="@+id/tv_bind_email_state" android:layout_toRightOf="@+id/text_email" style="@style/MiniInfoItemTextStyle"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <RelativeLayout android:id="@+id/rl_mine_phone" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height">
+                <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mine_tv_phone" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:id="@+id/img_phone" android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                <TextView android:gravity="center_vertical" android:id="@+id/tv_bind_phone_state" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@+id/img_phone" style="@style/MiniInfoItemTextStyle"/>
+                <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/tv_mine_phone" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_toLeftOf="@+id/tv_bind_phone_state" style="@style/MiniInfoItemTextStyle"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <RelativeLayout android:id="@+id/rl_mine_areas" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height">
+                <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/mine_tv_areas" style="@style/MiniInfoItemTextStyle"/>
+                <ImageView android:id="@+id/img_areas" android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/tv_mine_areas" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_toLeftOf="@+id/img_areas" style="@style/MiniInfoItemTextStyle"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+            <RelativeLayout android:id="@+id/rl_mine_reward" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height">
+                <ImageView android:id="@+id/img_areas" android:layout_marginRight="10dp" android:src="@drawable/right_arrow" style="@style/img_arrow_style"/>
+                <RadioButton android:gravity="center_vertical" android:id="@+id/btn_diagsoft_reward" android:layout_width="match_parent" android:layout_height="match_parent" android:button="@null" android:text="@string/setting_reward_check_title" android:layout_toLeftOf="@+id/img_areas" style="@style/MiniInfoItemTextStyle"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

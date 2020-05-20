@@ -1,0 +1,1147 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:1-225:12
+	package
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:166-200
+		INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:96-126
+		INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:70-95
+		INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:127-165
+	platformBuildVersionName
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:232-267
+	platformBuildVersionCode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:2:201-231
+uses-sdk
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:3:5-73
+INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:3:5-73
+INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:3:5-73
+INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:3:5-73
+INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:3:5-73
+	android:targetSdkVersion
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:3:42-71
+		INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:3:15-41
+		INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:4:5-65
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:4:22-63
+uses-permission#android.permission.INTERNET
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:6:5-74
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:6:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.SEND
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:12:5-62
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:12:22-60
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:13:5-83
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:13:22-81
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#com.android.vending.BILLING
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:16:5-73
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:16:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:20:22-77
+uses-permission#android.permission.WRITE_MEDIA_STORAGE
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:21:5-77
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:21:22-75
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:22:5-83
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:22:22-81
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:23:22-75
+uses-permission#android.permission.REORDER_TASKS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:24:22-69
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:25:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:26:5-70
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:26:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:27:22-65
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:28:5-84
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:28:22-82
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:29:5-87
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:29:22-85
+uses-permission#com.android.launcher3.permission.READ_SETTINGS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:30:5-85
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:30:22-83
+uses-permission#com.android.launcher3.permission.WRITE_SETTINGS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:31:5-86
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:31:22-84
+uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:32:5-89
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:32:22-87
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:33:5-92
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:33:22-90
+uses-permission#com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:34:5-93
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:34:22-91
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:35:5-67
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:35:22-65
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:36:5-74
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:36:22-72
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:37:5-67
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:37:22-65
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:38:5-97
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:38:22-95
+uses-permission#android.permission.ACCESS_GPS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:39:5-68
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:39:22-66
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:40:5-78
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:40:22-76
+uses-permission#android.permission.NFC
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:41:5-61
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:41:22-59
+uses-feature#android.hardware.nfc.hce
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:42:5-60
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:42:19-58
+uses-permission#org.simalliance.openmobileapi.SMARTCARD
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:43:5-78
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:43:22-76
+uses-permission#com.android.launcher2.permission.READ_SETTINGS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:44:5-85
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:44:22-83
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:45:22-80
+instrumentation
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:46:5-126
+	android:targetPackage
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:46:76-124
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:46:22-75
+meta-data#android.support.VERSION
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:47:5-79
+	android:value
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:47:55-77
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:47:16-54
+application
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:5-224:19
+	android:label
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:53-85
+	android:largeHeap
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:209-233
+	android:icon
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:86-122
+	android:allowBackup
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:182-208
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:18-52
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:123-181
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:49:9-127
+	android:value
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:49:70-125
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:49:20-69
+meta-data#com.google.android.gms.version
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:50:9-91
+	android:value
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:50:66-89
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:50:20-65
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:51:9-110
+	android:value
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:51:60-108
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:51:20-59
+meta-data#com.launch.adsdk.key
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:52:9-74
+	android:value
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:52:56-72
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:52:20-55
+service#com.baidu.location.ServiceC1002f
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:53:9-57:19
+	android:process
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:53:89-114
+	android:enabled
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:53:66-88
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:53:18-65
+intent-filter#action:name:com.baidu.location.service_v2.2
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:54:13-56:29
+action#com.baidu.location.service_v2.2
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:55:17-73
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:55:25-71
+activity#com.ifoer.pro.expeditionphone.WelcomeActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:58:9-63:20
+	android:label
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:58:77-109
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:58:171-232
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:58:19-76
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:58:110-170
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:59:13-62:29
+action#android.intent.action.MAIN
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:60:17-68
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:61:17-76
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:61:27-74
+provider#android.support.p012v4.content.FileProvider
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:64:9-66:20
+	android:grantUriPermissions
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:64:163-197
+	android:authorities
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:64:103-162
+	android:exported
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:64:78-102
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:64:19-77
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:65:13-115
+	android:resource
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:65:75-113
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:65:24-74
+activity#org.vudroid.pdfdroid.PdfViewerActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:67:9-74:20
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:67:73-123
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:67:19-72
+intent-filter#action:name:org.vudroid.pdfdroid.PdfViewerActivity+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:application/pdf
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:68:13-73:29
+action#org.vudroid.pdfdroid.PdfViewerActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:69:17-80
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:69:25-78
+category#android.intent.category.DEFAULT
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:70:17-75
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:70:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:71:17-77
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:71:27-75
+data
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:72:17-59
+	android:scheme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:115:60-85
+	android:mimeType
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:72:23-57
+activity#com.cnlaunch.x431pro.activity.info.P_DFScanActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:75:9-209
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:75:146-207
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:75:19-78
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:75:79-145
+activity#com.cnlaunch.x431pro.activity.GuideActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:76:9-115
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:76:78-113
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:76:19-77
+activity#com.cnlaunch.x431pro.activity.AdvertiseShowActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:77:9-123
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:77:86-121
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:77:19-85
+activity#com.cnlaunch.x431pro.activity.MainActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:78:9-83:20
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:78:131-162
+	android:windowSoftInputMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:78:232-274
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:78:163-231
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:78:19-72
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:78:73-130
+intent-filter#action:name:com.cnlaunch.golo.Notification+category:name:android.intent.category.DEFAULT
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:79:13-82:29
+action#com.cnlaunch.golo.Notification
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:80:17-72
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:80:25-70
+activity#com.cnlaunch.x431pro.activity.login.LoginActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:84:9-205
+	android:windowSoftInputMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:84:162-203
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:84:126-161
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:84:19-60
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:84:61-125
+activity#com.cnlaunch.x431pro.activity.login.RegistActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:85:9-144
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:85:85-142
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:85:19-84
+activity#com.cnlaunch.x431pro.activity.login.RegistActivity_ja
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:86:9-147
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:86:88-145
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:86:19-87
+activity#com.cnlaunch.x431pro.activity.login.RegisterInstructionActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:87:9-157
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:87:98-155
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:87:19-97
+activity#com.cnlaunch.x431pro.activity.login.ActivateJointActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:88:9-151
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:88:92-149
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:88:19-91
+activity#com.cnlaunch.x431pro.activity.login.RegisterFinishActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:89:9-130
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:89:93-128
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:89:19-92
+activity#com.cnlaunch.x431pro.activity.login.FindPasswordActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:90:9-161
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:90:91-159
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:90:19-90
+activity#com.cnlaunch.x431pro.activity.login.ResetPasswordActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:91:9-162
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:91:92-160
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:91:19-91
+activity#com.cnlaunch.x431pro.activity.login.HowToGetJointVerifyCodeActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:92:9-139
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:92:102-137
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:92:19-101
+activity#com.cnlaunch.x431pro.activity.login.RegisterProfileActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:93:9-131
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:93:94-129
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:93:19-93
+activity#com.cnlaunch.x431pro.activity.login.CountrySelectActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:94:9-169
+	android:windowSoftInputMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:94:128-167
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:94:92-127
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:94:19-91
+activity#com.cnlaunch.x431pro.activity.diagnose.DiagnoseActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:95:9-185
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:95:90-121
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:95:122-183
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:95:19-89
+activity#com.cnlaunch.x431pro.activity.bluetooth.BluetoothActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:96:9-229
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:96:134-165
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:96:166-227
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:96:19-60
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:96:61-133
+activity#com.cnlaunch.x431pro.activity.bluetooth.DownloadBinActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:97:9-231
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:97:136-167
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:97:168-229
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:97:19-60
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:97:61-135
+activity#com.cnlaunch.x431pro.activity.share.ShareActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:98:9-221
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:98:126-157
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:98:158-219
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:98:19-60
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:98:61-125
+activity#com.cnlaunch.x431pro.activity.info.InfoActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:99:9-151
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:99:82-113
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:99:114-149
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:99:19-81
+activity#com.cnlaunch.x431pro.activity.upgrade.UpgradeActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:100:9-190
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:100:88-119
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:100:120-188
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:100:19-87
+activity#com.cnlaunch.x431pro.activity.upgrade.UpgradeDocActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:101:9-193
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:101:91-122
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:101:123-191
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:101:19-90
+activity#com.cnlaunch.x431pro.activity.golo.GoloActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:102:9-184
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:102:82-113
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:102:114-182
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:102:19-81
+activity#com.cnlaunch.x431pro.activity.golousa.GoloUSAActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:103:9-190
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:103:88-119
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:103:120-188
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:103:19-87
+activity#com.cnlaunch.p169im.IMActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:104:9-167
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:104:65-96
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:104:97-165
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:104:19-64
+activity#com.cnlaunch.x431pro.activity.golo.function.GoloFunctionActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:105:9-177
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:105:99-128
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:105:129-175
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:105:19-98
+activity#com.cnlaunch.x431pro.activity.golo.UserDetailActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:106:9-166
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:106:88-117
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:106:118-164
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:106:19-87
+activity#com.cnlaunch.x431pro.activity.browser.BrowserActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:107:9-157
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:107:88-119
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:107:120-155
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:107:19-87
+activity#com.cnlaunch.x431pro.activity.tools.ToolsActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:108:9-179
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:108:84-115
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:108:116-177
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:108:19-83
+activity#com.cnlaunch.x431pro.activity.mine.MineActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:109:9-219
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:109:82-113
+	android:windowSoftInputMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:109:176-217
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:109:114-175
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:109:19-81
+activity#com.cnlaunch.x431pro.activity.mine.PDFReportActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:110:9-189
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:110:87-118
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:110:119-187
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:110:19-86
+activity#com.cnlaunch.x431pro.activity.help.HelpActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:111:9-117:20
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:111:82-117
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:111:19-81
+intent-filter#action:name:HELP_ACTION+category:name:android.intent.category.DEFAULT+data:mimeType:cnlaunch/helpfile+data:scheme:helpfile
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:112:13-116:29
+action#HELP_ACTION
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:113:17-53
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:113:25-51
+activity#com.cnlaunch.x431pro.activity.help.HelpShowFileActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:118:9-127
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:118:90-125
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:118:19-89
+receiver#com.cnlaunch.x431pro.activity.setting.SettingLaunchReceiver
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:119:9-124:20
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:119:19-93
+intent-filter#action:name:com.cnlaunch.intent.action.SETTINGS+category:name:android.intent.category.DEFAULT
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:120:13-123:29
+action#com.cnlaunch.intent.action.SETTINGS
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:121:17-77
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:121:25-75
+activity#com.cnlaunch.x431pro.activity.setting.SettingActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:125:9-190
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:125:88-119
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:125:120-188
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:125:19-87
+activity#com.cnlaunch.x431pro.activity.setting.FeedbackActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:126:9-229
+	android:screenOrientation
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:126:121-158
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:126:89-120
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:126:159-227
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:126:19-88
+activity#com.cnlaunch.x431pro.activity.ReportShowActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:127:9-185
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:127:83-114
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:127:115-183
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:127:19-82
+activity#com.cnlaunch.x431pro.activity.setting.SendDiagnosticLogActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:128:9-210
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:128:140-208
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:128:19-60
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:128:61-139
+activity#com.cnlaunch.x431pro.activity.setting.SendDiagnosticLogActivity1
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:129:9-131:20
+	android:parentActivityName
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:129:161-232
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:129:99-160
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:129:19-98
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:13-131
+	android:value
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:71-129
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:24-70
+uses-library#android.test.runner
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:132:9-59
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:132:23-57
+service#com.cnlaunch.diagnosemodule.service.DiagnoseService
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:133:9-157
+	android:process
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:133:85-131
+	android:priority
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:133:132-155
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:133:18-84
+activity#com.cnlaunch.p169im.ShowVideoActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:134:9-174
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:134:72-103
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:134:104-172
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:134:19-71
+activity#com.cnlaunch.x431pro.activity.golo.function.PicturePreviewActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:135:9-201
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:135:101-130
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:135:131-199
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:135:19-100
+activity#com.cnlaunch.x431pro.activity.golo.function.ShowPictureActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:136:9-187
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:136:98-127
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:136:128-185
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:136:19-97
+activity#com.cnlaunch.p169im.ShowImageDetailActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:137:9-178
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:137:78-107
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:137:108-176
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:137:19-77
+activity#com.cnlaunch.golo3.view.selectimg.SelectPicActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:138:9-186
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:138:86-115
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:138:116-184
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:138:19-85
+activity#com.cnlaunch.golo3.view.selectimg.CropImageActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:139:9-186
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:139:86-115
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:139:116-184
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:139:19-85
+activity#com.cnlaunch.x431pro.activity.login.LoginConfictActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:140:9-222
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:140:133-162
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:140:163-220
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:140:19-60
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:140:61-132
+activity#com.cnlaunch.x431pro.module.rtu.HomeStartActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:141:9-222
+	android:screenOrientation
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:141:114-151
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:141:84-113
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:141:152-220
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:141:19-83
+activity#com.cnlaunch.x431pro.activity.diagnose.VINSelectDialogActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:142:9-230
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:142:139-170
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:142:171-228
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:142:19-60
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:142:61-138
+activity#com.cnlaunch.wifiprinter.HelpActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:143:9-147
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:143:116-145
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:143:19-62
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:143:63-115
+activity#com.cnlaunch.x431pro.activity.login.RegistMerchantHomePageActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:144:9-190
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:144:101-130
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:144:131-188
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:144:19-100
+activity#com.cnlaunch.x431pro.activity.login.RegistMerchantActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:145:9-193
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:145:93-122
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:145:123-191
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:145:19-92
+activity#com.cnlaunch.x431pro.activity.login.RegistMerchantTermsAndPoliciesActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:146:9-209
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:146:109-138
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:146:139-207
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:146:19-108
+activity#com.cnlaunch.x431pro.activity.login.RegistMerchantSelectCarActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:147:9-202
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:147:102-131
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:147:132-200
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:147:19-101
+activity#com.cnlaunch.x431pro.activity.login.BindMerchantActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:148:9-180
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:148:91-120
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:148:121-178
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:148:19-90
+activity#com.cnlaunch.gmap.map.LocationSearchActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:149:9-168
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:149:79-108
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:149:109-166
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:149:19-78
+uses-library#org.simalliance.openmobileapi
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:150:9-94
+	android:required
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:150:68-92
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:150:23-67
+activity#com.unionpay.uppay.PayActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:9-264
+	android:screenOrientation
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:132-168
+	android:label
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:19-51
+	android:excludeFromRecents
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:98-131
+	android:windowSoftInputMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:220-262
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:169-219
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:52-97
+activity#com.unionpay.UPPayWapActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:152:9-196
+	android:screenOrientation
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:152:64-100
+	android:windowSoftInputMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:152:152-194
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:152:101-151
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:152:19-63
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:153:9-245
+	android:screenOrientation
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:153:92-126
+	android:windowSoftInputMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:153:189-243
+	android:exported
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:153:67-91
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:153:127-188
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:153:19-66
+activity#com.alipay.sdk.auth.AuthActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:154:9-190
+	android:screenOrientation
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:154:92-126
+	android:exported
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:154:67-91
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:154:127-188
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:154:19-66
+activity#com.cnlaunch.x431pro.activity.pay.PlaceOrderActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:155:9-157:20
+	android:parentActivityName
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:155:119-190
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:155:87-118
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:155:19-86
+activity#com.cnlaunch.x431pro.activity.pay.ChoicePayModeActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:158:9-160:20
+	android:parentActivityName
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:158:122-193
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:158:90-121
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:158:19-89
+activity#com.cnlaunch.x431pro.activity.pay.WechatpayActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:161:9-163:20
+	android:parentActivityName
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:161:118-189
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:161:86-117
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:161:19-85
+activity#com.cnlaunch.x431pro.activity.info.RepairInfoActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:164:9-166:20
+	android:parentActivityName
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:164:88-159
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:164:19-87
+activity#com.cnlaunch.x431pro.activity.info.PdfSearchActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:167:9-206
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:167:147-204
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:167:19-78
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:167:79-146
+service#com.cnlaunch.p169im.service.GoloMessageService
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:168:9-155
+	android:exported
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:168:106-129
+	android:priority
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:168:130-153
+	android:persistent
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:168:80-105
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:168:18-79
+service#com.cnlaunch.defend.DefendService
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:169:9-195
+	android:process
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:169:127-169
+	android:label
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:169:18-51
+	android:priority
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:169:170-193
+	android:persistent
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:169:101-126
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:169:52-100
+receiver#com.cnlaunch.x431pro.receiver.BootUpReceiver
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:170:9-174:20
+	android:enabled
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:170:79-101
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:170:19-78
+intent-filter#category:name:android.intent.category.HOME
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:171:13-173:29
+category#android.intent.category.HOME
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:172:17-72
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:172:27-70
+receiver#com.cnlaunch.x431pro.module.golo.model.GoloKeyReceiver
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:175:9-180:20
+	android:enabled
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:175:89-111
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:175:19-88
+intent-filter#action:name:com.android.action.golo_long_press+action:name:com.android.action.golo_press
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:176:13-179:29
+action#com.android.action.golo_press
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:177:17-71
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:177:25-69
+action#com.android.action.golo_long_press
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:178:17-76
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:178:25-74
+receiver#com.cnlaunch.x431pro.receiver.RemoteRequestReceiver
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:181:9-187:20
+	android:enabled
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:181:86-108
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:181:19-85
+intent-filter#action:name:android.intent.action.LOCALE_CHANGED+action:name:com.cnlaunch.x431pro.action.goloseller.exit+action:name:sellerRequest_remotediag
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:182:13-186:29
+action#sellerRequest_remotediag
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:183:17-66
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:183:25-64
+action#com.cnlaunch.x431pro.action.goloseller.exit
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:184:17-85
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:184:25-83
+action#android.intent.action.LOCALE_CHANGED
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:185:17-78
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:185:25-76
+service#com.cnlaunch.diagnosemodule.service.AppJniCrashHandlerService
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:188:9-193:19
+	android:process
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:188:119-175
+	android:exported
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:188:95-118
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:188:18-94
+intent-filter#action:name:com.cnlaunch.intent.action.AppJniCrashHandlerService+category:name:android.intent.category.DEFAULT
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:189:13-192:29
+action#com.cnlaunch.intent.action.AppJniCrashHandlerService
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:190:17-94
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:190:25-92
+service#com.cnlaunch.x431pro.activity.pdf.ReportIntentService
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:194:9-198:19
+	android:process
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:194:87-131
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:194:18-86
+intent-filter#action:name:com.cnlaunch.report.action_save
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:195:13-197:29
+action#com.cnlaunch.report.action_save
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:196:17-73
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:196:25-71
+activity#com.cnlaunch.x431pro.activity.setting.wifi.DPUWiFiLinkModeSettingsActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:199:9-247
+	android:screenOrientation
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:199:139-176
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:199:109-138
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:199:177-245
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:199:19-108
+activity#com.cnlaunch.x431pro.activity.diagnose.view.SerialNumberSelectedActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:200:9-176
+	android:screenOrientation
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:200:137-174
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:200:107-136
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:200:19-106
+activity#com.cnlaunch.x431pro.activity.login.CompleteUserInfoActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:201:9-126
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:201:95-124
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:201:19-94
+service#com.cnlaunch.x431pro.activity.CloudDiagnose.CloudReportUploadService
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:202:9-206:19
+	android:process
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:202:102-157
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:202:18-101
+intent-filter#action:name:com.cnlaunch.cloudreport.action.upload
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:203:13-205:29
+action#com.cnlaunch.cloudreport.action.upload
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:204:17-80
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:204:25-78
+activity#com.cnlaunch.x431pro.activity.login.WebActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:207:9-152
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:207:82-150
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:207:19-81
+activity#com.cnlaunch.x431pro.activity.upgrade.UpgradeDetailActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:208:9-189
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:208:94-125
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:208:126-187
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:208:19-93
+activity#com.cnlaunch.x431pro.activity.upgrade.PayTypeActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:209:9-183
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:209:88-119
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:209:120-181
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:209:19-87
+activity#com.cnlaunch.x431pro.activity.pay.AlipayActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:210:9-116
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:210:83-114
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:210:19-82
+activity#com.cnlaunch.x431pro.activity.setting.MallActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:211:9-155
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:211:85-153
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:211:19-84
+activity#com.cnlaunch.x431pro.module.p242ad.ADShowActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:212:9-182
+	android:hardwareAccelerated
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:212:146-180
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:212:84-145
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:212:19-83
+uses-library#com.cnlaunch.second.wifi.service
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:213:9-97
+	android:required
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:213:71-95
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:213:23-70
+activity#com.twitter.sdk.android.tweetui.PlayerActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:214:9-178
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:214:115-176
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:214:19-52
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:214:53-114
+activity#com.twitter.sdk.android.tweetui.GalleryActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:215:9-117
+	android:theme
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:215:19-52
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:215:53-115
+activity#com.twitter.sdk.android.tweetcomposer.ComposerActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:216:9-171
+	android:windowSoftInputMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:216:114-169
+	android:exported
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:216:89-113
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:216:19-88
+service#com.twitter.sdk.android.tweetcomposer.TweetUploadService
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:217:9-139
+	android:enabled
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:217:90-112
+	android:exported
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:217:113-137
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:217:18-89
+activity#com.twitter.sdk.android.core.identity.OAuthActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:218:9-193
+	android:excludeFromRecents
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:218:111-144
+	android:exported
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:218:86-110
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:218:145-191
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:218:19-85
+activity#com.mopub.mobileads.MoPubActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:219:9-131
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:219:68-129
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:219:19-67
+activity#com.mopub.mobileads.MraidActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:220:9-131
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:220:68-129
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:220:19-67
+activity#com.mopub.common.MoPubBrowser
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:221:9-127
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:221:64-125
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:221:19-63
+activity#com.mopub.mobileads.MraidVideoPlayerActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:222:9-142
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:222:79-140
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:222:19-78
+activity#com.cnlaunch.golo3.view.selectimg.clip.ClipImageActivity
+ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:223:9-191
+	android:launchMode
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:223:91-120
+	android:configChanges
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:223:121-189
+	android:name
+		ADDED from D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:223:19-90

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cnlaunch.golo3.view.LayoutRelative xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cnlaunch.golo3.view.LayoutRelative android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" android:contentDescription="{base:width,width:1,height:0.515}">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="{base:width,width:1,height:0.515}"/>
+        <Button android:textColor="@color/white" android:id="@+id/menu_video_camera" android:background="@drawable/green_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="takevideo" android:layout_centerHorizontal="true" android:contentDescription="{base:width,width:0.937,height:0.133,top:0.047,textSize:0.05}"/>
+        <Button android:textColor="@color/white" android:id="@+id/menu_video_gallery" android:background="@drawable/green_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="selectLocalVideo" android:layout_below="@+id/menu_video_camera" android:layout_centerHorizontal="true" android:contentDescription="{base:width,width:0.937,height:0.133,top:0.019,textSize:0.05}"/>
+        <Button android:textColor="@color/white" android:id="@+id/menu_video_cancel" android:background="@drawable/cance_seletor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_below="@+id/menu_video_gallery" android:layout_centerHorizontal="true" android:contentDescription="{base:width,width:0.937,height:0.133,top:0.019,textSize:0.05}"/>
+    </com.cnlaunch.golo3.view.LayoutRelative>
+</com.cnlaunch.golo3.view.LayoutRelative>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/item_height">
+    <CheckBox android:id="@+id/cbox_item" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:button="@drawable/select_btn_cbox"/>
+    <TextView android:gravity="center" android:id="@+id/tv_carname_item" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/TextViewStyle.update.itemvalue"/>
+    <TextView android:gravity="center" android:id="@+id/tv_curversion_item" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/TextViewStyle.update.itemvalue"/>
+    <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/tv_upgradeversion_item" android:background="@drawable/spinner_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="200dp" android:drawableRight="@drawable/down_red_arrow" style="@style/TextViewStyle.update.itemvalue"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/lin_expand" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2">
+            <ImageView android:id="@+id/division_expand" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:src="@drawable/selector_expand_red" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

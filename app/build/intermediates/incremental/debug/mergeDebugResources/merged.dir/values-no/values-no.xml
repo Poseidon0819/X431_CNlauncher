@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Avbryt</string>
+    <string name="cannot_open_buffer">Kan ikke åpne buffer</string>
+    <string name="cannot_open_document">Kan ikke åpne dukumentet</string>
+    <string name="cannot_open_document_Reason">Kan ikke åpne dokumentet: %1$s</string>
+    <string name="cannot_open_file_Path">Kan ikke åpne filen: %1$s</string>
+    <string name="choose_value">Velg verdi</string>
+    <string name="dismiss">Avvis</string>
+    <string name="document_has_changes_save_them_">Det er endringer i dokumentet. Lagre dem?</string>
+    <string name="enter_password">Skriv inn passord</string>
+    <string name="fill_out_text_field">Fyll ut tekstfeltet</string>
+    <string name="format_currently_not_supported">Formatet er ikke støttet for øyeblikket</string>
+    <string name="more">Mer</string>
+    <string name="no">Nei</string>
+    <string name="no_further_occurrences_found">Ingen flere hendelser funnet</string>
+    <string name="not_supported">Ikke støttet</string>
+    <string name="okay">Ok</string>
+    <string name="print">Skriv ut</string>
+    <string name="print_failed">Kunne ikke skrive ut</string>
+    <string name="search">Søk</string>
+    <string name="search_backwards">Søk bakover</string>
+    <string name="search_document">Søk i dokument</string>
+    <string name="search_forwards">Søk framover</string>
+    <string name="searching_">Søker...</string>
+    <string name="text_not_found">Teksten ble ikke funnet</string>
+    <string name="yes">Ja</string>
+</resources>

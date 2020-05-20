@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/browser_linear" android:layout_width="match_parent" android:layout_height="@dimen/dp_55">
+                <TextView android:textSize="20sp" android:gravity="center" android:id="@+id/browser_apk_name" android:layout_width="0dp" android:layout_height="@dimen/dp_50" android:text="@string/dolphin_browser_apk" android:layout_weight="1"/>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <TextView android:textSize="20sp" android:gravity="center" android:id="@+id/browser_file" android:layout_width="0dp" android:layout_height="@dimen/dp_50" android:text="@string/browser_file_len" android:layout_weight="1"/>
+                    <ProgressBar android:id="@+id/browser_process" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:layout_weight="1" style="@style/ProgressBarStyle.YellowStyle"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <Button android:textSize="20sp" android:id="@+id/btn_browser_upgrade" android:background="@drawable/item_down" android:layout_width="150dp" android:layout_height="@dimen/dp_40" android:text="@string/upgrade_apk"/>
+                    <Button android:textSize="20sp" android:id="@+id/btn_browser_install" android:background="@drawable/item_down" android:visibility="gone" android:layout_width="150dp" android:layout_height="@dimen/dp_40" android:text="@string/install_apk"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/flash_linear" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/dp_55" android:layout_below="@+id/browser_linear">
+                <TextView android:textSize="20sp" android:gravity="center" android:id="@+id/flash_apk_name" android:layout_width="0dp" android:layout_height="@dimen/dp_50" android:text="@string/adobe_flash_player_apk" android:layout_weight="1"/>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <TextView android:textSize="20sp" android:gravity="center" android:id="@+id/flash_file" android:layout_width="0dp" android:layout_height="@dimen/dp_50" android:text="@string/flash_file_len" android:layout_weight="1"/>
+                    <ProgressBar android:id="@+id/flash_process" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:layout_weight="1" style="@style/ProgressBarStyle.YellowStyle"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <Button android:textSize="20sp" android:id="@+id/btn_flash_upgrade" android:background="@drawable/item_down" android:layout_width="150dp" android:layout_height="@dimen/dp_40" android:text="@string/upgrade_apk"/>
+                    <Button android:textSize="20sp" android:id="@+id/btn_flash_install" android:background="@drawable/item_down" android:visibility="gone" android:layout_width="150dp" android:layout_height="@dimen/dp_40" android:text="@string/install_apk"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:id="@+id/enter_cyinfo" android:padding="@dimen/mineinfo_textviewpadding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dp_60" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:layout_marginBottom="@dimen/dp_10" android:text="@string/start_launch_info" android:drawablePadding="10dp" android:layout_alignParentBottom="true" style="?attr/commonButtonLongStyle"/>
+    </RelativeLayout>
+</LinearLayout>

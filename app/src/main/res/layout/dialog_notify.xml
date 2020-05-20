@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cnlaunch.golo3.view.LayoutRelative xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cnlaunch.golo3.view.LayoutRelative android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true" android:contentDescription="{base:width,width:0.9375,height:0.5469}">
+        <com.cnlaunch.golo3.view.LayoutRelative android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:contentDescription="{base:width,width:0.8438,height:0.3672}">
+            <TextView android:textColor="#222222" android:ellipsize="middle" android:gravity="left" android:id="@+id/confirm_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="提示" android:layout_centerInParent="true" android:contentDescription="{base:width,textSize:0.05}"/>
+        </com.cnlaunch.golo3.view.LayoutRelative>
+        <Button android:textColor="#ffffff" android:id="@+id/confirm_ok" android:background="@drawable/green_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/confirm" android:layout_centerHorizontal="true" android:contentDescription="{base:width,width:0.86,height:0.13,top:0.3672,textSize:0.05}"/>
+    </com.cnlaunch.golo3.view.LayoutRelative>
+</com.cnlaunch.golo3.view.LayoutRelative>

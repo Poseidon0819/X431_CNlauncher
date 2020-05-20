@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/tool_main_view" android:background="?attr/mainLogosBackground" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

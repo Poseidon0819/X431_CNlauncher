@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/select_listview" android:paddingLeft="@dimen/horizontal_margin" android:paddingRight="@dimen/horizontal_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/tv_carname" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ItemCarVerStyle"/>
+        <TextView android:id="@+id/tv_carver" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ItemCarVerStyle"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/btn_del" android:background="@drawable/select_btn_diagnose_del" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null"/>
+</RelativeLayout>

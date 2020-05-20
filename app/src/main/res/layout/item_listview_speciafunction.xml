@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/item_text_padding">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/item_specia_layout" android:background="?attr/diagnoseItemBackground" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

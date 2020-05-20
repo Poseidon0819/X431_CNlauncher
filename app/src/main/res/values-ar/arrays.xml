@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>الموقف السيئ</item>
+        <item>الموقف ليس سيئا</item>
+        <item>الموقف جيد</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>الكفاءة السيئة</item>
+        <item>الكفاءة ليست عالية</item>
+        <item>الكفاءة العالية</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>أداء التكلفة المنخفض</item>
+        <item>أداء التكلفة ليس عاليا</item>
+        <item>أداء التكلفة عالي</item>
+    </array>
+    <array name="area_selection">
+        <item>الصين</item>
+        <item>آخر</item>
+    </array>
+    <array name="func_status">
+        <item>لا توجد الحالة</item>
+        <item>نجح</item>
+        <item>فشل</item>
+        <item>اكتمل</item>
+        <item>لا يوجد رمز الخطأ</item>
+        <item>فشل في الاتصال</item>
+        <item>لم يتم العثور علي الرقم</item>
+    </array>
+    <array name="func_type">
+        <item>مسح النظام</item>
+        <item>الاختبار السريع</item>
+        <item>الدخول الي النظام</item>
+        <item>معلومات الإصدار</item>
+        <item>هطأ القراءة</item>
+        <item>مسح رمز الخطأ</item>
+        <item>قراءة تدفق البيانات</item>
+        <item>قراءة الإطار المجمد</item>
+        <item>اختبار العمل</item>
+        <item>الوظيفة الخاصة</item>
+        <item>النموذج</item>
+        <item>النموذج</item>
+        <item>سنة</item>
+        <item>الإزاحة</item>
+        <item>ناقل الحركة</item>
+        <item>الشاسيه</item>
+        <item>المحرك</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>الأخري</item>
+        <item>تقرير التشخيص الذاتي</item>
+        <item>تقرير تشخيص الخبراء</item>
+        <item>مسح تقرير بمفتاح واحد</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>أخري</item>
+        <item>السائق المخصص</item>
+        <item>المساعدة</item>
+        <item>مرافقي طريق</item>
+        <item>تاجير سيارة</item>
+        <item>تاكسي</item>
+        <item>توكيل</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <GridView android:id="@+id/gridview" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00ffffff" android:horizontalSpacing="2dp" android:verticalSpacing="2dp" android:numColumns="2"/>
+    <RelativeLayout android:background="@color/gray_bg_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="45dp" android:layout_alignParentBottom="true">
+        <CheckBox android:id="@+id/checkbox_yuan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:checked="false" android:layout_centerVertical="true" style="@style/selectCheckBox"/>
+        <TextView android:textSize="16sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/img_yes" android:layout_toRightOf="@+id/checkbox_yuan" android:layout_centerInParent="true"/>
+        <TextView android:textSize="16sp" android:gravity="center" android:id="@+id/confirm_ok" android:background="@drawable/title_color_select" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/confirm" android:layout_alignParentRight="true" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

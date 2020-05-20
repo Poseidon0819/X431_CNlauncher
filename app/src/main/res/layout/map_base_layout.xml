@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/bmapView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.cnlaunch.golo3.map.logic.control.MapFrameLayout android:id="@+id/subcontent" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/loadingLayout" android:background="#80222222" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:background="@android:color/white" android:padding="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ProgressBar android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/progressbar" android:layout_width="30dp" android:layout_height="30dp" android:indeterminateDrawable="@drawable/progress_rotate"/>
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@android:color/black" android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/tv_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:singleLine="true"/>
+        </LinearLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/no_data_layout" android:background="#ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/err_tishi_img" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/blank_info_bg" android:layout_centerInParent="true"/>
+        <RelativeLayout android:gravity="center" android:id="@+id/err_tishi_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="78dp" android:layout_alignLeft="@+id/err_tishi_img" android:layout_alignRight="@+id/err_tishi_img" android:layout_alignBottom="@+id/err_tishi_img">
+            <TextView android:textSize="@dimen/sp_14" android:textColor="#959595" android:ellipsize="end" android:id="@+id/err_tishi_text" android:paddingLeft="@dimen/sp_10" android:paddingRight="@dimen/sp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@color/green_text_color" android:ellipsize="end" android:id="@+id/err_guide_text" android:paddingLeft="@dimen/sp_10" android:paddingRight="@dimen/sp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@+id/err_tishi_text" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layoutprofile_top" android:layout_width="match_parent" android:layout_height="@dimen/regit_head_height">
+        <TextView android:textSize="@dimen/textSize_larger_base" android:textColor="@color/red" android:gravity="center" android:layout_gravity="center" android:id="@+id/profile_regiter_editText" android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/register" android:layout_weight="1"/>
+        <LinearLayout android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/editText2_1" android:background="@drawable/register_head_5" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/textSize_larger_base" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/editText2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/joint_activate"/>
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/register_head_1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/editText3_0" android:background="@drawable/register_head_5" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/textSize_larger_base" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/editText3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/profile"/>
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/editText3_1" android:background="@drawable/register_head_4" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/textSize_larger_base" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/editText4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/finish"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:id="@+id/profile_scrollview" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/profile_layout_left" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp" android:layout_weight="2">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/edit_txt_height" android:layout_marginTop="10dp">
+                    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@+id/profile_radiogroup_sex" android:layout_width="match_parent" android:layout_height="@dimen/edit_txt_height">
+                        <RadioButton android:textColor="@color/edit_color_hint" android:layout_gravity="center_vertical" android:id="@+id/profile_radio_male_chose" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginRight="@dimen/mine_area_margin" android:button="@null" android:text="@string/profile_sex_male" android:drawableLeft="@drawable/btn_cbox_profile_sex" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                        <RadioButton android:textColor="@color/edit_color_hint" android:layout_gravity="center_vertical" android:id="@+id/profile_radio_female_chose" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginRight="@dimen/mine_area_margin" android:button="@null" android:text="@string/profile_sex_female" android:drawableLeft="@drawable/btn_cbox_profile_sex" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                    </RadioGroup>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/profile_workshop" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_width="match_parent" android:layout_height="@dimen/edit_txt_height" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/profile_workshop" android:singleLine="true" android:maxLength="20"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/profile_address" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_width="match_parent" android:layout_height="@dimen/edit_txt_height" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/profile_address" android:singleLine="true" android:maxLength="20"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/profile_layout_right" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="40dp" android:layout_weight="1">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/profile_mobile" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_width="match_parent" android:layout_height="@dimen/edit_txt_height" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/profile_mobile" android:singleLine="true" android:maxLength="20"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/profile_telephone" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_width="match_parent" android:layout_height="@dimen/edit_txt_height" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/profile_telephone" android:singleLine="true" android:maxLength="20"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/profile_fax" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_width="match_parent" android:layout_height="@dimen/edit_txt_height" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/profile_fax" android:singleLine="true" android:maxLength="20"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layoutprofile_botton" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@color/white" android:id="@+id/profile_btn_save" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="47dp" android:layout_marginTop="10dp" android:layout_marginRight="47dp" android:text="@string/profile_btn_save" style="?attr/commomButtonStyle"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginTop="15dp" android:layout_marginRight="50dp">
+        <TextView android:textSize="20sp" android:id="@+id/profile_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_skip" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

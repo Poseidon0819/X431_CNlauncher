@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Q2As>
+  <Q2A>
+  <Question>Communication error with vehicle ECU?</Question>
+  <Answer>Please confirm:
+(1) Whether diagnostic connector is correct connected.
+(2) Whether ignition SW is ON.
+(3) If all checks are normal, send the VIN, car model, and model year to us.</Answer>
+  </Q2A>
+  <Q2A>
+  <Question>Failed to enter into vehicle ECU system?</Question>
+  <Answer>Please confirm:
+(1) Whether the vehicle has equipped with this system.
+(2) Whether the system is electronic control system.
+(3) Whether diagnostic connector is correct connected.
+(4) Whether ignition SW is ON.
+(5) If all checks are normal, send the VIN, car model, and model year to us.</Answer>
+  </Q2A>
+  <Q2A>
+  <Question>Whether can I use other similar adaptors to charge the tablet?</Question>
+  <Answer>No. Please use the included 5V power adaptor or docking station to charge your tablet. We assume no responsibility for damage or loss resulting from using other similar adaptors other than the specified one. </Answer>
+  </Q2A>
+  <Q2A>
+  <Question>How to save power?</Question>
+  <Answer>(1) Please turn off the screen while the tablet keeps idle.
+(2) Set a shorter standby time.
+(3) Decrease the brightness of the screen.
+(4) If Wi-Fi connection is not required, please turn it off.
+(5) Disable GPS function if GPS service is not in use.</Answer>
+  </Q2A>
+  <Q2A>
+  <Question>What should I do in case I forgot the screen lock?</Question>
+  <Answer>You can set screen lock as pattern or password. If you forgot the password, please consult your device provider or reset your device. In light that you often use the tablet to diagnose vehicles and it may take you several minutes to do resetting, you are not recommended to define screen lock. For detailed information on how to restore tablet to factory settings, please refer to Item 4 &quot;How to reset the tablet?&quot; described as below.</Answer>
+  </Q2A>
+  <Q2A>
+  <Question>How to reset the tablet?</Question>
+  <Answer>Do the followings to reset:
+(1) Ensure the tablet is in OFF mode;
+(2) Hold and press VOLUME - key and POWER key until the tablet enters system recovery mode;
+(3) Use the VOLUME + / VOLUME - key to move the highlight bar on &quot;wipe data / factory reset&quot; and press POWER key to confirm;
+(4) Press VOLUME + / VOLUME - to select &quot;yes&quot; and press POWER key to confirm;
+(5) Select &quot;reboot system now&quot; and press POWER key to restart the system;
+(6) After resetting is complete, follow the on-screen instructions to finish the system settings.
+Warning: Resetting may cause data loss. Before doing so, please make sure important data has been backed up.</Answer>
+  </Q2A>
+  <Q2A>
+  <Question>How to do if the system runs slowly?</Question>
+  <Answer>In this case, please do the followings:
+(1) Tap the Recent App key on the screen bottom task bar, a task window will then show. Press and hold the application icon you wish to close, and swipe upwards to close it.
+(2) Check all installed applications and remove the unnecessary applications.
+ If all steps mentioned above are finished and the system still works slowly, please try to close the system and reboot your tablet.</Answer>
+  </Q2A>
+  <Q2A>
+  <Question>The data and time of the tablet can not be set.</Question>
+  <Answer>It is because Automatic date &amp; time is set on your tablet. Tap the Date &amp; time item in Settings program, deselect &quot;Automatic date &amp; time&quot; and then set the date and time manually.</Answer>
+  </Q2A>
+</Q2As>
+

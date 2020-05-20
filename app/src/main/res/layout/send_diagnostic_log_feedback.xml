@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/shape_cir_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp">
+    <LinearLayout android:id="@+id/linear_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@style/DialogTitleTextStyle.feedbacklog">
+        <TextView android:textSize="@dimen/textsize_normal_M" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20dp" android:text="@string/setting_feedback_title"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/linear_Prompt" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_below="@+id/linear_top">
+        <TextView android:textSize="@dimen/textsize_normal_S" android:textColor="@color/black" android:id="@+id/tv_commit_log_cartype" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="12dp" android:text="@string/setting_commit_log_tips"/>
+        <TextView android:textSize="@dimen/textsize_small_M" android:gravity="left" android:id="@+id/tv__commit_log_cartname" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linear_et" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_below="@+id/linear_Prompt">
+        <EditText android:textSize="@dimen/textsize_normal_S" android:gravity="top" android:id="@+id/et_feed_back_remark" android:background="@drawable/shape_cir_bg" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:hint="@string/setting_feedback_log_opinion" android:scrollHorizontally="false" android:singleLine="false" android:inputType="textMultiLine" android:imeOptions="actionNone" style="@style/MiniInfoItemTextStyle"/>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/relativelayout_progressBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/linear_et">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearnumber" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/textsize_normal_M" android:textColor="@color/black" android:id="@+id/tv__commit_log_success" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/setting_upload_log"/>
+            <TextView android:textSize="@dimen/textsize_normal_M" android:textColor="@color/black" android:id="@+id/tv__commit_log_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <ProgressBar android:id="@+id/pb_feed_back_progressBar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/progress_indeterminate_red" android:layout_below="@+id/linearnumber" style="?android:attr/progressBarStyleHorizontal"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear_button_bottom" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/relativelayout_progressBar">
+        <Button android:id="@+id/btn_feed_back_cancle_one" android:visibility="invisible" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1" style="@style/Gray_Button"/>
+        <Button android:textSize="@dimen/textsize_normal_S" android:id="@+id/btn_feed_back_sure" android:background="@drawable/redbtn_enable_selector" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/setting_feedback_title" android:layout_weight="2"/>
+        <Button android:id="@+id/btn_feed_back_cancle_two" android:visibility="invisible" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1" style="@style/Gray_Button"/>
+    </LinearLayout>
+</RelativeLayout>

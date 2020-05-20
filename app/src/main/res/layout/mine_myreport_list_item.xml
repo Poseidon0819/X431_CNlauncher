@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/tip" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/report_num_tip_textsize" android:id="@+id/tip_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_alignParentRight="true"/>
+        <LinearLayout android:background="#ededed" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/tip">
+        <RelativeLayout android:id="@+id/cb_list_select_container" android:paddingLeft="10dp" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:id="@+id/cb_list_select" android:background="@drawable/select_checkbox_red" android:padding="5dp" android:focusable="false" android:clickable="false" android:layout_width="@dimen/datastream_select_size" android:layout_height="@dimen/datastream_select_size" android:button="@null" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/datastream_select_item_h" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/report_item_minheight" android:layout_weight="6" style="@style/LayoutStyle.report.linear">
+            <TextView android:gravity="center" android:id="@+id/tv_myreport_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="false" style="@style/TextViewStyle.report"/>
+            <TextView android:textColor="@color/gray_text_color" android:gravity="center_vertical" android:id="@+id/tv_repair_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/TextViewStyle.report"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:paddingLeft="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/report_item_minheight" android:layout_weight="3" style="@style/LayoutStyle.report.linear">
+            <TextView android:gravity="center" android:id="@+id/tv_myreport_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:singleLine="false" style="@style/TextViewStyle.report"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/layout_top" android:background="@drawable/register_head_3" android:layout_width="match_parent" android:layout_height="@dimen/regit_head_height">
+        <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="?attr/textcolor" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginRight="60dp" android:text="@string/regist_merchant_repairmodel" android:singleLine="true" android:layout_centerInParent="true"/>
+        <TextView android:textSize="@dimen/textsize_large_S" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center" android:id="@+id/text_confirm" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/title_btn_margin_right" android:text="@string/common_confirm" android:singleLine="true" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <ExpandableListView android:id="@+id/listview_car" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

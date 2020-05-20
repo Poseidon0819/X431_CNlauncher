@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="tw__time_hours">
+        <item quantity="one">1மணி</item>
+        <item quantity="other">%dமணி</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1நி</item>
+        <item quantity="other">%dநி</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1நொ</item>
+        <item quantity="other">%dநொ</item>
+    </plurals>
+    <string name="com_facebook_image_download_unknown_error">படத்தைப் பதிவிறக்கும் போது பிழை ஏற்பட்டது.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView இல் உள்நுழைய இணைய அனுமதி தேவை</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest பிழை</string>
+    <string name="com_facebook_like_button_liked">விரும்பப்பட்டது</string>
+    <string name="com_facebook_like_button_not_liked">விருப்பம்</string>
+    <string name="com_facebook_loading">ஏற்றுகிறது...</string>
+    <string name="com_facebook_loginview_cancel_action">ரத்துசெய்</string>
+    <string name="com_facebook_loginview_log_in_button">உள்நுழைவு</string>
+    <string name="com_facebook_loginview_log_in_button_long">Facebook மூலம் உள்நுழையவும்</string>
+    <string name="com_facebook_loginview_log_out_action">வெளியேறு</string>
+    <string name="com_facebook_loginview_log_out_button">வெளியேறு</string>
+    <string name="com_facebook_loginview_logged_in_as">உள்நுழைந்துள்ள கணக்கு: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Facebook மூலம் உள்நுழையப்பட்டுள்ளது</string>
+    <string name="com_facebook_send_button_text">அனுப்பு</string>
+    <string name="com_facebook_share_button_text">பகிர்</string>
+    <string name="com_facebook_tooltip_default">புதிது! உங்கள் கட்டுப்பாட்டில் இருப்பதால், பயன்பாடுகளுடன் பகிர வேண்டிய தகவலைத் தேர்வுசெய்யவும்.</string>
+    <string name="messenger_send_button_text">அனுப்பு</string>
+    <string name="tw__composer_hint">என்ன நடக்கிறது?</string>
+    <string name="tw__like_tweet">கீச்சை விரும்பு</string>
+    <string name="tw__liked_tweet">விரும்பியதை செயல்தவிர்</string>
+    <string name="tw__loading_tweet">ட்விட்டை ஏற்றுகிறது</string>
+    <string name="tw__login_btn_txt">Twitter -இல் உள்நுழையவும்</string>
+    <string name="tw__max_tweet_chars">140</string>
+    <string name="tw__pause">இடைநிறுத்து</string>
+    <string name="tw__play">இயக்கு</string>
+    <string name="tw__post_tweet">ட்விட் செய்</string>
+    <string name="tw__privacy_icon_content_desc">தனியுரிமைப் படவுரு</string>
+    <string name="tw__replay">மீண்டும் இயக்கு</string>
+    <string name="tw__retweeted_by_format">%1$s -ஆல் மறுட்விட் செய்யப்பட்டது</string>
+    <string name="tw__share_content_format">@%1$s -இன் ட்விட்டைக் காணுங்கள்: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_subject_format">%1$s (@%2$s) -இடமிருந்து ட்விட்</string>
+    <string name="tw__share_tweet">ட்விட்டைப் பகிர்</string>
+    <string name="tw__sponsored">இது ஸ்பான்சர் செய்யப்பட்ட விளம்பரம்</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+    <string name="tw__tweet_media">கீச்சு ஊடகம்</string>
+</resources>

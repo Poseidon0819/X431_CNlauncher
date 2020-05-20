@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<filterSection>
+  <sections  title="Oscilloscope" iconname ="oscilloscope.png">
+           <section title="Module Introduction" ref="index.html" />
+  				 <section title="Interface Guide" ref="osc_synopsis.html" />
+		       <section title="Parameter Setting" ref="ParaSetting.html" />
+		       <section title="Expert Setting" ref="professorSetting.html" />
+		       <section title="File" ref="snapshot.html" />
+		       <section title="View" ref="view.html" />
+		       <section title="Measure" ref="metrology.html" />
+			     <section title="Others" ref="other.html" />
+   </sections>
+  <keywords namespace ="launch.com.oscilloscope.1.0" >      
+           <keyword name="Module Introduction" ref="index.html" />
+		       <keyword name="Interface Guide" ref="osc_synopsis.html" />
+		       <keyword name="Parameter Setting" ref="ParaSetting.html" />
+		       <keyword name="Expert Setting" ref="professorSetting.html" />
+		       <keyword name="File" ref="snapshot.html" />
+		       <keyword name="View" ref="view.html" />
+		       <keyword name="Measure" ref="metrology.html" />
+			     <keyword name="Others" ref="other.html" />
+   </keywords>     
+ </filterSection>
+

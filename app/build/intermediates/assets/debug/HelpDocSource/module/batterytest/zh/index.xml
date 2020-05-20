@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<filterSection>
+ <sections  title="电瓶检测" iconname ="batterytest.png">
+             	    <section title="电瓶检测简介" ref="index.html" />
+		              <section title="电瓶检测的性能标准" ref="instruction.html" />
+		              <section title="主页面" ref="mainwindow.html" />
+		              <section title="车内测试" ref="inside.html" />
+		              <section title="车外测试" ref="outside.html" />
+  </sections>
+  <keywords>
+           <keyword name="电瓶检测简介"  ref="index.html"/>
+           <keyword name="电瓶检测的性能标准" ref="instruction.html" />
+           <keyword name="主页面" ref="mainwindow.html" />
+           <keyword name="车内测试" ref="inside.html" />
+           <keyword name="车外测试" ref="outside.html" />
+  </keywords>
+ </filterSection>
+

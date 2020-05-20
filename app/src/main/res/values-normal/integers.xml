@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="current_layout">1</integer>
+    <integer name="graph_VerticalSpacing">10</integer>
+    <integer name="graph_padding_top">20</integer>
+    <integer name="isshow_tag_title_flag">0</integer>
+    <integer name="leftmenu_mainsize">75</integer>
+    <integer name="sidebar_text">14</integer>
+    <integer name="sidebaroffset">155</integer>
+    <integer name="sidebartemp">10</integer>
+    <integer name="toolItemColumnNum">6</integer>
+</resources>

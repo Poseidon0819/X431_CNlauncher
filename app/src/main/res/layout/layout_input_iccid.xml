@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="#22eaeaea" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_serialNum" android:background="@drawable/mine_info_item_bg" android:paddingLeft="@dimen/edit_padding_left" android:layout_marginLeft="@dimen/register_itemt_check" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_itemt_check" android:hint="@string/serialnumber_txt" android:maxLength="12" android:inputType="number" android:imeOptions="actionNext" style="@style/setting_edittext_style"/>
+            <com.cnlaunch.x431pro.widget.ClearEditText android:id="@+id/edit_iccid" android:background="@drawable/mine_info_item_bg" android:paddingLeft="@dimen/edit_padding_left" android:layout_marginLeft="@dimen/register_itemt_check" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_itemt_check" android:hint="@string/iccid_text" android:singleLine="true" android:editable="false" android:inputType="number" android:imeOptions="actionDone" style="@style/setting_edittext_style"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linebottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp">
+            <android.widget.LcButton android:textColor="@color/white" android:id="@+id/btn_info_skip" android:layout_width="0dp" android:layout_height="@dimen/mine_item_height" android:layout_margin="@dimen/register_itemt_check" android:layout_marginLeft="@dimen/register_itemt_check" android:layout_marginRight="@dimen/register_itemt_check" android:text="@string/skip" android:layout_weight="1" style="?attr/commonButtonLongStyle"/>
+            <android.widget.LcButton android:textColor="@color/white" android:id="@+id/btn_info_save" android:layout_width="0dp" android:layout_height="@dimen/mine_item_height" android:layout_margin="@dimen/register_itemt_check" android:layout_marginLeft="@dimen/register_itemt_check" android:layout_marginRight="@dimen/register_itemt_check" android:text="@string/common_confirm" android:layout_weight="1" style="?attr/commonButtonLongStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#d3d3d3" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+        <CheckBox android:id="@+id/cb_list_select" android:background="@drawable/select_checkbox_red" android:focusable="false" android:clickable="false" android:layout_width="@dimen/datastream_select_size" android:layout_height="@dimen/datastream_select_size" android:button="@null"/>
+        <TextView android:id="@+id/tv_list_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" style="@style/ListViewStyle.Item.TextView.dataselect"/>
+    </LinearLayout>
+</LinearLayout>

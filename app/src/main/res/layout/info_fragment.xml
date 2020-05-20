@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p012v4.widget.SwipeRefreshLayout android:id="@+id/swipe_contain" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.cnlaunch.x431pro.widget.MyWebView android:id="@+id/webview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </android.support.p012v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

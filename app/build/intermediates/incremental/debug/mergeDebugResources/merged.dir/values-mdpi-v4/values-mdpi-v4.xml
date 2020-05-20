@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="carname_large_textsize">13sp</dimen>
+    <dimen name="carname_middle_textsize">12sp</dimen>
+    <dimen name="carname_normal_textsize">11sp</dimen>
+    <dimen name="carname_small_textsize">10sp</dimen>
+    <dimen name="chat_selectview_height_friend_port">7px</dimen>
+    <dimen name="chat_selectview_height_strange">4.3px</dimen>
+    <dimen name="diag_bottom_icon_size">30dp</dimen>
+    <dimen name="diagnose_bottom_button_height">80dp</dimen>
+    <dimen name="diagnose_by_launch_margin">5dp</dimen>
+    <dimen name="diagnose_by_launch_margin_vertical">3dp</dimen>
+    <dimen name="diagnose_by_launch_textsize">14sp</dimen>
+</resources>

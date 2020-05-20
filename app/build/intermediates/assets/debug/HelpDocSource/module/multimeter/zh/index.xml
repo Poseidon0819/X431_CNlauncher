@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<filterSection>
+      <sections  title="万用表" iconname ="multimeter.png">
+             	    <section title="万用表简介" ref="index.html" />
+		              <section title="测试页面" ref="testwindow.html" />
+      </sections>
+
+         <keywords namespace ="launch.com.multimeter.1.0" >
+           <keyword name="万用表简介"  ref="index.html"/>
+           <keyword name="测试页面" ref="testwindow.html" />
+         </keywords>
+ </filterSection>
+

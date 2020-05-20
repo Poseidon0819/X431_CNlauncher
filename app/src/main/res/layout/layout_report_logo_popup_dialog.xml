@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/pop_line" android:background="@drawable/mine_info_item_graybg" android:padding="20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:id="@+id/pop_btnCamera" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="20dp" android:text="@string/photograph" android:layout_weight="1"/>
+    <Button android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:id="@+id/pop_btnLocalImage" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="20dp" android:text="@string/selectLocalPhotos" android:layout_weight="1"/>
+    <Button android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:id="@+id/pop_btnCancel" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/btn_canlce" android:layout_weight="1"/>
+</LinearLayout>

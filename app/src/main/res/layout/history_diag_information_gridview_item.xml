@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/layout_history_diag_item" android:background="@drawable/history_item_normal" android:layout_width="@dimen/caricon_item_width" android:layout_height="@dimen/caricon_item_height">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@+id/cb_item_select" android:background="@drawable/select_checkbox_red" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/datastream_select_size" android:layout_height="@dimen/datastream_select_size" android:button="@null"/>
+        <TextView android:textSize="22sp" android:textColor="@color/black" android:ellipsize="end" android:gravity="center" android:id="@+id/tv_show_engine" android:layout_width="match_parent" android:layout_height="@dimen/history_ItemCarShowHeight" android:lines="2"/>
+    </LinearLayout>
+    <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <TextView android:textSize="18sp" android:textColor="#ff3f4b94" android:gravity="center" android:id="@+id/tv_show_date" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textSize="20sp" android:textColor="#ff3f4b94" android:gravity="center" android:id="@+id/tv_show_DTC_number" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+    <TextView android:textSize="20sp" android:textColor="@color/TextColorWhite" android:gravity="center" android:layout_gravity="center" android:id="@+id/btn_goto_Diagnose" android:background="@drawable/history_goto_diag" android:paddingLeft="50dp" android:paddingRight="5dp" android:layout_width="187dp" android:layout_height="48dp" android:text="@string/Historical_records_gotoDiagnostic_txt"/>
+</LinearLayout>

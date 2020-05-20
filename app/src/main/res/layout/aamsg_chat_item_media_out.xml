@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20dp" android:layout_marginRight="8dp" android:contentDescription="{base:width,left:0.055,right:0.02}">
+        <RelativeLayout android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="46dp" android:layout_marginBottom="4dp">
+            <com.cnlaunch.p169im.widget.CornerText android:textSize="11sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/chat_item_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="15dp" android:text="12:00" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.cnlaunch.p169im.widget.DiversifyImageView android:id="@+id/chat_item_head" android:layout_width="46dp" android:layout_height="46dp" android:src="@drawable/square_default_head" android:scaleType="fitXY" android:layout_alignParentRight="true"/>
+            <ImageView android:id="@+id/chat_item_head_leader" android:visibility="gone" android:layout_width="46dp" android:layout_height="46dp" android:layout_alignParentRight="true"/>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/chat_item_head">
+                <RelativeLayout android:gravity="right" android:id="@+id/chat_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                    <ImageView android:id="@+id/chat_item_error" android:layout_width="22dp" android:layout_height="22dp" android:src="@drawable/chat_error" android:layout_centerInParent="true"/>
+                    <com.cnlaunch.p169im.widget.GoloProgress android:id="@+id/chat_item_progress" android:layout_width="22dp" android:layout_height="22dp" android:src="@drawable/chat_progress" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <LinearLayout android:gravity="right" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/chat_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/chat_status">
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp">
+                        <ImageView android:textColor="@color/darkgrey" android:id="@+id/chat_item_carlogo" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginRight="10dp"/>
+                        <TextView android:textColor="@color/darkgrey" android:id="@+id/chat_item_carlogo_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="BYD" android:singleLine="true"/>
+                        <TextView android:textColor="@color/darkgrey" android:gravity="center" android:id="@+id/chat_item_nickname" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="107dp" android:text="jack"/>
+                    </LinearLayout>
+                    <RelativeLayout android:id="@+id/chat_item_media" android:background="@drawable/chat_activity_list_item_out" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.cnlaunch.p169im.widget.CornerImage android:id="@+id/chat_item_other_image" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <ImageView android:id="@+id/chat_item_other_file" android:visibility="gone" android:layout_width="46dp" android:layout_height="52dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_centerVertical="true"/>
+                        <TextView android:textColor="#222222" android:gravity="center" android:id="@+id/chat_item_other_image_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200dp" android:layout_toRightOf="@+id/chat_item_other_file"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

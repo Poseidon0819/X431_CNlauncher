@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:materialdesign="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/shape_cir_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:background="?attr/dialogTitleBackgroud" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/tv_title" android:paddingLeft="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/common_title_tips" style="@style/BaseDialogStyle_Title_Text"/>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@+id/layout_circle_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="100dp">
+        <ImageView android:id="@+id/iv" android:background="@drawable/register_item_ok" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <com.cnlaunch.x431pro.widget.progress.ProgressBarCircularIndeterminate android:id="@+id/loading_progress" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="20dp" android:layout_toRightOf="@+id/iv" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/textsize_normal_S" android:textColor="@android:color/black" android:gravity="center" android:layout_gravity="center" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/common_loading_tips" android:layout_toRightOf="@+id/loading_progress" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linearlayout_bottom_btn" android:background="#ffededed" android:layout_width="match_parent" android:layout_height="wrap_content" android:height="110dp" android:measureWithLargestChild="true" android:layoutDirection="locale">
+        <Button android:textSize="@dimen/textsize_normal_S" android:layout_gravity="start|center_vertical" android:id="@+id/buttona" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48dp" android:maxLines="2" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+        <Button android:textSize="@dimen/textsize_normal_S" android:layout_gravity="center" android:id="@+id/buttonb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/common_cancel" android:maxLines="2" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+    </LinearLayout>
+</LinearLayout>

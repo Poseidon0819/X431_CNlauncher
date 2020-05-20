@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layout_top" android:layout_width="match_parent" android:layout_height="@dimen/regit_head_height">
+        <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/red" android:gravity="center" android:layout_gravity="center" android:id="@+id/editText1" android:background="@drawable/register_head_1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/register" android:layout_weight="1"/>
+        <LinearLayout android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/editText2_1" android:background="@drawable/register_head_4" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/editText2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/joint_activate"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/merchant_title" android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:background="@drawable/register_head_5" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/regist_merchant"/>
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/editText3_0" android:background="@drawable/register_head_5" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/editText4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/finish"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/layout_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearl_username" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <CheckBox android:id="@+id/iv_username" android:background="@drawable/select_btn_cbox_check" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_username" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/register_hint_username" android:maxLength="20" android:layout_toLeftOf="@+id/iv_username" style="@style/setting_edittext_style"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearl_password" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <CheckBox android:id="@+id/iv_password" android:background="@drawable/select_btn_cbox_check" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_password" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/register_hint_password" android:password="true" android:maxLength="20" android:layout_toLeftOf="@+id/iv_password" style="@style/setting_edittext_style"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearl_confirmpass" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_confirmpass" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/register_hint_confirm_password" android:password="true" android:maxLength="20" android:layout_toLeftOf="@+id/iv_confirm_password" style="@style/setting_edittext_style"/>
+                        <CheckBox android:id="@+id/iv_confirm_password" android:background="@drawable/select_btn_cbox_check" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearl_email" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <CheckBox android:id="@+id/iv_email" android:background="@drawable/select_btn_cbox_check" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_email" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/register_hint_email" android:singleLine="true" android:layout_toLeftOf="@+id/iv_email" android:inputType="textEmailAddress" style="@style/setting_edittext_style"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearl_company" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_company" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/register_hint_company" android:singleLine="true" android:layout_toLeftOf="@+id/iv_company" style="@style/setting_edittext_style"/>
+                        <CheckBox android:id="@+id/iv_company" android:background="@drawable/select_btn_cbox_check" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearl_address" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_address" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/register_hint_address" android:singleLine="true" android:layout_toLeftOf="@+id/iv_address" style="@style/setting_edittext_style"/>
+                        <CheckBox android:id="@+id/iv_address" android:background="@drawable/select_btn_cbox_check" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearl_contact" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_contact" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/register_hint_contact" android:singleLine="true" android:layout_toLeftOf="@+id/iv_contact" style="@style/setting_edittext_style"/>
+                        <CheckBox android:id="@+id/iv_contact" android:background="@drawable/select_btn_cbox_check" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearl_qq" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:id="@+id/tv_qq" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_qq" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/register_hint_qq" android:singleLine="true" android:layout_toLeftOf="@+id/iv_qq" android:inputType="number" style="@style/setting_edittext_style"/>
+                        <CheckBox android:id="@+id/iv_qq" android:background="@drawable/select_btn_cbox_check" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearl_weixin" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:id="@+id/tv_weixin" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_weixin" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/register_hint_weixin" android:singleLine="true" android:layout_toLeftOf="@+id/iv_weixin" style="@style/setting_edittext_style"/>
+                        <CheckBox android:id="@+id/iv_weixin" android:background="@drawable/select_btn_cbox_check" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/layout_low" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/edit_country" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <CheckBox android:id="@+id/iv_zipcode" android:background="@drawable/select_btn_cbox_check" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/iv_zipcode">
+                            <Spinner android:layout_gravity="center_vertical" android:id="@+id/country" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="@dimen/register_check_margin" android:layout_weight="1"/>
+                            <com.cnlaunch.x431pro.widget.ClearEditText android:textSize="@dimen/leftmenu_textsize" android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_zipcode" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_width="0dp" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="10dp" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/register_hint_zipcode" android:layout_weight="1"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearl_identifycode" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <CheckBox android:id="@+id/iv_idenfifycode" android:background="@drawable/select_btn_cbox_check" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_toLeftOf="@+id/iv_idenfifycode">
+                            <com.cnlaunch.x431pro.widget.ClearEditText android:textSize="@dimen/leftmenu_textsize" android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_identifycode" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_width="0dp" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="10dp" android:hint="@string/register_hint_identify_code" android:numeric="integer" android:layout_weight="2"/>
+                            <ImageView android:id="@+id/image_identifycode" android:layout_width="0dp" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="10dp" android:scaleType="fitXY" android:layout_weight="2"/>
+                            <Button android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:id="@+id/bt_refresh" android:background="@drawable/redbtn_enable_selector" android:layout_width="0dp" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="10dp" android:layout_marginRight="@dimen/register_check_margin" android:text="@string/register_get_identify_code" android:singleLine="true" android:layout_weight="3"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearl_phone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:id="@+id/tv_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.cnlaunch.x431pro.widget.ClearEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_phone" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_marginLeft="@dimen/register_star_margin" android:layout_marginRight="@dimen/register_check_margin" android:hint="@string/register_hint_phone" android:layout_toLeftOf="@+id/iv_phone" style="@style/setting_edittext_style"/>
+                        <CheckBox android:id="@+id/iv_phone" android:background="@drawable/select_btn_cbox_check" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearl_phoneidentifycode" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/iv_phoneidenfifycode">
+                            <com.cnlaunch.x431pro.widget.ClearEditText android:textSize="@dimen/leftmenu_textsize" android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_phoneidentifycode" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:layout_width="0dp" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="10dp" android:hint="@string/register_hint_identify_code" android:singleLine="true" android:layout_weight="2" android:inputType="number"/>
+                            <Button android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:id="@+id/bt_getcode" android:background="@drawable/redbtn_enable_selector" android:layout_width="0dp" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="10dp" android:layout_marginRight="@dimen/register_check_margin" android:text="@string/register_get_identify_code" android:singleLine="true" android:layout_weight="3"/>
+                        </LinearLayout>
+                        <CheckBox android:id="@+id/iv_phoneidenfifycode" android:background="@drawable/select_btn_cbox_check" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/contentPanel_service_agreement" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/linearl_service_agreement" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="18dp">
+                        <TextView android:textColor="@color/gray_text_color" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:text="@string/regist_accept" style="@style/TextViewStyle.regist"/>
+                        <TextView android:autoLink="all" android:id="@+id/tv_service_agreement" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:text="@string/service_agreement" style="@style/TextViewStyle.regist"/>
+                        <TextView android:autoLink="all" android:id="@+id/tv_privacy_policy" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:text="@string/privacy_policy" style="@style/TextViewStyle.regist"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearl_btn_regist" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/register_star"/>
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <CheckBox android:id="@+id/iv_registerbutton" android:background="@drawable/select_btn_cbox_check" android:visibility="invisible" android:layout_width="@dimen/register_itemt_check" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_toLeftOf="@+id/iv_registerbutton">
+                            <Button android:textSize="26sp" android:textColor="@color/white" android:id="@+id/btn_regist" android:background="@drawable/redbtn_enable_selector" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:text="@string/register_button"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

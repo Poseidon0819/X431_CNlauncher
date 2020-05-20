@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ifoer.expedition.pro.app-mergeDebugResources-3:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-v22\\styles.xml",
+                    "from": {
+                        "startLines": "2,4,6,10",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "57,153,261,533",
+                        "endLines": "3,5,9,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "147,255,527,811"
+                    },
+                    "to": {
+                        "startLines": "2,4,6,10",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,149,255,523",
+                        "endLines": "3,5,9,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "144,250,518,798"
+                    }
+                }
+            ]
+        }
+    ]
+}

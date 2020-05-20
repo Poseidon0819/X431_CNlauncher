@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bottom" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:id="@+id/btn_selectall" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:layout_weight="1" style="@style/IconButton.selectall"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:enabled="false" android:id="@+id/btn_confirm" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.confirm"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_delete" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_del" android:layout_weight="1" style="@style/IconButton.del"/>
+    </LinearLayout>
+    <com.cnlaunch.x431pro.widget.staggeredgridview.StaggeredGridView android:id="@+id/gridview_select" android:background="#ffffff" android:paddingLeft="@dimen/horizontal_margin" android:paddingRight="@dimen/horizontal_margin" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom" style="@style/GridViewStyle.GridView"/>
+    <TextView android:textSize="24dp" android:gravity="center_horizontal" android:id="@+id/tv_playback_get_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Loading..." android:layout_centerInParent="true"/>
+    <ProgressBar android:id="@+id/progress_palyback_load" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_below="@+id/tv_playback_get_hint" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleHorizontal"/>
+</RelativeLayout>

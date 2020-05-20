@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/diagnoseMainBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/lv_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ListViewStyle.Title.Linear">
+        <TextView android:id="@+id/title" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/tv_datastream_title" android:singleLine="true" android:layout_weight="1" style="@style/ListViewStyle.Title.TextView"/>
+        <TextView android:id="@+id/value" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/tv_datastream_value" android:singleLine="true" android:layout_weight="1" style="@style/ListViewStyle.Title.TextView"/>
+        <TextView android:id="@+id/stand_value" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/tv_datastream_stand_value" android:singleLine="true" android:layout_weight="1" style="@style/ListViewStyle.Title.TextView"/>
+        <TextView android:id="@+id/statue" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/tv_datastream_unit" android:singleLine="true" android:layout_weight="1" style="@style/ListViewStyle.Title.TextView"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/viewPager_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/lv_title">
+        <com.cnlaunch.x431pro.widget.CustomViewPager android:id="@+id/customviewPager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true"/>
+        <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="bottom|center_horizontal" android:background="#22000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/ds_left_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="50dp" android:src="@drawable/ds_left_arrow"/>
+                    <TextView android:textSize="@dimen/blue_textsize" android:textStyle="bold" android:textColor="@color/red" android:layout_gravity="center_vertical" android:id="@+id/tv_page_number_current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1"/>
+                    <TextView android:textSize="@dimen/blue_textsize" android:textStyle="bold" android:textColor="#313131" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" / "/>
+                    <TextView android:textSize="@dimen/blue_textsize" android:textStyle="bold" android:textColor="#313131" android:layout_gravity="center_vertical" android:id="@+id/tv_page_number_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20"/>
+                    <ImageView android:id="@+id/ds_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:src="@drawable/ds_right_arrow"/>
+                    <com.cnlaunch.x431pro.widget.NoScrollGridView android:id="@+id/horizontal_gridview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+    <ListView android:id="@+id/listview_show" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/lv_title" style="@style/ListViewStyle.ListView"/>
+</RelativeLayout>

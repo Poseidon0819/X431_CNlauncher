@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:background="#ebebeb" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear_image" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_weight="2">
+        <ImageView android:id="@+id/iv_factory_photo" android:layout_width="match_parent" android:layout_height="@dimen/report_item_logo" android:layout_marginLeft="@dimen/dp_10" android:layout_marginTop="@dimen/dp_10" android:layout_marginBottom="@dimen/dp_10" android:src="@drawable/u2_normal" android:scaleType="fitCenter"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_weight="5">
+        <com.cnlaunch.x431pro.widget.MarqueeScrollView android:ellipsize="marquee" android:id="@+id/tv_report_shopname" android:layout_width="match_parent" android:layout_height="0dp" android:singleLine="true" android:layout_weight="1" android:marqueeRepeatLimit="marquee_forever" style="@style/ReportContentItemTextStyle"/>
+        <com.cnlaunch.x431pro.widget.MarqueeScrollView android:ellipsize="marquee" android:id="@+id/tv_report_address" android:layout_width="match_parent" android:layout_height="0dp" android:singleLine="true" android:layout_weight="1" android:marqueeRepeatLimit="marquee_forever" style="@style/ReportContentItemTextStyle"/>
+        <TextView android:id="@+id/tv_report_zipcode" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+        <TextView android:id="@+id/tv_report_telephone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" style="@style/ReportContentItemTextStyle"/>
+        <TextView android:id="@+id/tv_report_email" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" style="@style/ReportContentItemTextStyle"/>
+        <TextView android:id="@+id/tv_report_fax" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+        <TextView android:id="@+id/tv_report_date" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+        <TextView android:id="@+id/tv_report_tester" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+        <TextView android:id="@+id/tv_report_customer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+    </LinearLayout>
+</LinearLayout>

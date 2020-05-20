@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Bad Attitude</item>
+        <item>Attitude Not Bad</item>
+        <item>Very Good Attitude</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Poor Efficiency</item>
+        <item>Efficiency Not High</item>
+        <item>High Efficiency</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Low Cost Performance</item>
+        <item>Cost Performance Not High</item>
+        <item>High Cost Performance</item>
+    </array>
+    <array name="area_selection">
+        <item>China</item>
+        <item>Outros</item>
+    </array>
+    <array name="func_status">
+        <item>No Status</item>
+        <item>Success</item>
+        <item>Failed</item>
+        <item>Finished</item>
+        <item>No DTC</item>
+        <item>Communication Failed</item>
+        <item>ID Not Found</item>
+    </array>
+    <array name="func_type">
+        <item>System Scan</item>
+        <item>Fast Test</item>
+        <item>System Enter</item>
+        <item>Version Information</item>
+        <item>Read DTC</item>
+        <item>Clear DTC</item>
+        <item>Read Data Stream</item>
+        <item>Read Freeze Frame</item>
+        <item>Action Test</item>
+        <item>Special Function</item>
+        <item>Make</item>
+        <item>Model</item>
+        <item>Year</item>
+        <item>Displacement</item>
+        <item>Transmission</item>
+        <item>Chasis</item>
+        <item>Engine</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Other</item>
+        <item>Self diagnostic report</item>
+        <item>Expert diagnostic report</item>
+        <item>DTC one-key clear report</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Other</item>
+        <item>Designated Driver</item>
+        <item>Assistance</item>
+        <item>Carpool</item>
+        <item>Car Rental</item>
+        <item>Taxi</item>
+        <item>Agency</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

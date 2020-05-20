@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Huono asenne</item>
+        <item>Asenne ei huono</item>
+        <item>Erittäin hyvä asenne</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Huono tehokkuusaste</item>
+        <item>Tehokkuusaste ei korkea</item>
+        <item>Korkea tehokkuusaste</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Matala kustannustehokkuus</item>
+        <item>Kustannustehokkuus ei korkea</item>
+        <item>Korkea kustannustehokkus</item>
+    </array>
+    <array name="area_selection">
+        <item>Kiina</item>
+        <item>Muut</item>
+    </array>
+    <array name="func_status">
+        <item>Ei tilaa</item>
+        <item>Onnistui</item>
+        <item>Epäonnistui</item>
+        <item>Päättyi</item>
+        <item>Ei DTC:tä</item>
+        <item>Kommunikaatio epäonnistui</item>
+        <item>Tunnusta ei löytynyt</item>
+    </array>
+    <array name="func_type">
+        <item>Järjestelmän tarkastus</item>
+        <item>Pikatesti</item>
+        <item>Sisäänkirjaus järjestelmään</item>
+        <item>Versiotiedot</item>
+        <item>Lue DTC</item>
+        <item>Tyhjennä DTC</item>
+        <item>Lue tietovirta</item>
+        <item>Lue otoskuva</item>
+        <item>Toimintatesti</item>
+        <item>Erityistoiminto</item>
+        <item>Merkki</item>
+        <item>Malli</item>
+        <item>Vuosi</item>
+        <item>Siirtymä</item>
+        <item>Siirto</item>
+        <item>Kori</item>
+        <item>Moottori</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Muu</item>
+        <item>Itsediagnostiikkaraportti</item>
+        <item>Asiantuntija-diagnostiikkaraportti</item>
+        <item>DTC yhden näppäimen selkeä raportti</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Muu</item>
+        <item>Määrätty ajuri</item>
+        <item>Avunanto</item>
+        <item>Auton yhteiskäyttö</item>
+        <item>Autonvuokraus</item>
+        <item>Taksi</item>
+        <item>Edustus</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

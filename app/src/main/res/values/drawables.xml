@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ic_arrow_left_api" />
+    <drawable name="ic_arrow_right_api" />
+    <drawable name="ic_back_api" />
+    <drawable name="ic_email_api" />
+    <drawable name="ic_more_api" />
+    <drawable name="ic_print_api" />
+    <drawable name="ic_search_api" />
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+</resources>

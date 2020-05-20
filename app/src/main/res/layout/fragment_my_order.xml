@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cnlaunch.x431pro.widget.PagerSlidingTabStrip android:id="@+id/tabs" android:background="@drawable/background_tab" android:layout_width="match_parent" android:layout_height="@dimen/report_tip_title_height"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p012v4.view.ViewPager android:id="@+id/pager" android:background="?attr/diagnoseMainBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/bottom" android:layout_below="@+id/tabs"/>
+    </LinearLayout>
+</LinearLayout>

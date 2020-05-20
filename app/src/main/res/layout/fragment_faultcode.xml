@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/diagnoseMainBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/head_title" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_diagnose_subtitle"/>
+    <LinearLayout android:paddingLeft="@dimen/horizontal_margin" android:paddingRight="@dimen/horizontal_margin" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ListViewStyle.Title.Linear">
+        <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tv_fault_title" android:singleLine="true" android:layout_weight="1.5" style="@style/ListViewStyle.Title.TextView"/>
+        <TextView android:id="@+id/value" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tv_fault_value" android:singleLine="true" android:layout_weight="1" style="@style/ListViewStyle.Title.TextView"/>
+        <TextView android:id="@+id/statue" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tv_fault_statue" android:singleLine="true" android:layout_weight="1.5" style="@style/ListViewStyle.Title.TextView"/>
+        <TextView android:id="@+id/searchBtn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/fault_fittings" android:layout_weight="1.5" style="@style/ListViewStyle.Title.TextView"/>
+        <TextView android:id="@+id/help" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_help" android:layout_weight="1.5" style="@style/ListViewStyle.Title.TextView"/>
+    </LinearLayout>
+    <ListView android:id="@+id/listview_faultcode" android:paddingLeft="@dimen/horizontal_margin" android:paddingRight="@dimen/horizontal_margin" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" style="@style/ListViewStyle.ListView"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear_button_bottom" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_home" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.home"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_search" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.search"/>
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:id="@+id/btn_translation" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.translation"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_report" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.reprot"/>
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:id="@+id/btn_print" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.print"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:enabled="false" android:id="@+id/btn_freeze" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.freeze"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_help" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.help"/>
+    </LinearLayout>
+</LinearLayout>

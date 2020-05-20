@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/fileselect_textsize" android:textColor="@color/black" android:gravity="center" android:id="@+id/title_path" android:background="#bebebe" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/fileselect_minheight"/>
+    <ListView android:id="@+id/list_report_file" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/title_path"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linearlayout_bottom_btn" android:background="@drawable/shape_cir_bg_noborder" android:layout_width="match_parent" android:layout_height="60dp" android:minHeight="@dimen/fileselect_minheight" android:layout_alignParentBottom="true">
+        <Button android:id="@+id/btn_confirm" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/common_confirm" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+        <Button android:id="@+id/btn_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/common_cancel" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/light_gray" android:scrollbars="vertical" android:fadingEdge="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="#ededed" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/rl_current_serial_number" android:background="#cac9cf" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/tv_current_serial_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin" android:layout_marginBottom="@dimen/mine_area_margin" android:text="@string/text_current_use_dpu" style="@style/TextViewStyle.LinkManager.title"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/rl_bluetooth_link_mode_group" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/rl_current_serial_number">
+            <RelativeLayout android:id="@+id/rl_bluetooth_link_mode_operation" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/mine_area_margin">
+                <TextView android:gravity="center" android:id="@+id/txt_bluetooth_pair_state" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_bluetooth_remove_pair_information" style="@style/TextViewStyle.LinkManager.content"/>
+                <Button android:id="@+id/btn_bluetooth_remove_pair" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:text="@string/text_bluetooth_remove_pair" android:layout_toRightOf="@+id/txt_bluetooth_pair_state" android:layout_alignBaseline="@+id/txt_bluetooth_pair_state" style="?attr/commomButtonStyle"/>
+                <TextView android:gravity="center" android:id="@+id/txt_bluetooth_remove_pair_information" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="@string/text_bluetooth_remove_pair_information" android:layout_below="@+id/txt_bluetooth_pair_state" android:layout_alignLeft="@+id/txt_bluetooth_pair_state" style="@style/TextViewStyle.LinkManager.content"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/rl_wifi_link_mode_group" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_below="@+id/rl_bluetooth_link_mode_group">
+            <RelativeLayout android:id="@+id/rl_wifi_link_mode_operation" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="5dp" android:layout_marginRight="@dimen/mine_area_margin"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/shape_cir_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="280dp">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="?attr/diagnoseDialogTitleBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="50dp">
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/DialogStyleTitleText"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="10">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/content" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="96dp">
+                <TextView android:id="@+id/message" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/DialogStyleMessageText"/>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/fl_content" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:background="#ffededed" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <Button android:layout_gravity="center_vertical" android:id="@+id/negativeButton" android:layout_width="0dp" android:layout_height="50dp" android:singleLine="true" android:layout_weight="1" style="@style/DialogStyle_Button_grey"/>
+        <Button android:layout_gravity="center_vertical" android:id="@+id/positiveButton" android:layout_width="0dp" android:layout_height="50dp" android:singleLine="true" android:layout_weight="1" style="?attr/diagnoseDialogButtonStyle"/>
+    </LinearLayout>
+</LinearLayout>

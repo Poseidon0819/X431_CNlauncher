@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp">
+    <LinearLayout android:id="@+id/layout_top" android:background="?attr/dialogTitleBackgroud" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView1" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login" style="@style/BaseDialogStyle_Title_Text"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/layout_top">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/login_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+            <com.cnlaunch.x431pro.widget.DropdownEditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_username" android:background="@drawable/item_bg" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:hint="@string/login_username" android:singleLine="true" android:drawableLeft="@drawable/login_client" android:drawableRight="@drawable/spinner_down" android:inputType="textNoSuggestions" style="@style/setting_edittext_style"/>
+            <EditText android:textColorHint="@color/edit_color_hint" android:id="@+id/edit_password" android:background="@drawable/item_bg" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:hint="@string/login_password" android:singleLine="true" android:drawableLeft="@drawable/login_lock" android:inputType="textPassword" android:imeOptions="actionDone" style="@style/setting_edittext_style"/>
+            <Button android:textSize="@dimen/textsize_normal_S" android:textColor="@color/white" android:id="@+id/btn_login" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/login_button" style="?attr/commomButtonStyle"/>
+            <LinearLayout android:gravity="center_horizontal" android:id="@+id/register_port" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="@dimen/textsize_small_S" android:textColor="@color/red" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tv_forget" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/login_forget_passward" android:layout_weight="1"/>
+                <LinearLayout android:gravity="center" android:id="@+id/ll_register" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="@dimen/textsize_small_S" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tv_regist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_new_register"/>
+                    <ImageView android:id="@+id/iv_to_regist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:src="@drawable/login_register" android:layout_alignParentRight="true"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

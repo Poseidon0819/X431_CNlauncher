@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ll_reward_tips" android:background="#949494" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/setting_reward_free_tips"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll_reward_list_title" android:background="#c5c5c5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/ll_reward_tips">
+        <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_serialNo" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/serialnumber_txt" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+        <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_vehicle_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/onekeyfeedback_car_name" android:layout_weight="1.2" style="@style/MiniInfoItemTextStyle"/>
+        <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_warranty_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/setting_reward_warranty_date" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+        <TextView android:textSize="@dimen/textsize_large_S" android:gravity="center" android:id="@+id/tv_free_end_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/setting_reward_free_end_date" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+    </LinearLayout>
+    <ListView android:id="@+id/lv_reward_soft" android:layout_width="match_parent" android:layout_height="wrap_content" android:cacheColorHint="@null" android:layout_below="@+id/ll_reward_list_title"/>
+</RelativeLayout>

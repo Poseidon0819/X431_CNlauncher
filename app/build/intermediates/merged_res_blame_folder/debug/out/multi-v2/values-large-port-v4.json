@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ifoer.expedition.pro.app-mergeDebugResources-3:/values-large-port-v4/values-large-port-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-large-port\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,148,242,329,409",
+                        "endColumns": "89,92,85,78,52",
+                        "endOffsets": "142,236,323,403,457"
+                    },
+                    "to": {
+                        "startLines": "23,24,25,26,27",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "1231,1321,1414,1500,1579",
+                        "endColumns": "89,92,85,78,52",
+                        "endOffsets": "1316,1409,1495,1574,1627"
+                    }
+                },
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-large-port\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,110,162,231,299,357,414,475,534,593,653,723,773,830,881,938",
+                        "endColumns": "51,50,67,66,56,55,59,57,57,58,68,48,55,49,55,50",
+                        "endOffsets": "104,156,225,293,351,408,469,528,587,647,717,767,824,875,932,984"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,107,158,226,293,350,406,466,524,582,641,710,759,815,865,921",
+                        "endColumns": "51,50,67,66,56,55,59,57,57,58,68,48,55,49,55,50",
+                        "endOffsets": "102,153,221,288,345,401,461,519,577,636,705,754,810,860,916,967"
+                    }
+                },
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-large-port\\integers.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,111,163,218,270",
+                        "endColumns": "52,50,53,50,49",
+                        "endOffsets": "105,157,212,264,315"
+                    },
+                    "to": {
+                        "startLines": "18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "972,1025,1076,1130,1181",
+                        "endColumns": "52,50,53,50,49",
+                        "endOffsets": "1020,1071,1125,1176,1226"
+                    }
+                }
+            ]
+        }
+    ]
+}

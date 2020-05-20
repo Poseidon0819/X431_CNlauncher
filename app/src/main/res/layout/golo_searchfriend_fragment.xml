@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/search_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/golobind_top_margin">
+        <Button android:textSize="@dimen/textsize_small_M" android:textColor="@color/white" android:id="@+id/btn_search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/golobind_right_margin" android:text="@string/btn_search" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?attr/commomButtonStyle"/>
+        <com.cnlaunch.x431pro.widget.ClearEditText android:textSize="@dimen/customer_title_size" android:id="@+id/golo_search" android:background="@drawable/bg_search_editext" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/golobind_left_margin" android:layout_marginRight="@dimen/golobind_content_padding" android:hint="@string/add_friend_or_group" android:drawableLeft="@drawable/search_icon" android:layout_toLeftOf="@+id/btn_search" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <ProgressBar android:id="@+id/search_progressbar" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="8dp" android:indeterminate="true" android:layout_below="@+id/search_view" style="?android:attr/progressBarStyleHorizontal"/>
+    <ListView android:id="@+id/search_listview" android:background="@color/grey_100" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#ededed" android:layout_below="@+id/search_progressbar" style="@style/ListViewStyle.ListView.golo"/>
+</RelativeLayout>

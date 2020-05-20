@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/diagnoseMainBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.cnlaunch.x431pro.widget.CustomViewPager android:id="@+id/gridGraphContainer" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="bottom|center_horizontal" android:background="#22000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/ds_left_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="50dp" android:src="@drawable/ds_left_arrow"/>
+                <TextView android:textSize="@dimen/blue_textsize" android:textStyle="bold" android:textColor="@color/red" android:layout_gravity="center_vertical" android:id="@+id/tv_page_number_current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1"/>
+                <TextView android:textSize="@dimen/blue_textsize" android:textStyle="bold" android:textColor="#313131" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" / "/>
+                <TextView android:textSize="@dimen/blue_textsize" android:textStyle="bold" android:textColor="#313131" android:layout_gravity="center_vertical" android:id="@+id/tv_page_number_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20"/>
+                <ImageView android:id="@+id/ds_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:src="@drawable/ds_right_arrow"/>
+                <com.cnlaunch.x431pro.widget.NoScrollGridView android:id="@+id/horizontal_gridview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_customCombine" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/rl_large_graph" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/title_contrain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/textsize_normal_S" android:textColor="@color/black" android:ellipsize="end" android:id="@+id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/textsize_small_M" android:textColor="@color/black" android:id="@+id/showMaxMinValue" android:paddingLeft="50dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/currentValue_contrain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/title_contrain" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/textsize_small_S" android:textColor="@color/black" android:id="@+id/tv_currentValue" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/textsize_normal_S" android:textColor="@color/black" android:id="@+id/tv_unit" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

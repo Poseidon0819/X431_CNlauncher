@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:materialdesign="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="?attr/diagnoseMainBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/lv_title" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@style/ListViewStyle.Title.Linear">
+        <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tv_datastream_title" android:layout_weight="1" style="@style/ListViewStyle.Title.TextView"/>
+        <TextView android:id="@+id/value" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tv_datastream_value" android:layout_weight="3.5" style="@style/ListViewStyle.Title.TextView"/>
+        <TextView android:id="@+id/statue" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tv_datastream_unit" android:layout_weight="3.5" style="@style/ListViewStyle.Title.TextView"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear_button_bottom" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="@dimen/diagnose_bottom_button_height" android:layout_alignParentBottom="true">
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:gravity="center" android:id="@+id/btn_selectall" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:layout_weight="1" style="@style/IconButton.selectall"/>
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:gravity="center" android:id="@+id/btn_graph" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.graph"/>
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:gravity="center" android:id="@+id/btn_combination" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.combination"/>
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:gravity="center" android:id="@+id/btn_value" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.value"/>
+        <Button android:id="@+id/btn_powerBalance" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:gravity="center" android:id="@+id/btn_frame_play" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.frameplay"/>
+        <Button android:textColor="@color/black" android:id="@+id/btn_stop" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_stop_reportrecord" android:drawableTop="@drawable/btn_reportstream_stop" android:layout_weight="1" style="@style/FragmentButtonBottom.vwbutton"/>
+        <Button android:textColor="@color/black" android:id="@+id/btn_play" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_play_reportrecord" android:drawableTop="@drawable/btn_reportstream_play" android:layout_weight="1" style="@style/FragmentButtonBottom.vwbutton"/>
+        <Button android:id="@+id/btn_exit" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_exit" android:drawableTop="@drawable/btn_exit_white" android:layout_weight="1" style="@style/FragmentButtonBottom.vwbutton"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:gravity="center" android:id="@+id/btn_replay_normal" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.frameplay3"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:gravity="center" android:id="@+id/btn_replay_frame" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.frameplay2"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/datastream_container" android:paddingLeft="@dimen/horizontal_margin" android:paddingRight="@dimen/horizontal_margin" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/linear_button_bottom" android:layout_below="@+id/head_title"/>
+    <RelativeLayout android:id="@+id/v_record" android:background="@color/translucent_bg" android:visibility="visible" android:layout_width="@dimen/record_outside" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_above="@+id/linear_button_bottom" android:layout_centerHorizontal="true">
+        <LinearLayout android:id="@+id/layout_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_alignParentTop="true">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.8">
+                <Button android:id="@+id/btn_replay_stop" android:background="@drawable/btn_replay_stop" android:layout_width="34dp" android:layout_height="34dp"/>
+                <View android:layout_width="1dp" android:layout_height="1dp" android:layout_weight="1"/>
+                <Button android:id="@+id/btn_fast_back" android:background="@drawable/btn_replay_fast_back" android:layout_width="34dp" android:layout_height="34dp"/>
+                <View android:layout_width="1dp" android:layout_height="1dp" android:layout_weight="1"/>
+                <Button android:id="@+id/btn_replay_play" android:background="@drawable/btn_replay_play" android:layout_width="34dp" android:layout_height="34dp"/>
+                <View android:layout_width="1dp" android:layout_height="1dp" android:layout_weight="1"/>
+                <Button android:id="@+id/btn_fast_forward" android:background="@drawable/btn_replay_fast_forward" android:layout_width="34dp" android:layout_height="34dp"/>
+            </LinearLayout>
+            <com.cnlaunch.x431pro.widget.progress.Slider android:layout_gravity="center_vertical" android:id="@+id/pd_indeter" android:background="@color/load_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" materialdesign:showNumberIndicator="true"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/diagnose_bottom_btn_textsize" android:textColor="@color/white" android:id="@+id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:text="1/1" android:layout_below="@+id/layout_bottom" android:layout_alignParentRight="true"/>
+        <TextView android:textSize="@dimen/diagnose_bottom_btn_textsize" android:textColor="@color/white" android:id="@+id/tv_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/tv_fault_statue" android:layout_below="@+id/layout_bottom" android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+</RelativeLayout>

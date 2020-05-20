@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/grey_300" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/btn_friend_search" android:background="@drawable/shape_cir_bg_noborder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="4dp" android:layout_marginRight="8dp" android:layout_marginBottom="4dp" android:layout_alignParentTop="true">
+        <TextView android:textSize="18sp" android:textColor="@color/grey_300" android:gravity="center" android:background="#00ffffff" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search" android:drawableLeft="@drawable/search_icon" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <LinearLayout android:background="#d5d5d5" android:layout_width="match_parent" android:layout_height="1px" android:layout_below="@+id/btn_friend_search"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/group_btn" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_alignParentBottom="true">
+        <RelativeLayout android:gravity="center_vertical" android:id="@+id/btn_message" android:background="@drawable/select_btn_message__friend_tab" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:id="@+id/image_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/im_message" android:layout_centerInParent="true" android:contentDescription="@null"/>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@+id/message_no_read" android:background="@drawable/bg_title_tip_red" android:padding="4dp" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginRight="10dp" android:layout_toRightOf="@+id/image_1"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/btn_friend" android:background="#efefef" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/im_friends" android:contentDescription="@null"/>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/group_btn" android:layout_below="@+id/btn_friend_search">
+        <com.cnlaunch.x431pro.widget.pulltorefresh.PullToRefreshListView android:id="@+id/lv_friend" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#d5d5d5" android:dividerHeight="1px" android:footerDividersEnabled="true" style="@style/ListViewStyle.ListView.golo"/>
+        <com.cnlaunch.x431pro.widget.sortlistview.SideBar android:id="@+id/sidebar_list" android:background="@android:color/transparent" android:layout_width="50dp" android:layout_height="match_parent" android:layout_marginRight="5dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+        <TextView android:textSize="@dimen/golo_sidebar_show_textsize" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@+id/sidebar_show" android:background="@drawable/shape_cir_toast" android:padding="15dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100dp" android:minHeight="100dp" android:shadowColor="#bb000000" android:shadowRadius="2.75" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <LinearLayout android:background="#d5d5d5" android:layout_width="match_parent" android:layout_height="1px" android:layout_above="@+id/group_btn"/>
+</RelativeLayout>

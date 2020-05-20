@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/marginptopbottom">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linehot" android:layout_width="match_parent" android:layout_height="@dimen/buttonheight" android:layout_marginLeft="18px" android:layout_marginTop="@dimen/marginpvertical" android:layout_marginRight="22px">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="@dimen/marginpx2" android:textColor="@color/black" android:id="@+id/host" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifiprinterhot" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+                <RelativeLayout android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/butscan" android:layout_toRightOf="@+id/host">
+                    <View android:background="@color/black" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+                    <com.cnlaunch.x431pro.widget.MarqueeScrollView android:textSize="@dimen/marginpx2" android:textColor="@color/black" android:ellipsize="marquee" android:id="@+id/ssid" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever"/>
+                </RelativeLayout>
+                <Button android:id="@+id/butscan" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="0dp" android:text="@string/ScanWifi" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?attr/commomButtonStyle"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15px" android:layout_marginTop="@dimen/marginpvertical" android:layout_marginRight="22px" android:layout_above="@+id/lineBottom" android:layout_below="@+id/linehot">
+            <TextView android:enabled="false" android:textSize="@dimen/marginpx2" android:textColor="@color/hui1" android:id="@+id/show" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1sp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/lineBottom" android:layout_width="match_parent" android:layout_height="@dimen/buttonheight" android:layout_marginLeft="25px" android:layout_marginTop="@dimen/marginpvertical" android:layout_marginRight="25px" android:layout_alignParentBottom="true">
+            <Button android:id="@+id/btnConnet" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="0dp" android:text="@string/Connet" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+            <View android:layout_width="10dp" android:layout_height="match_parent"/>
+            <Button android:id="@+id/btnhelp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="0dp" android:text="@string/help" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

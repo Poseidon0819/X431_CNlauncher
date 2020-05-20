@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>عملکرد بد</item>
+        <item>عملکرد نرمال</item>
+        <item>عملکرد خیلی خوب</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>بازده ضعیف</item>
+        <item>بازدهی بالا نیست</item>
+        <item>بازدهی بالا</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>عملکرد کم هزینه</item>
+        <item>هزینه عملکرد بالا نیست</item>
+        <item>هزینه بالای عملکرد</item>
+    </array>
+    <array name="area_selection">
+        <item>چین</item>
+        <item>سایر</item>
+    </array>
+    <array name="func_status">
+        <item>بدون نتیجه</item>
+        <item>موفقیت آمیز</item>
+        <item>انجام نشد</item>
+        <item>انجام شد</item>
+        <item>خطایی یافت نشد</item>
+        <item>خطای ارتباطی</item>
+        <item>عدم شناسایی ID</item>
+        <item>شروع عملیات</item>
+        <item>اتمام عملیات</item>
+        <item>داده های تفکیک نشده</item>
+    </array>
+    <array name="func_type">
+        <item>بررسی سیستم</item>
+        <item>تست سریع</item>
+        <item>ورود به سیستم</item>
+        <item>اطلاعات نسخه نرم افزاری</item>
+        <item>خواندن خطاها</item>
+        <item>پاک کردن خطاها</item>
+        <item>مشاهده پارامترها</item>
+        <item>مشاهده گزارش لحظه ای</item>
+        <item>تست عملگرها</item>
+        <item>عملکردهای خاص</item>
+        <item>کمپانی</item>
+        <item>مدل</item>
+        <item>سال</item>
+        <item>کورس پیستون (حجم موتور)</item>
+        <item>نوع گیربکس</item>
+        <item>شاسی</item>
+        <item>موتور</item>
+        <item>شماره شناسایی سیستم</item>
+        <item>گزارش خطاها</item>
+        <item>تنظیم اطلاعات کارکرد</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>سایر</item>
+        <item>گزارش عیب یابی خود</item>
+        <item>گزارش عیب یابی کارشناسی</item>
+        <item>گزارش حذف کد خطا با یک لمس</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>دیگری</item>
+        <item>درایور معین</item>
+        <item>کمک</item>
+        <item>همسفر</item>
+        <item>اجاره اتومبیل</item>
+        <item>تاکسی</item>
+        <item>نمایندگی</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

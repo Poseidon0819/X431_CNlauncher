@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="30sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="information"/>
+    <TextView android:textSize="30sp" android:id="@+id/txt_trial_prompt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="20dp" android:text="The network connection not established, do you want to start your trial now?"/>
+    <RadioGroup android:orientation="vertical" android:id="@+id/raido_group_trial" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkedButton="@+id/button_trial_yes">
+        <RadioButton android:textSize="30sp" android:layout_gravity="center_vertical" android:id="@+id/button_trial_yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="10dp" android:text="Yes"/>
+        <RadioButton android:textSize="30sp" android:layout_gravity="center_vertical" android:id="@+id/button_trial_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="10dp" android:text="No"/>
+    </RadioGroup>
+    <Button android:textSize="30sp" android:layout_gravity="center" android:id="@+id/button_trial_confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:text="confirm"/>
+</LinearLayout>

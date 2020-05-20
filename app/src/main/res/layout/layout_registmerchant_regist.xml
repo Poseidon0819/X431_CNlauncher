@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layout_top" android:layout_width="match_parent" android:layout_height="@dimen/regit_head_height">
+        <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/red" android:gravity="center" android:layout_gravity="center" android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/register" android:layout_weight="1"/>
+        <LinearLayout android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:background="@drawable/register_head_5" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/joint_activate"/>
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/register_head_1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:background="@drawable/register_head_5" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/regist_merchant"/>
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/editText3_0" android:background="@drawable/register_head_4" android:layout_width="35dp" android:layout_height="60dp" android:text=""/>
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/finish"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+                <ImageView android:id="@+id/img_merchant" android:background="@drawable/bg_cir_grey" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="10dp" android:src="@drawable/login_default" android:layout_centerHorizontal="true"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/regist_merchant_merchant_image" android:layout_below="@+id/img_merchant" android:layout_centerHorizontal="true" style="@style/MiniInfoItemTextStyle"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/register_star" style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/text_regist_merchant_merchantaccount" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/regist_merchant_merchantaccount" android:singleLine="true" android:layout_weight="2" style="@style/MiniInfoItemTextStyle"/>
+                    <EditText android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:gravity="center_vertical" android:id="@+id/edit_merchant_account" android:background="@drawable/item_bg" android:paddingLeft="@dimen/dp_5" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_5" android:hint="@string/regist_merchant_hint_input_1" android:layout_weight="3"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/register_star" style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/text_regist_merchant_companyname" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/regist_merchant_companyname" android:singleLine="true" android:layout_weight="2" style="@style/MiniInfoItemTextStyle"/>
+                    <EditText android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:gravity="center_vertical" android:id="@+id/edit_merchant_companyname" android:background="@drawable/item_bg" android:paddingLeft="@dimen/dp_5" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_5" android:hint="@string/regist_merchant_hint_input_1" android:layout_weight="3"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/register_star" style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/text_regist_merchant_companycontact" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/regist_merchant_companycontact" android:singleLine="true" android:layout_weight="2" style="@style/MiniInfoItemTextStyle"/>
+                    <EditText android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:gravity="center_vertical" android:id="@+id/edit_merchant_companycontact" android:background="@drawable/item_bg" android:paddingLeft="@dimen/dp_5" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_5" android:hint="@string/regist_merchant_hint_input_1" android:layout_weight="3"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/register_star" style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/text_regist_merchant_companymobile" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/regist_merchant_companymobile" android:singleLine="true" android:layout_weight="2" style="@style/MiniInfoItemTextStyle"/>
+                    <EditText android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:gravity="center_vertical" android:id="@+id/edit_merchant_companymobile" android:background="@drawable/item_bg" android:paddingLeft="@dimen/dp_5" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_5" android:hint="@string/regist_merchant_hint_input_1" android:layout_weight="3" android:inputType="phone"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text=" " style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/text_regist_merchant_companyaddress" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/regist_merchant_companyaddress" android:singleLine="true" android:layout_weight="7" style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:textColorHint="@color/edit_color_hint" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/edit_merchant_companyaddress" android:background="@drawable/item_bg" android:paddingLeft="@dimen/dp_10" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_5" android:layout_marginRight="@dimen/dp_5" android:singleLine="true" android:layout_weight="9"/>
+                    <TextView android:textSize="12sp" android:gravity="center_vertical" android:id="@+id/set_map" android:background="@drawable/gmap_friends_select_map" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/dp_5"/>
+                </LinearLayout>
+                <RelativeLayout android:orientation="vertical" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/img_map_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/gmap_horizontal_large_default_image" android:scaleType="fitXY"/>
+                    <TextView android:textSize="16sp" android:textColor="@android:color/black" android:id="@+id/seller_addres" android:background="#fbfaca" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingBottom="5dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/img_map_view"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/layout_regist_merchant_repairmodel" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                    <TextView android:textSize="30sp" android:textColor="@color/red" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/register_star" style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:gravity="center_vertical" android:id="@+id/text_regist_merchant_repairmodel" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/regist_merchant_repairmodel" style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:ellipsize="marquee" android:gravity="center_vertical" android:id="@+id/text_carseries" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_15" android:singleLine="true" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                    <ImageView android:gravity="center_vertical" android:id="@+id/image_carseries" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <EditText android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/black" android:textColorHint="@color/edit_color_hint" android:gravity="top" android:id="@+id/edit_regist_merchant_company_intro" android:background="@drawable/item_bg" android:paddingLeft="@dimen/edit_padding_right" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/regist_merchant_company_intro" android:maxLines="4" android:inputType="textMultiLine"/>
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height">
+                    <CheckBox android:id="@+id/checkBox_select" android:layout_width="wrap_content" android:layout_height="match_parent" android:checked="true" android:button="@null" android:drawableLeft="@drawable/select_btn_cbox_small" style="@style/CheckBoxButton"/>
+                    <LinearLayout android:id="@+id/l_protocol" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@+id/checkBox_select">
+                        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/text_agree" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/regist_merchant_agree" android:singleLine="true" android:layout_weight="5" style="@style/MiniInfoItemTextStyle"/>
+                        <TextView android:gravity="center_vertical" android:id="@+id/text_protocol" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/regist_merchant_protocol" android:layout_weight="3" style="@style/MiniInfoItemTextStyle.red"/>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin" android:layout_marginBottom="@dimen/mine_area_margin">
+                <Button android:textColor="@color/white" android:id="@+id/btn_submit" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginTop="@dimen/mine_area_margin" android:text="@string/regist_merchant_submit_info" style="?attr/commonButtonLongStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

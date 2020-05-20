@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/lightgray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/customer_info_corners" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_space" android:layout_marginBottom="@dimen/padding_space">
+        <RelativeLayout style="@style/relativelay_view_style">
+            <TextView android:text="@string/my_customer_car_type" style="@style/golo_customer_txt_desp_style"/>
+            <TextView android:id="@+id/tip_car_type_textview_text" android:text="" style="@style/golo_customer_txt_value_style"/>
+        </RelativeLayout>
+        <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <RelativeLayout style="@style/relativelay_view_style">
+            <TextView android:text="@string/my_customer_car_num" style="@style/golo_customer_txt_desp_style"/>
+            <TextView android:id="@+id/tip_car_num_textview_text" android:text="" style="@style/golo_customer_txt_value_style"/>
+        </RelativeLayout>
+        <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <RelativeLayout style="@style/relativelay_view_style">
+            <TextView android:text="@string/my_customer_car_brand" style="@style/golo_customer_txt_desp_style"/>
+            <TextView android:id="@+id/tip_car_brand_textview_text" android:text="" style="@style/golo_customer_txt_value_style"/>
+        </RelativeLayout>
+        <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <RelativeLayout style="@style/relativelay_view_style">
+            <TextView android:text="@string/my_customer_car_model" style="@style/golo_customer_txt_desp_style"/>
+            <TextView android:id="@+id/tip_car_model_textview_text" android:text="" style="@style/golo_customer_txt_value_style"/>
+        </RelativeLayout>
+        <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <LinearLayout android:gravity="center_vertical" style="@style/relativelay_view_style">
+            <TextView android:text="@string/my_customer_car_vin" android:singleLine="false" android:layout_weight="1" style="@style/golo_customer_txt_desp_style"/>
+            <TextView android:id="@+id/tip_car_vin_textview_text" android:text="" style="@style/golo_customer_txt_value_style"/>
+        </LinearLayout>
+        <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <RelativeLayout style="@style/relativelay_view_style">
+            <TextView android:text="@string/my_customer_engine_num" style="@style/golo_customer_txt_desp_style"/>
+            <TextView android:id="@+id/tip_engine_num_textview_text" android:text="" style="@style/golo_customer_txt_value_style"/>
+        </RelativeLayout>
+        <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <RelativeLayout style="@style/relativelay_view_style">
+            <TextView android:text="@string/my_customer_car_year" style="@style/golo_customer_txt_desp_style"/>
+            <TextView android:id="@+id/tip_car_year_textview_text" android:text="" style="@style/golo_customer_txt_value_style"/>
+        </RelativeLayout>
+        <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <RelativeLayout style="@style/relativelay_view_style">
+            <TextView android:text="@string/my_customer_car_gearbox" style="@style/golo_customer_txt_desp_style"/>
+            <TextView android:id="@+id/tip_car_gearbox_textview_text" android:text="" style="@style/golo_customer_txt_value_style"/>
+        </RelativeLayout>
+        <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <RelativeLayout style="@style/relativelay_view_style">
+            <TextView android:text="@string/my_customer_car_discharge" style="@style/golo_customer_txt_desp_style"/>
+            <TextView android:id="@+id/tip_car_discharge_textview_text" android:text="" style="@style/golo_customer_txt_value_style"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

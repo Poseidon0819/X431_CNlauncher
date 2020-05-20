@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pull="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/table_head_bg" android:paddingLeft="@dimen/horizontal_margin" android:paddingRight="@dimen/horizontal_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/carname_txt" android:layout_weight="1" style="@style/TextViewStyle.update.itemname"/>
+        <CheckBox android:background="@drawable/select_btn_cbox" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:button="@null"/>
+        <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cur_version_txt" android:layout_weight="1" style="@style/TextViewStyle.update.itemname"/>
+        <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/upgrade_version_txt" android:layout_weight="1" style="@style/TextViewStyle.update.itemname"/>
+        <TextView android:gravity="center" android:id="@+id/tv_remarks" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/txt_expired" android:layout_weight="1" style="@style/TextViewStyle.update.itemname"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/horizontal_margin" android:paddingRight="@dimen/horizontal_margin" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <ExpandableListView android:id="@+id/pull_refresh_listview" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" android:divider="@color/diver_line" android:dividerHeight="1px" android:fastScrollEnabled="false" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:smoothScrollbar="true"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@+id/checkBox_select_all" android:layout_width="0dp" android:layout_height="match_parent" android:checked="false" android:button="@null" android:layout_weight="1" style="@style/SelectAll"/>
+        <Button android:id="@+id/button_update" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/Update"/>
+        <Button android:id="@+id/button_delete" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/Delete"/>
+        <Button android:id="@+id/btn_renewal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" style="@style/Renewal"/>
+        <Button android:id="@+id/button_refresh" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/Refresh"/>
+    </LinearLayout>
+</LinearLayout>

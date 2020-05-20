@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="@dimen/marginpxdialogweight" android:layout_height="@dimen/marginpxdialogheight">
+    <RelativeLayout android:layout_width="@dimen/marginpxdialogweight" android:layout_height="@dimen/marginpxdialogheight">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/lineup" android:background="?attr/mainTitleBackgroud" android:layout_width="@dimen/marginpxdialogweight" android:layout_height="60sp">
+            <TextView android:textSize="@dimen/marginpx26" android:textColor="@color/white" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/SelectPrintSSID" android:singleLine="true"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/marginpx2" android:textColor="@color/black" android:id="@+id/tvShowinfo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:text="@string/findhotspot" android:layout_below="@+id/lineup"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linemid" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20px" android:layout_marginRight="20px" android:layout_above="@+id/lineBottom" android:layout_below="@+id/tvShowinfo">
+            <ListView android:textSize="@dimen/marginpx2" android:textStyle="bold" android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/lineBottom" android:layout_width="match_parent" android:layout_height="@dimen/buttonheight" android:layout_marginLeft="20px" android:layout_marginRight="20px" android:layout_marginBottom="10px" android:layout_alignParentBottom="true">
+            <Button android:layout_gravity="center_vertical" android:id="@+id/btnrefresh" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="0dp" android:layout_marginLeft="20px" android:layout_marginRight="20px" android:text="@string/refresh" style="?attr/commomButtonStyle"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

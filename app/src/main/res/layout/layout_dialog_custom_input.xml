@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/textsize_normal_S" android:id="@+id/tv_message" android:padding="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp"/>
+    <EditText android:textSize="@dimen/textsize_normal_S" android:id="@+id/et_input" android:background="@drawable/item_bg" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edit_padding_left" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/edit_padding_right" android:minHeight="64dp" android:hint=""/>
+    <EditText android:textSize="@dimen/textsize_normal_S" android:id="@+id/et_input_show" android:background="@drawable/item_bg" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edit_padding_left" android:layout_marginRight="@dimen/edit_padding_right" android:layout_marginBottom="10dp" android:minHeight="64dp" android:hint=""/>
+</LinearLayout>

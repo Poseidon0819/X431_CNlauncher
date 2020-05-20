@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear_history_diag_button_bottom" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:gravity="center_horizontal" android:id="@+id/btn_history_diag_print" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.print"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:gravity="center_horizontal" android:id="@+id/btn_gotoDiag" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.HistoryDiag2Diag"/>
+    </LinearLayout>
+    <ScrollView android:id="@+id/sv_history_show_all" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/linear_history_diag_button_bottom" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/gray_title1" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                    <TextView android:textSize="22sp" android:id="@+id/tv_vehicle_title" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/Historical_records_title_txt" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                </LinearLayout>
+                <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                    <TextView android:id="@+id/tv_make_title" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Historical_records_make_txt" android:drawablePadding="10dp" style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:id="@+id/tv_make_value" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                </LinearLayout>
+                <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                    <TextView android:id="@+id/tv_vin_title" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Historical_records_vin_txt" android:drawablePadding="10dp" style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:id="@+id/tv_vin_value" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                </LinearLayout>
+                <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <TextView android:id="@+id/tv_model_title" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height" android:text="@string/Historical_records_model_txt" android:drawablePadding="10dp" style="@style/TextViewStyle.History.title"/>
+                        <TextView android:id="@+id/tv_model_value" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <TextView android:id="@+id/tv_mileage_title" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height" android:text="@string/Historical_records_mileage_txt" android:drawablePadding="10dp" style="@style/TextViewStyle.History.title"/>
+                        <TextView android:id="@+id/tv_mileage_value" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <TextView android:id="@+id/tv_year_title" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height" android:text="@string/Historical_records_year_txt" android:drawablePadding="10dp" style="@style/TextViewStyle.History.title"/>
+                        <TextView android:id="@+id/tv_year_value" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <TextView android:id="@+id/tv_color_title" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height" android:text="@string/Historical_records_color_txt" android:drawablePadding="10dp" style="@style/TextViewStyle.History.title"/>
+                        <TextView android:id="@+id/tv_color_value" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <TextView android:id="@+id/tv_engine_title" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height" android:text="@string/Historical_records_engine_txt" android:drawablePadding="10dp" style="@style/TextViewStyle.History.title"/>
+                        <TextView android:id="@+id/tv_engine_value" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <TextView android:id="@+id/tv_testtime_title" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height" android:text="@string/report_diagnose_time" android:drawablePadding="10dp" style="@style/TextViewStyle.History.title"/>
+                        <TextView android:id="@+id/tv_testtime_value" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                    <TextView android:id="@+id/tv_car_model_software_version_title" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Historical_records_car_model_software_version_txt" android:drawablePadding="10dp" style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:id="@+id/tv_car_model_software_version_value" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                </LinearLayout>
+                <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/tv_diagnostic_software_version_title" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Historical_records_diagnostic_software_version_txt" android:drawablePadding="10dp" style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:id="@+id/tv_diagnostic_software_version_value" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                </LinearLayout>
+                <ImageView android:background="@color/diver_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/tv_diagnostic_path_title" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/diagloghistorydetail_userOperatePath" android:drawablePadding="10dp" style="@style/MiniInfoItemTextStyle"/>
+                    <TextView android:id="@+id/tv_diagnostic_path_value" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:drawablePadding="10dp" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ListViewStyle.Title.Linear">
+                    <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/tv_fault_title" android:singleLine="true" android:layout_weight="1" style="@style/ListViewStyle.Title.TextView"/>
+                    <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/tv_fault_value" android:layout_weight="1.5" style="@style/ListViewStyle.Title.TextView"/>
+                    <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/tv_fault_statue" android:layout_weight="1" style="@style/ListViewStyle.Title.TextView"/>
+                    <TextView android:gravity="center" android:id="@+id/history_dtc_sys_name" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/report_null_diangnose_name" android:layout_weight="1" style="@style/ListViewStyle.Title.TextView"/>
+                </LinearLayout>
+                <com.cnlaunch.x431pro.widget.NoScrollerListView android:id="@+id/listview_history_dtc" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:footerDividersEnabled="false" style="@style/ListViewStyle.ListView"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/layout_history_actuation_test" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin" android:layout_marginBottom="@dimen/mine_area_margin">
+                <TextView android:background="@color/gray_title2" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/Historical_records_actuation_tests_txt" android:singleLine="true" android:layout_weight="1.5" style="@style/ListViewStyle.Title.TextView"/>
+                <com.cnlaunch.x431pro.widget.NoScrollerListView android:id="@+id/listview_history_actuation_test" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:footerDividersEnabled="false" style="@style/ListViewStyle.ListView"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

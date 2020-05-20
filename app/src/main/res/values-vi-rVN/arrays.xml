@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Thái độ xấu</item>
+        <item>Thái độ bình thường</item>
+        <item>Thái độ rất tốt</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Hiệu quả kém</item>
+        <item>Hiệu quả không cao</item>
+        <item>Hiệu quả cao</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Hiệu suất chi phí thấp</item>
+        <item>Hiệu suất chi phí không cao</item>
+        <item>Hiệu suất chi phí cao</item>
+    </array>
+    <array name="area_selection">
+        <item>China</item>
+        <item>Khác</item>
+    </array>
+    <array name="func_status">
+        <item>Không có trạng thái</item>
+        <item>Kết quả</item>
+        <item>Thất bại</item>
+        <item>Kết thúc</item>
+        <item>Không có mã lỗi DTC</item>
+        <item>Không thể kết nối</item>
+        <item>Không tìm thấy ID</item>
+        <item>Bắt đầu chức năng</item>
+        <item>Kết thúc chức năng</item>
+        <item>Hủy không lưu trữ dữ liệu</item>
+    </array>
+    <array name="func_type">
+        <item>Quét hệ thống</item>
+        <item>Kiểm tra nhanh</item>
+        <item>Nhập hệ thống</item>
+        <item>Thông tin phiên bản</item>
+        <item>Đọc mã lỗi DTC</item>
+        <item>Xóa mã lỗi DTC</item>
+        <item>Đọc thông số hiện hành</item>
+        <item>Đọc thông số đóng băng</item>
+        <item>Kích hoạt cơ cấu chấp hành</item>
+        <item>Chức năng đặc biệt</item>
+        <item>Kiểu xe</item>
+        <item>Model xe</item>
+        <item>Năm</item>
+        <item>Dung tích xy lanh</item>
+        <item>Kiểu hộp số</item>
+        <item>Chasis</item>
+        <item>Động cơ</item>
+        <item>ID hệ thống</item>
+        <item>Báo cáo Dtc</item>
+        <item>Đặt dữ liệu Odo</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Khác</item>
+        <item>Self diagnostic report</item>
+        <item>Báo cáo chẩn đoán chuyên gia</item>
+        <item>Báo cáo một phím xóa DTC</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Khác</item>
+        <item>Người điều khiển</item>
+        <item>Hỗ trợ</item>
+        <item>Đi chung xe</item>
+        <item>Thuê ô tô</item>
+        <item>Taxi</item>
+        <item>Đại lý</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+    <array name="syste_error_choose">
+        <item>1. The ignition switch is in keyII or keyIII position or the engine is started</item>
+        <item>2. The diagnostic connector is properly connected and extension cord has been used</item>
+        <item>3. Vehicle battery voltage and communication pin voltage are normal</item>
+        <item>4. The vehicle is equipped with the system</item>
+        <item>5. The ECU fuse and ECU line are normal</item>
+        <item>6. The ignition switch has been turned off and turned on again</item>
+        <item>7. The VCI has been disconnected and connected again, or the host device has been restarted</item>
+        <item>8. Lines related to the ECU and OBD are not original.</item>
+        <item>9. The vehicle is not equipped with the OBD-related car model</item>
+        <item>10. The bus switch is on if it is available</item>
+    </array>
+</resources>

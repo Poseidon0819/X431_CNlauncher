@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/item_height">
+        <TextView android:textSize="@dimen/textsize_normal_M" android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/textsize_normal_M" android:ellipsize="middle" android:gravity="center" android:layout_gravity="center" android:id="@+id/memu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

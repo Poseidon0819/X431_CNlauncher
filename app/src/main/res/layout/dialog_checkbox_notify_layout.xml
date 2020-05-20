@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/container" android:background="@color/emergency_white" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="16sp" android:textColor="#222222" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textSize="16sp" android:textColor="#222222" android:gravity="center" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <CheckBox android:gravity="center" android:id="@+id/childBox" android:background="@drawable/diasys_check_btn" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:button="@null"/>
+        <TextView android:textSize="16sp" android:textColor="@color/green_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gps_open_prompt" android:singleLine="true"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+        <Button android:textSize="16sp" android:textColor="@android:color/white" android:id="@+id/btn_cancel" android:background="@drawable/cance_seletor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:minHeight="45dp" android:layout_weight="1"/>
+        <Button android:textSize="16sp" android:textColor="@android:color/white" android:id="@+id/confirm_ok" android:background="@drawable/green_btn_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:minHeight="45dp" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

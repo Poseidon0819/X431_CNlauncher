@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/textsize_firmware" android:textColor="#696969" android:gravity="left" android:id="@+id/tv_tips_message" android:paddingLeft="@dimen/height_base" android:paddingRight="@dimen/height_base" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:layout_marginBottom="@dimen/dp_10" android:text="@string/vehicle_voltage_tips_message"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/voltage_state_area" android:background="@color/white" android:paddingLeft="@dimen/mine_area_margin" android:paddingRight="@dimen/dp_60" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/tv_tips_message">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ll_vehicle_voltage" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/textsize_normal_S" android:id="@+id/tv_vehicle_voltage" android:paddingLeft="@dimen/mine_area_margin" android:paddingRight="@dimen/mine_area_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_vehicle_voltage"/>
+            <TextView android:textSize="@dimen/textsize_normal_S" android:gravity="left" android:id="@+id/tv_vehicle_voltage_value" android:paddingLeft="@dimen/mine_area_margin" android:paddingRight="@dimen/mine_area_margin" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:id="@+id/voltage_des_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:id="@+id/l1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:background="#6f4c49f4" android:layout_width="40dp" android:layout_height="24dp"/>
+                <TextView android:textSize="@dimen/textsize_normal_S" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/voltage_value_start"/>
+                <TextView android:textSize="@dimen/textsize_normal_S" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/engine_start"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <View android:background="#4f016ade" android:layout_width="40dp" android:layout_height="24dp"/>
+                <TextView android:textSize="@dimen/textsize_normal_S" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/voltage_value_unstart"/>
+                <TextView android:textSize="@dimen/textsize_normal_S" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/engine_unstart"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/voltage_greth" android:background="@color/white" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/linear_button_bottom" android:layout_below="@+id/voltage_state_area">
+        <RelativeLayout android:id="@+id/rl_large_graph" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <RelativeLayout android:id="@+id/v_record" android:background="@color/translucent_bg" android:padding="@dimen/btn_padding_vertical" android:visibility="gone" android:layout_width="@dimen/record_outside" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <Button android:id="@+id/btn_stop_record" android:background="@drawable/button_white_selector" android:layout_width="60dp" android:layout_height="50dp" android:layout_marginLeft="5dp" android:layout_marginTop="30dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <ProgressBar android:id="@+id/pd_indeter" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="5dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/progress_indeterminate_red" android:layout_toRightOf="@+id/btn_stop_record" android:layout_alignParentTop="true" style="?android:attr/progressBarStyleHorizontal"/>
+            <Chronometer android:textSize="@dimen/datastream_record_text_size" android:textColor="@color/white" android:id="@+id/chronometer_record_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:format="HH:mm:ss" android:text="@string/tv_record_default" android:layout_below="@+id/pd_indeter" android:layout_alignParentRight="true"/>
+            <TextView android:textSize="@dimen/datastream_record_text_size" android:textColor="@color/white" android:id="@+id/tv_record_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/btn_recording_datastream" android:layout_toRightOf="@+id/btn_stop_record" android:layout_below="@+id/pd_indeter"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear_button_bottom" android:background="@drawable/shape_bottombutton_bg" android:paddingTop="@dimen/dp_14" android:paddingBottom="@dimen/dp_14" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/leftmenu_textsize" android:gravity="center" android:id="@+id/btn_save" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_record" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/leftmenu_textsize" android:gravity="center" android:id="@+id/btn_print" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_print" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/leftmenu_textsize" android:gravity="center" android:id="@+id/btn_stop" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_stop_reportrecord" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/leftmenu_textsize" android:gravity="center" android:id="@+id/btn_clear" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_clear" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/leftmenu_textsize" android:gravity="center" android:id="@+id/btn_start" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_start" android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

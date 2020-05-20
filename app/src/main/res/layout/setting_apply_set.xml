@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/light_gray" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@+id/rl_set_apply" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:id="@+id/rl_set_apply_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/tv_set_apply_conversion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conversion" style="@style/MiniInfoItemTextStyle"/>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin" android:layout_below="@+id/tv_set_apply_conversion">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                        <RadioButton android:layout_gravity="center_vertical" android:id="@+id/btn_setting_metric" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/metric" android:drawableRight="@drawable/select_btn_cbox_ring" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+                        <RadioButton android:layout_gravity="center_vertical" android:id="@+id/btn_setting_imperial" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/imperial" android:drawableRight="@drawable/select_btn_cbox_ring" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/title_layout" android:background="@color/bg_title_color" android:layout_width="match_parent" android:layout_height="@dimen/dp_48">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/title_right_layout" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/dp_20" android:layout_toLeftOf="@+id/title_right_layout" android:layout_alignParentLeft="true">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/title_left_layout" android:background="@drawable/title_color_select" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <ImageView android:id="@+id/title_back_image" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/dp_5" android:src="@drawable/title_back"/>
+                <com.cnlaunch.golo3.event.AlwaysMarqueeTextView android:textSize="@dimen/sp_16" android:textColor="@color/title_txt_color" android:ellipsize="marquee" android:gravity="center" android:id="@+id/title_text" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/layout_car" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <View android:layout_gravity="center_vertical" android:background="@color/divider_color" android:layout_width="1dp" android:layout_height="18dp"/>
+                <TextView android:textSize="@dimen/sp_16" android:textColor="@color/title_txt_color" android:gravity="center" android:id="@+id/title_car" android:background="@drawable/title_color_select" android:padding="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="@dimen/dp_200" android:singleLine="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/title_middle_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+            <TextView android:gravity="center" android:id="@+id/left_center_title_btn" android:layout_width="@dimen/dp_90" android:layout_height="@dimen/dp_35"/>
+            <TextView android:gravity="center" android:id="@+id/right_cnter_title_btn" android:layout_width="@dimen/dp_90" android:layout_height="@dimen/dp_35"/>
+        </LinearLayout>
+        <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="@dimen/dp_1" android:layout_marginTop="47dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/progressbar_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:id="@+id/progressbar" android:visibility="visible" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:indeterminateDrawable="@drawable/progress_rotate" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/sp_16" android:id="@+id/load_tishi_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/progressbar" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <ViewStub android:layout_gravity="center" android:id="@+id/viewstub_nodata" android:layout="@layout/base_no_data_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</merge>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/title_layout" android:background="@android:color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dp_48">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/title_left_layout" android:background="@drawable/title_color_select" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true">
+            <TextView android:textSize="@dimen/sp_16" android:textColor="@android:color/black" android:gravity="center" android:id="@+id/title_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_10" android:drawableLeft="@drawable/gmap_title_back" android:drawablePadding="@dimen/dp_5"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/search_layout" android:padding="5dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/add_confirm" android:layout_toRightOf="@+id/title_left_layout">
+            <RelativeLayout android:background="@drawable/white_border_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+                <EditText android:textSize="@dimen/sp_12" android:textColor="@color/gray_text_color" android:gravity="center_vertical" android:id="@+id/search_input" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/please_input_efence_search" android:singleLine="true" android:drawableLeft="@drawable/gmap_search_btn" android:layout_toLeftOf="@+id/search_clear" android:layout_alignParentLeft="true"/>
+                <ImageView android:id="@+id/search_clear" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_10" android:src="@drawable/gmap_search_clear_pressed" android:layout_alignParentRight="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:gravity="center" android:id="@+id/add_confirm" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="10dp" android:src="@drawable/gmap_titlebar_sure_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/title_layout">
+        <TextView android:textSize="@dimen/sp_14" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_gravity="top|center_horizontal" android:id="@+id/address" android:background="@color/personinformation_gray" android:padding="10dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        <include android:layout_gravity="center" android:id="@+id/map_set" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/gmap_map_set"/>
+    </FrameLayout>
+</RelativeLayout>

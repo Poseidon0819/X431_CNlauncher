@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:pullrefresh="http://schemas.android.com/apk/res/com.cnlaunch.padII" xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear_loading_order" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.cnlaunch.x431pro.widget.progress.ProgressBarCircularIndeterminate android:layout_width="@dimen/golo_dialog_progress_size" android:layout_height="@dimen/golo_dialog_progress_size"/>
+        <TextView android:textSize="@dimen/textsize_small_M" android:textColor="@color/black" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/dialog_wait_content" android:singleLine="true"/>
+    </LinearLayout>
+    <ListView android:id="@+id/search_listview" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#ededed" android:layout_below="@+id/im_clear" style="@style/ListViewStyle.ListView.golo"/>
+    <TextView android:textSize="@dimen/sp_18" android:textColor="@color/golo_gray_txt" android:gravity="center" android:id="@+id/im_clear" android:padding="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tips_clear" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+</RelativeLayout>

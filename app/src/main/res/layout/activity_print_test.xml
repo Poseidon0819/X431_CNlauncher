@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/marginptopbottom">
+        <LinearLayout android:orientation="vertical" android:id="@+id/lineinfo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18px" android:layout_marginTop="@dimen/marginpvertical" android:layout_marginRight="22px">
+            <TextView android:enabled="false" android:textSize="@dimen/marginpx2" android:textColor="@color/black" android:id="@+id/connectinfo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1sp"/>
+            <TextView android:enabled="false" android:textSize="@dimen/marginpx2" android:textColor="@color/black" android:id="@+id/show" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1sp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linePrintest" android:layout_width="match_parent" android:layout_height="@dimen/buttonheight" android:layout_marginLeft="25px" android:layout_marginTop="@dimen/marginpvertical" android:layout_marginRight="25px" android:layout_above="@+id/lineBottom">
+            <Button android:id="@+id/btnBmp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="0dp" style="?attr/commomButtonStyle"/>
+            <Button android:textSize="@dimen/marginpx2" android:id="@+id/btnWord" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="0dp" android:text="@string/PrintText" style="?attr/commomButtonStyle"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/lineBottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="25px" android:layout_marginTop="@dimen/marginpvertical" android:layout_marginRight="25px" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linefind" android:layout_width="match_parent" android:layout_height="@dimen/buttonheight">
+                <Button android:id="@+id/btnFind" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="0dp" android:text="@string/FindPrinter" android:layout_weight="10" style="?attr/commomButtonStyle"/>
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                <Button android:id="@+id/btnHelp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="0dp" android:text="@string/help" android:layout_weight="10" style="?attr/commomButtonStyle"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/line2btn" android:layout_width="match_parent" android:layout_height="@dimen/buttonheight" android:layout_marginTop="@dimen/marginpvertical">
+                <Button android:id="@+id/btnSettin" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="0dp" android:text="@string/ConnetLocalNet" android:layout_weight="10" style="?attr/commomButtonStyle"/>
+                <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                <Button android:id="@+id/check" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="0dp" android:text="@string/checkag" android:layout_weight="10" style="?attr/commomButtonStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

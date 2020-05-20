@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/sp_20" android:textColor="#121212" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:text="@string/qrcode_pay"/>
+        <TextView android:textSize="@dimen/sp_24" android:textColor="#ff0000" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/tv_payment_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_qrcode" android:layout_width="402dp" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@+id/img_qr_code" android:layout_width="400dp" android:layout_height="400dp" android:layout_marginTop="@dimen/dp_20" android:src="@drawable/vin_input"/>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/scantip"/>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10">
+                    <TextView android:textSize="@dimen/sp_20" android:textColor="#808080" android:id="@+id/tv_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/start_wechat_pay"/>
+                    <TextView android:textSize="@dimen/sp_20" android:textColor="#808080" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scan_qrcode"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_20">
+            <Button android:textSize="@dimen/textsize_normal_S" android:id="@+id/btnCancelPay" android:background="@drawable/select_btn_dialog_grey" android:layout_width="300dp" android:layout_height="wrap_content" android:text="@string/give_up_payment" style="@style/DialogStyle_Button_grey"/>
+            <Button android:textSize="@dimen/textsize_normal_S" android:id="@+id/btnPayed" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_60" android:text="@string/complete_payment" style="?attr/commomButtonStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

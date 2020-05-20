@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/voltage_state_area" android:background="@color/white" android:paddingLeft="@dimen/mine_area_margin" android:paddingRight="@dimen/dp_60" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/tv_tips_message">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ll_vehicle_voltage" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/textsize_normal_S" android:id="@+id/tv_vehicle_voltage" android:paddingLeft="@dimen/mine_area_margin" android:paddingRight="@dimen/mine_area_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_vehicle_voltage"/>
+            <TextView android:textSize="@dimen/textsize_normal_S" android:gravity="left" android:id="@+id/tv_vehicle_voltage_value" android:paddingLeft="@dimen/mine_area_margin" android:paddingRight="@dimen/mine_area_margin" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:id="@+id/voltage_des_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:id="@+id/l1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:background="#6f4c49f4" android:layout_width="40dp" android:layout_height="24dp"/>
+                <TextView android:textSize="@dimen/textsize_normal_S" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/voltage_value_start"/>
+                <TextView android:textSize="@dimen/textsize_normal_S" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/engine_start"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <View android:background="#4f016ade" android:layout_width="40dp" android:layout_height="24dp"/>
+                <TextView android:textSize="@dimen/textsize_normal_S" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/voltage_value_unstart"/>
+                <TextView android:textSize="@dimen/textsize_normal_S" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/engine_unstart"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/rl_large_graph" android:background="@color/white" android:visibility="visible" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

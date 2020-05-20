@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="bluetoothlist_height_size">65</integer>
+    <integer name="bluetoothlist_width_size">65</integer>
+    <integer name="carlogoItemColumnNum">6</integer>
+    <integer name="datastream_select_num">2</integer>
+    <integer name="dialog_message_maxline">20</integer>
+    <integer name="golo_detail_car_height">300</integer>
+    <integer name="golo_detail_pop_width">700</integer>
+    <integer name="golo_title_textsize">18</integer>
+    <integer name="graph_VerticalSpacing">3</integer>
+    <integer name="isshow_tag_title_flag">1</integer>
+    <integer name="leftmenu_mainsize">70</integer>
+    <integer name="report_tip_title_textsize">18</integer>
+    <integer name="sidebar_text">19</integer>
+    <integer name="sidebaroffset">140</integer>
+    <integer name="sidebartemp">80</integer>
+    <integer name="toolItemColumnNum">5</integer>
+    <integer name="update_title_textsize">16</integer>
+    <integer name="updatebin_width_size">65</integer>
+</resources>

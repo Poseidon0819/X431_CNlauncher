@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="bluetoothlist_height_size">65</integer>
+    <integer name="bluetoothlist_width_size">65</integer>
+    <integer name="carlogoItemColumnNum">6</integer>
+    <integer name="dialog_message_maxline">23</integer>
+    <integer name="graph_VerticalSpacing">0</integer>
+    <integer name="graph_padding_top">0</integer>
+    <integer name="leftmenu_mainsize">70</integer>
+    <integer name="toolItemColumnNum">6</integer>
+</resources>

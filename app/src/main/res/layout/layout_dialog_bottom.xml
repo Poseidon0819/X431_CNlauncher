@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:textSize="18sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/photographBtn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:text="@string/common_confirm"/>
+    <Button android:textSize="18sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/localPhotosBtn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:text="share"/>
+    <Button android:textSize="18sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/cancelBtn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="@string/common_cancel"/>
+</LinearLayout>

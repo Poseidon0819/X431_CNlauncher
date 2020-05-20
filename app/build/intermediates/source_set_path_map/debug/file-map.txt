@@ -1,0 +1,8 @@
+com.ifoer.expedition.pro.app-pngs-0 D:\Workspace\Reverse\X431_CNlauncher\app\build\generated\res\pngs\debug
+com.ifoer.expedition.pro.app-resValues-1 D:\Workspace\Reverse\X431_CNlauncher\app\build\generated\res\resValues\debug
+com.ifoer.expedition.pro.app-rs-2 D:\Workspace\Reverse\X431_CNlauncher\app\build\generated\res\rs\debug
+com.ifoer.expedition.pro.app-mergeDebugResources-3 D:\Workspace\Reverse\X431_CNlauncher\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.ifoer.expedition.pro.app-mergeDebugResources-4 D:\Workspace\Reverse\X431_CNlauncher\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.ifoer.expedition.pro.app-merged_res-5 D:\Workspace\Reverse\X431_CNlauncher\app\build\intermediates\merged_res\debug
+com.ifoer.expedition.pro.app-debug-6 D:\Workspace\Reverse\X431_CNlauncher\app\src\debug\res
+com.ifoer.expedition.pro.app-main-7 D:\Workspace\Reverse\X431_CNlauncher\app\src\main\res

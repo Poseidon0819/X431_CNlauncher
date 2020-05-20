@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/button1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="@string/tool_item_name_browser" android:layout_alignParentBottom="true"/>
+        <GridView android:id="@+id/gridView1" android:layout_width="match_parent" android:layout_height="wrap_content" android:numColumns="3" android:layout_above="@+id/button1"/>
+    </RelativeLayout>
+</LinearLayout>

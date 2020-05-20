@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_10" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.5">
+            <CheckBox android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/cbox_item" android:background="@drawable/select_btn_cbox" android:focusable="false" android:clickable="true" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:button="@null"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10">
+                <TextView android:layout_gravity="center" android:id="@+id/tv_carname_item" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextViewStyle.update.itemvalue"/>
+                <TextView android:layout_gravity="center" android:id="@+id/tv_curversion_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cur_version_txt" style="@style/TextViewStyle.update.itemvalue"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:gravity="left" android:layout_gravity="center" android:id="@+id/tv_upgradeversion_item" android:layout_width="0dp" android:layout_height="wrap_content" android:text="V5.00.005" android:layout_weight="1" style="@style/TextViewStyle.update.itemvalue"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <Button android:layout_gravity="center" android:id="@+id/division_softDes" android:padding="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_softwareintroduction" style="?attr/commonButtonLongStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

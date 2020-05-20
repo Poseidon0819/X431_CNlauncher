@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/mine_info_item_bg" android:paddingTop="8dp" android:layout_width="@dimen/caricon_item_width" android:layout_height="@dimen/caricon_item_height">
+    <TextView android:textSize="@dimen/textsize_large_S" android:textColor="#8e8e93" android:ellipsize="end" android:gravity="center" android:id="@+id/tv_vehicle_name" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/carname_margin_bottom" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/vehicle_pic" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/tv_vehicle_name" android:layout_centerInParent="true"/>
+</RelativeLayout>

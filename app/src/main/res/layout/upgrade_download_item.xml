@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/item_height">
+    <TextView android:gravity="center" android:id="@+id/tv_name_item" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/TextViewStyle.update.itemvalue"/>
+    <TextView android:gravity="center" android:id="@+id/tv_version_item" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/TextViewStyle.update.itemvalue"/>
+    <ProgressBar android:id="@+id/pb_progress_item" android:paddingRight="2dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ProgressBarStyle.YellowStyle"/>
+    <TextView android:gravity="center" android:id="@+id/tv_state_item" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_weight="1" style="@style/TextViewStyle.update.itemvalue"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:background="#fff" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/login1" android:background="?attr/mainTitleBackgroud" android:layout_width="match_parent" android:layout_height="@dimen/buttonheight" android:minHeight="40dp" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/marginpx2" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/help" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/marginpx2" android:textColor="@color/black" android:id="@+id/tview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/marginpx2" android:layout_marginTop="@dimen/marginpx2" android:layout_marginRight="@dimen/marginpx2" android:text="@string/help_text" android:layout_above="@+id/bottom" android:layout_below="@+id/login1"/>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/bottom" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginLeft="@dimen/marginpx1" android:layout_marginRight="@dimen/marginpx1" android:layout_marginBottom="@dimen/marginpx1" android:layout_alignParentBottom="true">
+        <Button android:id="@+id/back" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="0dp" android:text="@string/OK" style="?attr/commomButtonStyle"/>
+    </LinearLayout>
+</RelativeLayout>

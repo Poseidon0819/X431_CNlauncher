@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<filterSection>
+  <sections  title="Battery Test" iconname ="batterytest.png">
+             	    <section title="Introduction on Battery Test" ref="index.html" />
+		              <section title="Performance Standard of Battery Test" ref="instruction.html" />
+		              <section title="Main Page" ref="mainwindow.html" />
+		              <section title="In-Vehicle Test" ref="inside.html" />
+		              <section title="Out-of-Vehicle Test" ref="outside.html" />
+  </sections>
+  <keywords namespace ="launch.com.batterytest.1.0" >
+           <keyword name="Introduction on Battery Test"  ref="index.html"/>
+           <keyword name="Performance Standard of Battery Test" ref="instruction.html" />
+           <keyword name="Main Page" ref="mainwindow.html" />
+           <keyword name="In-Vehicle Test" ref="inside.html" />
+           <keyword name="Out-of-Vehicle Test" ref="outside.html" />
+         </keywords>   
+ </filterSection>
+

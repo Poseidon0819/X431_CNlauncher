@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<filterSection>
+      <sections  title="Multimeter" iconname ="multimeter.png">
+             	    <section title="Multimeter Introduction" ref="index.html" />
+		              <section title="Test Page" ref="testwindow.html" />
+      </sections>
+
+         <keywords namespace ="launch.com.multimeter.1.0" >
+           <keyword name="Multimeter Introduction"  ref="index.html"/>
+           <keyword name="Test Page" ref="testwindow.html" />
+         </keywords>  
+ </filterSection>
+

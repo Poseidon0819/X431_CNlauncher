@@ -1,0 +1,1165 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ifoer.expedition.pro"
+4    platformBuildVersionCode="105"
+5    platformBuildVersionName="3.11.015"
+6    android:installLocation="internalOnly"
+7    android:versionCode="105"
+8    android:versionName="3.11.015" >
+9
+10    <uses-sdk
+10-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:3:5-73
+11        android:minSdkVersion="15"
+11-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:3:15-41
+12        android:targetSdkVersion="22" />
+12-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:3:42-71
+13
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:4:5-65
+14-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:4:22-63
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:5:5-66
+15-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:5:22-64
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:6:5-74
+16-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:6:22-72
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:7:5-75
+17-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:7:22-73
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:8:5-80
+18-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:8:22-78
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:9:5-78
+19-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:9:22-76
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:10:5-78
+20-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:10:22-76
+21    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+21-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:11:5-75
+21-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:11:22-73
+22    <uses-permission android:name="android.permission.SEND" />
+22-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:12:5-62
+22-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:12:22-60
+23    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+23-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:13:5-83
+23-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:13:22-81
+24    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+24-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:14:5-78
+24-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:14:22-76
+25    <uses-permission android:name="com.android.vending.BILLING" />
+25-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:15:5-66
+25-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:15:22-64
+26    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+26-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:16:5-73
+26-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:16:22-71
+27    <uses-permission android:name="android.permission.BLUETOOTH" />
+27-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:17:5-67
+27-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:17:22-65
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:18:5-80
+28-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:18:22-78
+29    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+29-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:19:5-80
+29-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:19:22-78
+30    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+30-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:20:5-79
+30-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:20:22-77
+31    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+31-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:21:5-77
+31-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:21:22-75
+32    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+32-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:22:5-83
+32-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:22:22-81
+33    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+33-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:23:5-77
+33-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:23:22-75
+34    <uses-permission android:name="android.permission.REORDER_TASKS" />
+34-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:24:5-71
+34-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:24:22-69
+35    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+35-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:25:5-79
+35-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:25:22-77
+36    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+36-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:26:5-70
+36-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:26:22-68
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:27:5-67
+37-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:27:22-65
+38    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+38-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:28:5-84
+38-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:28:22-82
+39    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+39-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:29:5-87
+39-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:29:22-85
+40    <uses-permission android:name="com.android.launcher3.permission.READ_SETTINGS" />
+40-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:30:5-85
+40-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:30:22-83
+41    <uses-permission android:name="com.android.launcher3.permission.WRITE_SETTINGS" />
+41-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:31:5-86
+41-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:31:22-84
+42    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+42-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:32:5-89
+42-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:32:22-87
+43    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+43-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:33:5-92
+43-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:33:22-90
+44    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+44-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:34:5-93
+44-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:34:22-91
+45    <uses-permission android:name="android.permission.GET_TASKS" />
+45-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:35:5-67
+45-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:35:22-65
+46    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+46-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:36:5-74
+46-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:36:22-72
+47    <uses-permission android:name="android.permission.READ_LOGS" />
+47-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:37:5-67
+47-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:37:22-65
+48    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+48-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:38:5-97
+48-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:38:22-95
+49    <uses-permission android:name="android.permission.ACCESS_GPS" />
+49-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:39:5-68
+49-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:39:22-66
+50    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+50-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:40:5-78
+50-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:40:22-76
+51    <uses-permission android:name="android.permission.NFC" />
+51-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:41:5-61
+51-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:41:22-59
+52
+53    <uses-feature android:name="android.hardware.nfc.hce" />
+53-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:42:5-60
+53-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:42:19-58
+54
+55    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
+55-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:43:5-78
+55-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:43:22-76
+56    <uses-permission android:name="com.android.launcher2.permission.READ_SETTINGS" />
+56-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:44:5-85
+56-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:44:22-83
+57    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+57-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:45:5-82
+57-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:45:22-80
+58
+59    <instrumentation
+59-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:46:5-126
+60        android:name="android.test.InstrumentationTestRunner"
+60-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:46:22-75
+61        android:targetPackage="com.ifoer.expedition.pro" />
+61-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:46:76-124
+62
+63    <meta-data
+63-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:47:5-79
+64        android:name="android.support.VERSION"
+64-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:47:16-54
+65        android:value="25.3.1" />
+65-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:47:55-77
+66
+67    <application
+67-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:5-224:19
+68        android:name="com.cnlaunch.x431pro.activity.GDApplication"
+68-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:123-181
+69        android:allowBackup="true"
+69-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:182-208
+70        android:debuggable="true"
+71        android:icon="@drawable/ic_launcher"
+71-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:86-122
+72        android:label="@string/app_name"
+72-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:53-85
+73        android:largeHeap="true"
+73-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:209-233
+74        android:theme="@style/LaunchTheme" >
+74-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:48:18-52
+75        <meta-data
+75-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:49:9-127
+76            android:name="com.google.android.maps.v2.API_KEY"
+76-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:49:20-69
+77            android:value="AIzaSyCs4i5VqJvnOJZ2khYBTA89iAMp8j--l1A" />
+77-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:49:70-125
+78        <meta-data
+78-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:50:9-91
+79            android:name="com.google.android.gms.version"
+79-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:50:20-65
+80            android:value="4030500" />
+80-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:50:66-89
+81        <meta-data
+81-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:51:9-110
+82            android:name="com.baidu.lbsapi.API_KEY"
+82-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:51:20-59
+83            android:value="KfjigtnlOzRt583bkZEHZpconspMpjW8" />
+83-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:51:60-108
+84        <meta-data
+84-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:52:9-74
+85            android:name="com.launch.adsdk.key"
+85-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:52:20-55
+86            android:value="" />
+86-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:52:56-72
+87
+88        <service
+88-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:53:9-57:19
+89            android:name="com.baidu.location.ServiceC1002f"
+89-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:53:18-65
+90            android:enabled="true"
+90-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:53:66-88
+91            android:process=":remote" >
+91-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:53:89-114
+92            <intent-filter>
+92-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:54:13-56:29
+93                <action android:name="com.baidu.location.service_v2.2" />
+93-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:55:17-73
+93-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:55:25-71
+94            </intent-filter>
+95        </service>
+96
+97        <activity
+97-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:58:9-63:20
+98            android:name="com.ifoer.pro.expeditionphone.WelcomeActivity"
+98-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:58:110-170
+99            android:configChanges="screenSize|orientation|keyboardHidden"
+99-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:58:171-232
+100            android:label="@string/app_name"
+100-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:58:77-109
+101            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" >
+101-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:58:19-76
+102            <intent-filter>
+102-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:59:13-62:29
+103                <action android:name="android.intent.action.MAIN" />
+103-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:60:17-68
+103-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:60:25-66
+104
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:61:17-76
+105-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:61:27-74
+106            </intent-filter>
+107        </activity>
+108
+109        <provider
+109-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:64:9-66:20
+110            android:name="android.support.p012v4.content.FileProvider"
+110-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:64:19-77
+111            android:authorities="com.ifoer.expedition.pro.fileprovider"
+111-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:64:103-162
+112            android:exported="false"
+112-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:64:78-102
+113            android:grantUriPermissions="true" >
+113-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:64:163-197
+114            <meta-data
+114-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:65:13-115
+115                android:name="android.support.FILE_PROVIDER_PATHS"
+115-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:65:24-74
+116                android:resource="@xml/provider_paths" />
+116-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:65:75-113
+117        </provider>
+118
+119        <activity
+119-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:67:9-74:20
+120            android:name="org.vudroid.pdfdroid.PdfViewerActivity"
+120-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:67:19-72
+121            android:configChanges="orientation|keyboardHidden" >
+121-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:67:73-123
+122            <intent-filter>
+122-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:68:13-73:29
+123                <action android:name="org.vudroid.pdfdroid.PdfViewerActivity" />
+123-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:69:17-80
+123-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:69:25-78
+124
+125                <category android:name="android.intent.category.DEFAULT" />
+125-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:70:17-75
+125-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:70:27-73
+126                <category android:name="android.intent.category.BROWSABLE" />
+126-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:71:17-77
+126-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:71:27-75
+127
+128                <data android:mimeType="application/pdf" />
+128-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:72:17-59
+128-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:72:23-57
+129            </intent-filter>
+130        </activity>
+131        <activity
+131-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:75:9-209
+132            android:name="com.cnlaunch.x431pro.activity.info.P_DFScanActivity"
+132-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:75:79-145
+133            android:configChanges="screenSize|orientation|keyboardHidden"
+133-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:75:146-207
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:75:19-78
+135        <activity
+135-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:76:9-115
+136            android:name="com.cnlaunch.x431pro.activity.GuideActivity"
+136-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:76:19-77
+137            android:configChanges="orientation" />
+137-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:76:78-113
+138        <activity
+138-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:77:9-123
+139            android:name="com.cnlaunch.x431pro.activity.AdvertiseShowActivity"
+139-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:77:19-85
+140            android:configChanges="orientation" />
+140-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:77:86-121
+141        <activity
+141-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:78:9-83:20
+142            android:name="com.cnlaunch.x431pro.activity.MainActivity"
+142-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:78:73-130
+143            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+143-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:78:163-231
+144            android:launchMode="singleTask"
+144-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:78:131-162
+145            android:theme="@style/Theme.NoBackgroundAndTitleMain"
+145-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:78:19-72
+146            android:windowSoftInputMode="adjustResize" >
+146-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:78:232-274
+147            <intent-filter>
+147-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:79:13-82:29
+148                <action android:name="com.cnlaunch.golo.Notification" />
+148-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:80:17-72
+148-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:80:25-70
+149
+150                <category android:name="android.intent.category.DEFAULT" />
+150-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:70:17-75
+150-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:70:27-73
+151            </intent-filter>
+152        </activity>
+153        <activity
+153-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:84:9-205
+154            android:name="com.cnlaunch.x431pro.activity.login.LoginActivity"
+154-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:84:61-125
+155            android:configChanges="orientation"
+155-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:84:126-161
+156            android:theme="@style/LaunchTheme.Dialog"
+156-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:84:19-60
+157            android:windowSoftInputMode="stateHidden" />
+157-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:84:162-203
+158        <activity
+158-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:85:9-144
+159            android:name="com.cnlaunch.x431pro.activity.login.RegistActivity"
+159-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:85:19-84
+160            android:configChanges="orientation|keyboardHidden|locale" />
+160-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:85:85-142
+161        <activity
+161-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:86:9-147
+162            android:name="com.cnlaunch.x431pro.activity.login.RegistActivity_ja"
+162-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:86:19-87
+163            android:configChanges="orientation|keyboardHidden|locale" />
+163-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:86:88-145
+164        <activity
+164-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:87:9-157
+165            android:name="com.cnlaunch.x431pro.activity.login.RegisterInstructionActivity"
+165-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:87:19-97
+166            android:configChanges="orientation|keyboardHidden|locale" />
+166-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:87:98-155
+167        <activity
+167-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:88:9-151
+168            android:name="com.cnlaunch.x431pro.activity.login.ActivateJointActivity"
+168-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:88:19-91
+169            android:configChanges="orientation|keyboardHidden|locale" />
+169-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:88:92-149
+170        <activity
+170-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:89:9-130
+171            android:name="com.cnlaunch.x431pro.activity.login.RegisterFinishActivity"
+171-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:89:19-92
+172            android:configChanges="orientation" />
+172-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:89:93-128
+173        <activity
+173-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:90:9-161
+174            android:name="com.cnlaunch.x431pro.activity.login.FindPasswordActivity"
+174-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:90:19-90
+175            android:configChanges="screenSize|orientation|keyboardHidden|locale" />
+175-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:90:91-159
+176        <activity
+176-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:91:9-162
+177            android:name="com.cnlaunch.x431pro.activity.login.ResetPasswordActivity"
+177-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:91:19-91
+178            android:configChanges="screenSize|orientation|keyboardHidden|locale" />
+178-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:91:92-160
+179        <activity
+179-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:92:9-139
+180            android:name="com.cnlaunch.x431pro.activity.login.HowToGetJointVerifyCodeActivity"
+180-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:92:19-101
+181            android:configChanges="orientation" />
+181-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:92:102-137
+182        <activity
+182-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:93:9-131
+183            android:name="com.cnlaunch.x431pro.activity.login.RegisterProfileActivity"
+183-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:93:19-93
+184            android:configChanges="orientation" />
+184-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:93:94-129
+185        <activity
+185-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:94:9-169
+186            android:name="com.cnlaunch.x431pro.activity.login.CountrySelectActivity"
+186-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:94:19-91
+187            android:configChanges="orientation"
+187-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:94:92-127
+188            android:windowSoftInputMode="adjustPan" />
+188-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:94:128-167
+189        <activity
+189-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:95:9-185
+190            android:name="com.cnlaunch.x431pro.activity.diagnose.DiagnoseActivity"
+190-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:95:19-89
+191            android:configChanges="screenSize|orientation|keyboardHidden"
+191-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:95:122-183
+192            android:launchMode="singleTask" />
+192-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:95:90-121
+193        <activity
+193-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:96:9-229
+194            android:name="com.cnlaunch.x431pro.activity.bluetooth.BluetoothActivity"
+194-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:96:61-133
+195            android:configChanges="screenSize|orientation|keyboardHidden"
+195-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:96:166-227
+196            android:launchMode="singleTask"
+196-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:96:134-165
+197            android:theme="@style/LaunchTheme.Dialog" />
+197-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:96:19-60
+198        <activity
+198-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:97:9-231
+199            android:name="com.cnlaunch.x431pro.activity.bluetooth.DownloadBinActivity"
+199-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:97:61-135
+200            android:configChanges="screenSize|orientation|keyboardHidden"
+200-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:97:168-229
+201            android:launchMode="singleTask"
+201-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:97:136-167
+202            android:theme="@style/LaunchTheme.Dialog" />
+202-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:97:19-60
+203        <activity
+203-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:98:9-221
+204            android:name="com.cnlaunch.x431pro.activity.share.ShareActivity"
+204-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:98:61-125
+205            android:configChanges="screenSize|orientation|keyboardHidden"
+205-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:98:158-219
+206            android:launchMode="singleTask"
+206-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:98:126-157
+207            android:theme="@style/LaunchTheme.Dialog" />
+207-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:98:19-60
+208        <activity
+208-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:99:9-151
+209            android:name="com.cnlaunch.x431pro.activity.info.InfoActivity"
+209-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:99:19-81
+210            android:configChanges="orientation"
+210-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:99:114-149
+211            android:launchMode="singleTask" />
+211-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:99:82-113
+212        <activity
+212-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:100:9-190
+213            android:name="com.cnlaunch.x431pro.activity.upgrade.UpgradeActivity"
+213-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:100:19-87
+214            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+214-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:100:120-188
+215            android:launchMode="singleTask" />
+215-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:100:88-119
+216        <activity
+216-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:101:9-193
+217            android:name="com.cnlaunch.x431pro.activity.upgrade.UpgradeDocActivity"
+217-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:101:19-90
+218            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+218-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:101:123-191
+219            android:launchMode="singleTask" />
+219-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:101:91-122
+220        <activity
+220-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:102:9-184
+221            android:name="com.cnlaunch.x431pro.activity.golo.GoloActivity"
+221-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:102:19-81
+222            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+222-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:102:114-182
+223            android:launchMode="singleTask" />
+223-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:102:82-113
+224        <activity
+224-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:103:9-190
+225            android:name="com.cnlaunch.x431pro.activity.golousa.GoloUSAActivity"
+225-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:103:19-87
+226            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+226-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:103:120-188
+227            android:launchMode="singleTask" />
+227-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:103:88-119
+228        <activity
+228-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:104:9-167
+229            android:name="com.cnlaunch.p169im.IMActivity"
+229-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:104:19-64
+230            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+230-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:104:97-165
+231            android:launchMode="singleTask" />
+231-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:104:65-96
+232        <activity
+232-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:105:9-177
+233            android:name="com.cnlaunch.x431pro.activity.golo.function.GoloFunctionActivity"
+233-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:105:19-98
+234            android:configChanges="screenSize|orientation"
+234-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:105:129-175
+235            android:launchMode="standard" />
+235-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:105:99-128
+236        <activity
+236-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:106:9-166
+237            android:name="com.cnlaunch.x431pro.activity.golo.UserDetailActivity"
+237-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:106:19-87
+238            android:configChanges="screenSize|orientation"
+238-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:106:118-164
+239            android:launchMode="standard" />
+239-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:106:88-117
+240        <activity
+240-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:107:9-157
+241            android:name="com.cnlaunch.x431pro.activity.browser.BrowserActivity"
+241-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:107:19-87
+242            android:configChanges="orientation"
+242-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:107:120-155
+243            android:launchMode="singleTask" />
+243-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:107:88-119
+244        <activity
+244-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:108:9-179
+245            android:name="com.cnlaunch.x431pro.activity.tools.ToolsActivity"
+245-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:108:19-83
+246            android:configChanges="screenSize|orientation|keyboardHidden"
+246-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:108:116-177
+247            android:launchMode="singleTask" />
+247-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:108:84-115
+248        <activity
+248-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:109:9-219
+249            android:name="com.cnlaunch.x431pro.activity.mine.MineActivity"
+249-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:109:19-81
+250            android:configChanges="screenSize|orientation|keyboardHidden"
+250-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:109:114-175
+251            android:launchMode="singleTask"
+251-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:109:82-113
+252            android:windowSoftInputMode="stateHidden" />
+252-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:109:176-217
+253        <activity
+253-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:110:9-189
+254            android:name="com.cnlaunch.x431pro.activity.mine.PDFReportActivity"
+254-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:110:19-86
+255            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+255-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:110:119-187
+256            android:launchMode="singleTask" />
+256-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:110:87-118
+257        <activity
+257-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:111:9-117:20
+258            android:name="com.cnlaunch.x431pro.activity.help.HelpActivity"
+258-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:111:19-81
+259            android:configChanges="orientation" >
+259-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:111:82-117
+260            <intent-filter>
+260-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:112:13-116:29
+261                <action android:name="HELP_ACTION" />
+261-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:113:17-53
+261-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:113:25-51
+262
+263                <category android:name="android.intent.category.DEFAULT" />
+263-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:70:17-75
+263-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:70:27-73
+264
+265                <data
+265-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:72:17-59
+266                    android:mimeType="cnlaunch/helpfile"
+266-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:72:23-57
+267                    android:scheme="helpfile" />
+267-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:115:60-85
+268            </intent-filter>
+269        </activity>
+270        <activity
+270-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:118:9-127
+271            android:name="com.cnlaunch.x431pro.activity.help.HelpShowFileActivity"
+271-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:118:19-89
+272            android:configChanges="orientation" />
+272-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:118:90-125
+273
+274        <receiver android:name="com.cnlaunch.x431pro.activity.setting.SettingLaunchReceiver" >
+274-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:119:9-124:20
+274-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:119:19-93
+275            <intent-filter>
+275-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:120:13-123:29
+276                <action android:name="com.cnlaunch.intent.action.SETTINGS" />
+276-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:121:17-77
+276-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:121:25-75
+277
+278                <category android:name="android.intent.category.DEFAULT" />
+278-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:70:17-75
+278-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:70:27-73
+279            </intent-filter>
+280        </receiver>
+281
+282        <activity
+282-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:125:9-190
+283            android:name="com.cnlaunch.x431pro.activity.setting.SettingActivity"
+283-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:125:19-87
+284            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+284-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:125:120-188
+285            android:launchMode="singleTask" />
+285-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:125:88-119
+286        <activity
+286-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:126:9-229
+287            android:name="com.cnlaunch.x431pro.activity.setting.FeedbackActivity"
+287-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:126:19-88
+288            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+288-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:126:159-227
+289            android:launchMode="singleTask"
+289-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:126:89-120
+290            android:screenOrientation="landscape" />
+290-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:126:121-158
+291        <activity
+291-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:127:9-185
+292            android:name="com.cnlaunch.x431pro.activity.ReportShowActivity"
+292-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:127:19-82
+293            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+293-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:127:115-183
+294            android:launchMode="singleTask" />
+294-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:127:83-114
+295        <activity
+295-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:128:9-210
+296            android:name="com.cnlaunch.x431pro.activity.setting.SendDiagnosticLogActivity"
+296-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:128:61-139
+297            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+297-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:128:140-208
+298            android:theme="@style/LaunchTheme.Dialog" />
+298-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:128:19-60
+299        <activity
+299-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:129:9-131:20
+300            android:name="com.cnlaunch.x431pro.activity.setting.SendDiagnosticLogActivity1"
+300-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:129:19-98
+301            android:configChanges="screenSize|orientation|keyboardHidden"
+301-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:129:99-160
+302            android:parentActivityName="com.cnlaunch.x431pro.activity.BaseActivity" >
+302-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:129:161-232
+303            <meta-data
+303-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:13-131
+304                android:name="android.support.PARENT_ACTIVITY"
+304-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:24-70
+305                android:value="com.cnlaunch.x431pro.activity.BaseActivity" />
+305-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:71-129
+306        </activity>
+307
+308        <uses-library android:name="android.test.runner" />
+308-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:132:9-59
+308-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:132:23-57
+309
+310        <service
+310-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:133:9-157
+311            android:name="com.cnlaunch.diagnosemodule.service.DiagnoseService"
+311-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:133:18-84
+312            android:priority="1000"
+312-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:133:132-155
+313            android:process="com.cnlaunch.diagnoseservice" />
+313-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:133:85-131
+314
+315        <activity
+315-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:134:9-174
+316            android:name="com.cnlaunch.p169im.ShowVideoActivity"
+316-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:134:19-71
+317            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+317-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:134:104-172
+318            android:launchMode="singleTask" />
+318-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:134:72-103
+319        <activity
+319-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:135:9-201
+320            android:name="com.cnlaunch.x431pro.activity.golo.function.PicturePreviewActivity"
+320-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:135:19-100
+321            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+321-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:135:131-199
+322            android:launchMode="standard" />
+322-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:135:101-130
+323        <activity
+323-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:136:9-187
+324            android:name="com.cnlaunch.x431pro.activity.golo.function.ShowPictureActivity"
+324-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:136:19-97
+325            android:configChanges="orientation|keyboardHidden|locale"
+325-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:136:128-185
+326            android:launchMode="standard" />
+326-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:136:98-127
+327        <activity
+327-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:137:9-178
+328            android:name="com.cnlaunch.p169im.ShowImageDetailActivity"
+328-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:137:19-77
+329            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+329-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:137:108-176
+330            android:launchMode="standard" />
+330-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:137:78-107
+331        <activity
+331-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:138:9-186
+332            android:name="com.cnlaunch.golo3.view.selectimg.SelectPicActivity"
+332-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:138:19-85
+333            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+333-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:138:116-184
+334            android:launchMode="standard" />
+334-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:138:86-115
+335        <activity
+335-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:139:9-186
+336            android:name="com.cnlaunch.golo3.view.selectimg.CropImageActivity"
+336-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:139:19-85
+337            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+337-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:139:116-184
+338            android:launchMode="standard" />
+338-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:139:86-115
+339        <activity
+339-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:140:9-222
+340            android:name="com.cnlaunch.x431pro.activity.login.LoginConfictActivity"
+340-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:140:61-132
+341            android:configChanges="orientation|keyboardHidden|locale"
+341-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:140:163-220
+342            android:launchMode="standard"
+342-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:140:133-162
+343            android:theme="@style/LaunchTheme.Dialog" />
+343-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:140:19-60
+344        <activity
+344-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:141:9-222
+345            android:name="com.cnlaunch.x431pro.module.rtu.HomeStartActivity"
+345-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:141:19-83
+346            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+346-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:141:152-220
+347            android:launchMode="standard"
+347-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:141:84-113
+348            android:screenOrientation="landscape" />
+348-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:141:114-151
+349        <activity
+349-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:142:9-230
+350            android:name="com.cnlaunch.x431pro.activity.diagnose.VINSelectDialogActivity"
+350-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:142:61-138
+351            android:configChanges="orientation|keyboardHidden|locale"
+351-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:142:171-228
+352            android:launchMode="singleTask"
+352-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:142:139-170
+353            android:theme="@style/LaunchTheme.Dialog" />
+353-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:142:19-60
+354        <activity
+354-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:143:9-147
+355            android:name="com.cnlaunch.wifiprinter.HelpActivity"
+355-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:143:63-115
+356            android:launchMode="standard"
+356-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:143:116-145
+357            android:theme="@android:style/Theme.Dialog" />
+357-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:143:19-62
+358        <activity
+358-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:144:9-190
+359            android:name="com.cnlaunch.x431pro.activity.login.RegistMerchantHomePageActivity"
+359-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:144:19-100
+360            android:configChanges="orientation|keyboardHidden|locale"
+360-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:144:131-188
+361            android:launchMode="standard" />
+361-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:144:101-130
+362        <activity
+362-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:145:9-193
+363            android:name="com.cnlaunch.x431pro.activity.login.RegistMerchantActivity"
+363-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:145:19-92
+364            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+364-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:145:123-191
+365            android:launchMode="standard" />
+365-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:145:93-122
+366        <activity
+366-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:146:9-209
+367            android:name="com.cnlaunch.x431pro.activity.login.RegistMerchantTermsAndPoliciesActivity"
+367-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:146:19-108
+368            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+368-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:146:139-207
+369            android:launchMode="standard" />
+369-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:146:109-138
+370        <activity
+370-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:147:9-202
+371            android:name="com.cnlaunch.x431pro.activity.login.RegistMerchantSelectCarActivity"
+371-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:147:19-101
+372            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+372-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:147:132-200
+373            android:launchMode="standard" />
+373-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:147:102-131
+374        <activity
+374-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:148:9-180
+375            android:name="com.cnlaunch.x431pro.activity.login.BindMerchantActivity"
+375-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:148:19-90
+376            android:configChanges="orientation|keyboardHidden|locale"
+376-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:148:121-178
+377            android:launchMode="standard" />
+377-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:148:91-120
+378        <activity
+378-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:149:9-168
+379            android:name="com.cnlaunch.gmap.map.LocationSearchActivity"
+379-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:149:19-78
+380            android:configChanges="orientation|keyboardHidden|locale"
+380-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:149:109-166
+381            android:launchMode="standard" />
+381-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:149:79-108
+382
+383        <uses-library
+383-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:150:9-94
+384            android:name="org.simalliance.openmobileapi"
+384-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:150:23-67
+385            android:required="false" />
+385-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:150:68-92
+386
+387        <activity
+387-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:9-264
+388            android:name="com.unionpay.uppay.PayActivity"
+388-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:52-97
+389            android:configChanges="orientation|keyboardHidden"
+389-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:169-219
+390            android:excludeFromRecents="true"
+390-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:98-131
+391            android:label="@string/app_name"
+391-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:19-51
+392            android:screenOrientation="portrait"
+392-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:132-168
+393            android:windowSoftInputMode="adjustResize" />
+393-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:151:220-262
+394        <activity
+394-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:152:9-196
+395            android:name="com.unionpay.UPPayWapActivity"
+395-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:152:19-63
+396            android:configChanges="orientation|keyboardHidden"
+396-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:152:101-151
+397            android:screenOrientation="portrait"
+397-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:152:64-100
+398            android:windowSoftInputMode="adjustResize" />
+398-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:152:152-194
+399        <activity
+399-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:153:9-245
+400            android:name="com.alipay.sdk.app.H5PayActivity"
+400-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:153:19-66
+401            android:configChanges="orientation|navigation|keyboardHidden"
+401-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:153:127-188
+402            android:exported="false"
+402-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:153:67-91
+403            android:screenOrientation="behind"
+403-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:153:92-126
+404            android:windowSoftInputMode="adjustResize|stateHidden" />
+404-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:153:189-243
+405        <activity
+405-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:154:9-190
+406            android:name="com.alipay.sdk.auth.AuthActivity"
+406-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:154:19-66
+407            android:configChanges="orientation|navigation|keyboardHidden"
+407-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:154:127-188
+408            android:exported="false"
+408-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:154:67-91
+409            android:screenOrientation="behind" />
+409-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:154:92-126
+410        <activity
+410-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:155:9-157:20
+411            android:name="com.cnlaunch.x431pro.activity.pay.PlaceOrderActivity"
+411-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:155:19-86
+412            android:launchMode="singleTask"
+412-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:155:87-118
+413            android:parentActivityName="com.cnlaunch.x431pro.activity.BaseActivity" >
+413-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:155:119-190
+414            <meta-data
+414-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:13-131
+415                android:name="android.support.PARENT_ACTIVITY"
+415-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:24-70
+416                android:value="com.cnlaunch.x431pro.activity.BaseActivity" />
+416-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:71-129
+417        </activity>
+418        <activity
+418-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:158:9-160:20
+419            android:name="com.cnlaunch.x431pro.activity.pay.ChoicePayModeActivity"
+419-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:158:19-89
+420            android:launchMode="singleTask"
+420-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:158:90-121
+421            android:parentActivityName="com.cnlaunch.x431pro.activity.BaseActivity" >
+421-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:158:122-193
+422            <meta-data
+422-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:13-131
+423                android:name="android.support.PARENT_ACTIVITY"
+423-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:24-70
+424                android:value="com.cnlaunch.x431pro.activity.BaseActivity" />
+424-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:71-129
+425        </activity>
+426        <activity
+426-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:161:9-163:20
+427            android:name="com.cnlaunch.x431pro.activity.pay.WechatpayActivity"
+427-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:161:19-85
+428            android:launchMode="singleTask"
+428-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:161:86-117
+429            android:parentActivityName="com.cnlaunch.x431pro.activity.BaseActivity" >
+429-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:161:118-189
+430            <meta-data
+430-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:13-131
+431                android:name="android.support.PARENT_ACTIVITY"
+431-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:24-70
+432                android:value="com.cnlaunch.x431pro.activity.BaseActivity" />
+432-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:71-129
+433        </activity>
+434        <activity
+434-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:164:9-166:20
+435            android:name="com.cnlaunch.x431pro.activity.info.RepairInfoActivity"
+435-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:164:19-87
+436            android:parentActivityName="com.cnlaunch.x431pro.activity.BaseActivity" >
+436-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:164:88-159
+437            <meta-data
+437-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:13-131
+438                android:name="android.support.PARENT_ACTIVITY"
+438-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:24-70
+439                android:value="com.cnlaunch.x431pro.activity.BaseActivity" />
+439-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:130:71-129
+440        </activity>
+441        <activity
+441-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:167:9-206
+442            android:name="com.cnlaunch.x431pro.activity.info.PdfSearchActivity"
+442-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:167:79-146
+443            android:configChanges="orientation|keyboardHidden|locale"
+443-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:167:147-204
+444            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+444-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:167:19-78
+445
+446        <service
+446-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:168:9-155
+447            android:name="com.cnlaunch.p169im.service.GoloMessageService"
+447-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:168:18-79
+448            android:exported="true"
+448-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:168:106-129
+449            android:persistent="true"
+449-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:168:80-105
+450            android:priority="1000" />
+450-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:168:130-153
+451        <service
+451-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:169:9-195
+452            android:name="com.cnlaunch.defend.DefendService"
+452-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:169:52-100
+453            android:label="X-431 Golo Linked"
+453-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:169:18-51
+454            android:persistent="true"
+454-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:169:101-126
+455            android:priority="1000"
+455-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:169:170-193
+456            android:process="com.cnlaunch.goloservice" />
+456-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:169:127-169
+457
+458        <receiver
+458-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:170:9-174:20
+459            android:name="com.cnlaunch.x431pro.receiver.BootUpReceiver"
+459-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:170:19-78
+460            android:enabled="true" >
+460-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:170:79-101
+461            <intent-filter>
+461-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:171:13-173:29
+462                <category android:name="android.intent.category.HOME" />
+462-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:172:17-72
+462-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:172:27-70
+463            </intent-filter>
+464        </receiver>
+465        <receiver
+465-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:175:9-180:20
+466            android:name="com.cnlaunch.x431pro.module.golo.model.GoloKeyReceiver"
+466-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:175:19-88
+467            android:enabled="true" >
+467-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:175:89-111
+468            <intent-filter>
+468-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:176:13-179:29
+469                <action android:name="com.android.action.golo_press" />
+469-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:177:17-71
+469-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:177:25-69
+470                <action android:name="com.android.action.golo_long_press" />
+470-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:178:17-76
+470-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:178:25-74
+471            </intent-filter>
+472        </receiver>
+473        <receiver
+473-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:181:9-187:20
+474            android:name="com.cnlaunch.x431pro.receiver.RemoteRequestReceiver"
+474-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:181:19-85
+475            android:enabled="true" >
+475-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:181:86-108
+476            <intent-filter>
+476-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:182:13-186:29
+477                <action android:name="sellerRequest_remotediag" />
+477-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:183:17-66
+477-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:183:25-64
+478                <action android:name="com.cnlaunch.x431pro.action.goloseller.exit" />
+478-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:184:17-85
+478-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:184:25-83
+479                <action android:name="android.intent.action.LOCALE_CHANGED" />
+479-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:185:17-78
+479-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:185:25-76
+480            </intent-filter>
+481        </receiver>
+482
+483        <service
+483-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:188:9-193:19
+484            android:name="com.cnlaunch.diagnosemodule.service.AppJniCrashHandlerService"
+484-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:188:18-94
+485            android:exported="true"
+485-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:188:95-118
+486            android:process="com.cnlaunch.AppJniCrashHandlerService" >
+486-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:188:119-175
+487            <intent-filter>
+487-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:189:13-192:29
+488                <action android:name="com.cnlaunch.intent.action.AppJniCrashHandlerService" />
+488-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:190:17-94
+488-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:190:25-92
+489
+490                <category android:name="android.intent.category.DEFAULT" />
+490-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:70:17-75
+490-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:70:27-73
+491            </intent-filter>
+492        </service>
+493        <service
+493-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:194:9-198:19
+494            android:name="com.cnlaunch.x431pro.activity.pdf.ReportIntentService"
+494-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:194:18-86
+495            android:process="com.cnlaunch.ReportService" >
+495-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:194:87-131
+496            <intent-filter>
+496-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:195:13-197:29
+497                <action android:name="com.cnlaunch.report.action_save" />
+497-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:196:17-73
+497-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:196:25-71
+498            </intent-filter>
+499        </service>
+500
+501        <activity
+501-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:199:9-247
+502            android:name="com.cnlaunch.x431pro.activity.setting.wifi.DPUWiFiLinkModeSettingsActivity"
+502-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:199:19-108
+503            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+503-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:199:177-245
+504            android:launchMode="standard"
+504-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:199:109-138
+505            android:screenOrientation="landscape" />
+505-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:199:139-176
+506        <activity
+506-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:200:9-176
+507            android:name="com.cnlaunch.x431pro.activity.diagnose.view.SerialNumberSelectedActivity"
+507-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:200:19-106
+508            android:launchMode="standard"
+508-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:200:107-136
+509            android:screenOrientation="landscape" />
+509-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:200:137-174
+510        <activity
+510-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:201:9-126
+511            android:name="com.cnlaunch.x431pro.activity.login.CompleteUserInfoActivity"
+511-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:201:19-94
+512            android:launchMode="standard" />
+512-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:201:95-124
+513
+514        <service
+514-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:202:9-206:19
+515            android:name="com.cnlaunch.x431pro.activity.CloudDiagnose.CloudReportUploadService"
+515-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:202:18-101
+516            android:process="com.cnlaunch.CloudReportUploadService" >
+516-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:202:102-157
+517            <intent-filter>
+517-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:203:13-205:29
+518                <action android:name="com.cnlaunch.cloudreport.action.upload" />
+518-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:204:17-80
+518-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:204:25-78
+519            </intent-filter>
+520        </service>
+521
+522        <activity
+522-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:207:9-152
+523            android:name="com.cnlaunch.x431pro.activity.login.WebActivity"
+523-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:207:19-81
+524            android:configChanges="screenSize|orientation|keyboardHidden|locale" />
+524-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:207:82-150
+525        <activity
+525-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:208:9-189
+526            android:name="com.cnlaunch.x431pro.activity.upgrade.UpgradeDetailActivity"
+526-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:208:19-93
+527            android:configChanges="screenSize|orientation|keyboardHidden"
+527-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:208:126-187
+528            android:launchMode="singleTask" />
+528-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:208:94-125
+529        <activity
+529-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:209:9-183
+530            android:name="com.cnlaunch.x431pro.activity.upgrade.PayTypeActivity"
+530-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:209:19-87
+531            android:configChanges="screenSize|orientation|keyboardHidden"
+531-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:209:120-181
+532            android:launchMode="singleTask" />
+532-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:209:88-119
+533        <activity
+533-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:210:9-116
+534            android:name="com.cnlaunch.x431pro.activity.pay.AlipayActivity"
+534-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:210:19-82
+535            android:launchMode="singleTask" />
+535-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:210:83-114
+536        <activity
+536-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:211:9-155
+537            android:name="com.cnlaunch.x431pro.activity.setting.MallActivity"
+537-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:211:19-84
+538            android:configChanges="screenSize|orientation|keyboardHidden|locale" />
+538-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:211:85-153
+539        <activity
+539-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:212:9-182
+540            android:name="com.cnlaunch.x431pro.module.p242ad.ADShowActivity"
+540-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:212:19-83
+541            android:configChanges="screenSize|orientation|keyboardHidden"
+541-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:212:84-145
+542            android:hardwareAccelerated="true" />
+542-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:212:146-180
+543
+544        <uses-library
+544-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:213:9-97
+545            android:name="com.cnlaunch.second.wifi.service"
+545-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:213:23-70
+546            android:required="false" />
+546-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:213:71-95
+547
+548        <activity
+548-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:214:9-178
+549            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
+549-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:214:53-114
+550            android:configChanges="screenSize|orientation|keyboardHidden"
+550-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:214:115-176
+551            android:theme="@style/MediaTheme" />
+551-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:214:19-52
+552        <activity
+552-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:215:9-117
+553            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
+553-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:215:53-115
+554            android:theme="@style/MediaTheme" />
+554-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:215:19-52
+555        <activity
+555-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:216:9-171
+556            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
+556-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:216:19-88
+557            android:exported="false"
+557-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:216:89-113
+558            android:windowSoftInputMode="adjustResize|stateVisible" />
+558-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:216:114-169
+559
+560        <service
+560-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:217:9-139
+561            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
+561-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:217:18-89
+562            android:enabled="true"
+562-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:217:90-112
+563            android:exported="false" />
+563-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:217:113-137
+564
+565        <activity
+565-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:218:9-193
+566            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
+566-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:218:19-85
+567            android:configChanges="screenSize|orientation"
+567-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:218:145-191
+568            android:excludeFromRecents="true"
+568-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:218:111-144
+569            android:exported="false" />
+569-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:218:86-110
+570        <activity
+570-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:219:9-131
+571            android:name="com.mopub.mobileads.MoPubActivity"
+571-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:219:19-67
+572            android:configChanges="screenSize|orientation|keyboardHidden" />
+572-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:219:68-129
+573        <activity
+573-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:220:9-131
+574            android:name="com.mopub.mobileads.MraidActivity"
+574-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:220:19-67
+575            android:configChanges="screenSize|orientation|keyboardHidden" />
+575-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:220:68-129
+576        <activity
+576-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:221:9-127
+577            android:name="com.mopub.common.MoPubBrowser"
+577-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:221:19-63
+578            android:configChanges="screenSize|orientation|keyboardHidden" />
+578-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:221:64-125
+579        <activity
+579-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:222:9-142
+580            android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
+580-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:222:19-78
+581            android:configChanges="screenSize|orientation|keyboardHidden" />
+581-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:222:79-140
+582        <activity
+582-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:223:9-191
+583            android:name="com.cnlaunch.golo3.view.selectimg.clip.ClipImageActivity"
+583-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:223:19-90
+584            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+584-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:223:121-189
+585            android:launchMode="standard" />
+585-->D:\Workspace\Reverse\X431_CNlauncher\app\src\main\AndroidManifest.xml:223:91-120
+586    </application>
+587
+588</manifest>

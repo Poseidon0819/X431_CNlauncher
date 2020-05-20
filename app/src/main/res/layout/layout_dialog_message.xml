@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="80dp">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/textsize_normal_S" android:textColor="@color/txt_black" android:gravity="center" android:id="@+id/tv_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp" android:text="@string/hello_world" android:layout_weight="1"/>
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="@android:color/darker_gray" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="2dp"/>
+</LinearLayout>

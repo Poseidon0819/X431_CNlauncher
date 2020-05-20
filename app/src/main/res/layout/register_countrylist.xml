@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layout_top" android:layout_width="match_parent" android:layout_height="@dimen/regit_head_height">
+        <LinearLayout android:background="@drawable/register_head_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/editText4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mine_tv_country"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#c6c6c6" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+        <com.cnlaunch.x431pro.widget.ClearEditText android:textSize="@dimen/textSize_small_base" android:id="@+id/edit_search_country" android:background="@drawable/mine_info_item_bg" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:layout_marginLeft="10dp" android:hint="@string/btn_search" android:singleLine="true" android:drawableLeft="@drawable/btn_mine_area_search" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_cancel" android:layout_width="wrap_content" android:layout_height="@dimen/mine_item_height" android:text="@string/common_cancel" style="@style/MiniInfoItemTextStyle"/>
+    </LinearLayout>
+    <RelativeLayout android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/lv_area" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@null" android:groupIndicator="@null" android:divider="@color/diver_line" android:dividerHeight="1dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <com.cnlaunch.x431pro.widget.sortlistview.SideBar android:id="@+id/sidebar" android:background="@android:color/transparent" android:layout_width="50dp" android:layout_height="match_parent" android:layout_marginRight="5dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/MiniInfoItemTextStyle"/>
+    </RelativeLayout>
+</LinearLayout>

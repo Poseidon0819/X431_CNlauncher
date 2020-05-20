@@ -1,0 +1,52 @@
+﻿body {
+	border:0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	right: 0px;
+	background-color: #ffffff;
+  color: #000000;
+   font-size:18px;
+	font-family: "微软雅黑";
+}
+
+h1
+{
+    font-size: 175%;
+}
+h2
+{
+    font-size: 150%;
+}
+h3
+{
+    font-size: 120%;
+}
+h4
+{
+    font-size: 110%;
+}
+h5
+{
+    font-size: 100%;
+}
+h6
+{
+    font-size: 90%;
+}
+
+.content .ref
+{
+	text-decoration:none;
+	     color: #000000;
+        font-weight: bold;
+        font-size: 200%;
+}
+
+.linkstyle
+{
+	    color: #000000;
+      font-weight: bold;
+      font-size: 100%;
+}

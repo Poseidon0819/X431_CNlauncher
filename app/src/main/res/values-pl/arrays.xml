@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="appraise_attitude_array">
+        <item>Zła postawa</item>
+        <item>Norlmalna postawa</item>
+        <item>Dobra postawa</item>
+    </array>
+    <array name="appraise_serve_array">
+        <item>Słaba efektywność</item>
+        <item>Nie wysoka efektywność</item>
+        <item>Wysoka efektywność</item>
+    </array>
+    <array name="appraise_skill_array">
+        <item>Niska wydajność kosztów</item>
+        <item>Nie wysoka wydajność kosztów</item>
+        <item>Wysoka wydajność kosztów</item>
+    </array>
+    <array name="area_selection">
+        <item>Chiny</item>
+        <item>Inne</item>
+    </array>
+    <array name="func_status">
+        <item>Bea stanu</item>
+        <item>Sukces</item>
+        <item>Nie udało się</item>
+        <item>Zakończone</item>
+        <item>Nie ma DTC</item>
+        <item>Komunikacja nie się udało</item>
+        <item>ID nie znaleziono</item>
+    </array>
+    <array name="func_type">
+        <item>Skan systemu</item>
+        <item>Szybki Test</item>
+        <item>Wprowadź system</item>
+        <item>Informacje wersji</item>
+        <item>Cztaj DTC</item>
+        <item>Wyczyścij DTC</item>
+        <item>Cztaj Strumień Danych</item>
+        <item>Cztaj zamrożony ekran</item>
+        <item>Test akcji</item>
+        <item>Funkcja specjalna</item>
+        <item>Marka</item>
+        <item>Model</item>
+        <item>Rok</item>
+        <item>Objętość skokowa</item>
+        <item>Transmisja</item>
+        <item>Układ jezdny</item>
+        <item>Silnik</item>
+    </array>
+    <array name="golo_History_typename_array">
+        <item>Inne</item>
+        <item>Raport diagnostyczny własny</item>
+        <item>Raport diagnostyczny eksperta</item>
+        <item>DTC raport wyczyści jedenokluczem</item>
+    </array>
+    <array name="golo_detail_tag_array">
+        <item>Inne</item>
+        <item>Przeznaczona kierowca</item>
+        <item>Pomoc</item>
+        <item>Przejazdy</item>
+        <item>Wypożyczalnie Samochodów</item>
+        <item>Taksówka</item>
+        <item>Agencja</item>
+    </array>
+    <array name="languages">
+        <item>vary with system language</item>
+        <item>العربية</item>
+        <item>Česky</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Magyar</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Română</item>
+        <item>Русский</item>
+        <item>Србија</item>
+        <item>Svenska</item>
+        <item>Türkçe</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </array>
+</resources>

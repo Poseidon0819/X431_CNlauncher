@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/rl_popdialog" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="@dimen/dialog_minwidth">
+    <RelativeLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/rl_statement_top" android:background="@drawable/topdialog_hui" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/tv_statement_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/DialogText.Title"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/rl_statement_bottom" android:background="@drawable/bottom_hui" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <Button android:textSize="@dimen/remind_name_text_size" android:textColor="@color/white" android:layout_gravity="start|center_vertical" android:id="@+id/btn_agree" android:padding="5dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120dp" android:text="@string/register_agree" android:layout_weight="1" style="?attr/commomButtonStyle"/>
+            <Button android:textSize="@dimen/remind_name_text_size" android:textColor="@color/white" android:layout_gravity="end|center_vertical" android:id="@+id/btn_no" android:padding="5dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120dp" android:text="@string/register_disagree" android:layout_weight="1" android:layout_toRightOf="@+id/btn_agree" style="?attr/commomButtonStyle"/>
+        </LinearLayout>
+        <ScrollView android:id="@+id/sv_statement_text" android:background="@color/white" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/rl_statement_bottom" android:layout_below="@+id/rl_statement_top">
+            <TextView android:textColor="@color/black" android:id="@+id/tv_statement_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/statement_content_txt" style="@style/DialogText"/>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

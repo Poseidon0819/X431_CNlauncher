@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="@dimen/histroy_weight_top">
+        <RelativeLayout android:id="@+id/btn_send_remote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/golo_remotehistory_button_minwidth" android:minHeight="@dimen/golo_remotehistory_button_minheight" android:layout_centerInParent="true" style="?attr/commonButtonLongStyle">
+            <TextView android:textSize="@dimen/golo_remotehistory_button_textsize" android:textColor="@color/white" android:gravity="center" android:background="#00000000" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_remotediag_askfor" android:drawableLeft="@drawable/btn_send_remotediag" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <LinearLayout android:background="#f3f3f3" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="@dimen/histroy_weight_bottom">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear_info_history" android:background="@drawable/golo_blank_info_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+            <RelativeLayout android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/textsize_small_M" android:textColor="#dfdfdf" android:id="@+id/tv_info_history" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.cnlaunch.x431pro.widget.progress.ProgressBarCircularIndeterminate android:layout_width="@dimen/golo_dialog_progress_size" android:layout_height="@dimen/golo_dialog_progress_size"/>
+            <TextView android:textSize="@dimen/textsize_small_M" android:textColor="@color/black" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/dialog_wait_content" android:singleLine="true"/>
+        </LinearLayout>
+        <com.cnlaunch.x431pro.widget.pulltorefresh.PullToRefreshListView android:id="@+id/lv_histroy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+</LinearLayout>

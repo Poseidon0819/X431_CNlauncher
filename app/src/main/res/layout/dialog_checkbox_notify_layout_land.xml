@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cnlaunch.golo3.LayoutLinear xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/container" android:background="@drawable/dialog_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10" android:contentDescription="{base:height,height:1}">
+    <TextView android:textSize="@dimen/sp_18" android:textColor="#222222" android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textSize="@dimen/sp_18" android:textColor="#222222" android:gravity="center" android:layout_gravity="center" android:id="@+id/content" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.cnlaunch.golo3.LayoutLinear android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="{base:height,width:1}">
+        <CheckBox android:gravity="center" android:id="@+id/childBox" android:background="@drawable/diasys_check_btn" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:button="@null"/>
+        <TextView android:textSize="@dimen/sp_16" android:textColor="@color/green_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gps_open_prompt" android:singleLine="true"/>
+    </com.cnlaunch.golo3.LayoutLinear>
+    <com.cnlaunch.golo3.LayoutRelative android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:layout_marginBottom="@dimen/dp_5">
+        <Button android:textSize="@dimen/sp_18" android:textColor="@android:color/white" android:id="@+id/btn_cancel" android:background="@drawable/cance_seletor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_5" android:singleLine="true" android:contentDescription="{base:height,width:0.37,height:0.13}"/>
+        <Button android:textSize="@dimen/sp_18" android:textColor="@android:color/white" android:id="@+id/confirm_ok" android:background="@drawable/green_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_5" android:singleLine="true" android:layout_toRightOf="@+id/btn_cancel" android:layout_alignParentRight="true" android:contentDescription="{base:height,width:0.37,height:0.13}"/>
+    </com.cnlaunch.golo3.LayoutRelative>
+</com.cnlaunch.golo3.LayoutLinear>

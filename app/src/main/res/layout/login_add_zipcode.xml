@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/login_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+            <TextView android:textSize="@dimen/leftmenu_textsize" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:text="@string/zipcode_miss"/>
+            <TextView android:textColor="@color/red" android:gravity="center_vertical" android:id="@+id/countryname" android:background="@drawable/mine_info_item_bg" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_marginLeft="@dimen/edit_padding_left" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/edit_padding_right" android:text="@string/mine_tv_areas" style="@style/setting_edittext_style"/>
+            <EditText android:textColorHint="@color/edit_color_hint" android:id="@+id/zipcode" android:background="@drawable/item_bg" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_marginLeft="@dimen/edit_padding_left" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/edit_padding_right" android:hint="@string/register_hint_zipcode" android:singleLine="true" android:imeOptions="actionDone" style="@style/setting_edittext_style"/>
+            <Button android:textSize="@dimen/textsize_normal_S" android:textColor="@color/white" android:id="@+id/submit_zipcode" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/btn_confirm" style="?attr/commomButtonStyle"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

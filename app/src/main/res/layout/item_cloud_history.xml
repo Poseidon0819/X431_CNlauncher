@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dp_100">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_5" android:layout_weight="1">
+        <TextView android:id="@+id/tv_time_year" android:text="2017" style="@style/TextViewStyle.CloudDiagnose.title"/>
+        <TextView android:textSize="14sp" android:id="@+id/tv_time_data" android:text="02-28" style="@style/TextViewStyle.CloudDiagnose"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/btn_click" android:padding="@dimen/dp_10" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3.8">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/image_report_type" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/tv_report_type" android:layout_marginLeft="@dimen/dp_10" android:text="AIT报告" style="@style/TextViewStyle.CloudDiagnose.title"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@+id/tv_code_number_title" android:text="@string/code_number" style="@style/TextViewStyle.CloudDiagnose.title"/>
+                        <TextView android:id="@+id/tv_code_number" android:text="1" style="@style/TextViewStyle.CloudDiagnose.title"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@+id/tv_repair_title" android:text="@string/repair_address" style="@style/TextViewStyle.CloudDiagnose"/>
+                        <TextView android:id="@+id/tv_repair" android:text="星宇维修" style="@style/TextViewStyle.CloudDiagnose"/>
+                    </LinearLayout>
+                    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/tv_address" android:lines="1" android:drawablePadding="4dp" style="@style/TextViewStyle.CloudDiagnose"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.6">
+                    <Button android:id="@+id/btn_diagnose" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="45dp" android:text="@string/quick_enter" style="?attr/commomButtonStyle"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

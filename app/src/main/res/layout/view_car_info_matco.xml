@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/textsize_large_M" android:textStyle="bold" android:layout_gravity="center_horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/golo_detial_title_car" style="@style/ReportContentItemTextStyle"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/report_text_padding" android:layout_marginRight="@dimen/report_text_padding">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_30">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2">
+                <TextView android:id="@+id/tv_report_carusername" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_carbrand" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_carvin" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_engine_size" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="engine_size" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_odo" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_carnumber" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2">
+                <TextView android:id="@+id/tv_report_repair_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="repair_type" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="test_time" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_system_numbers" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="system_numbers" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_voltage" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="voltage" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_tester" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="repair_man" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_cartype" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_caryear" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_vehicle_ver" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_apk_ver" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+                <TextView android:id="@+id/tv_report_testpath" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ReportContentItemTextStyle"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="right" android:id="@+id/ll_car_photo" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:id="@+id/iv_car_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/u2_normal" android:scaleType="centerInside" android:maxHeight="160dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

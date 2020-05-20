@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<filterSection>
+   <sections  title="Sensor" iconname ="sensor.png">
+             	    <section title="Sensor Function Introduction" ref="Sensor_1.html" />
+		              <section title="DC Voltage Analog " ref="Sensor_2.html" />
+		              <section title="Fixed Frequency Analog" ref="Sensor_3.html" />
+		              <section title="Predefined Wave Form Analog" ref="Sensor_4.html" />
+		              <section title="Hand-drawn Wave Form Analog " ref="Sensor_5.html" />
+		              <section title="Select Wave Form" ref="Sensor_6.html" />
+  </sections>
+  <keywords namespace ="launch.com.sensor.1.0" >
+           <keyword name="Sensor Function Introduction"  ref="Sensor_1.html"/>
+           <keyword name="DC Voltage Analog " ref="Sensor_2.html" />
+           <keyword name="Fixed Frequency Analog" ref="Sensor_3.html" />
+           <keyword name="Predefined Wave Form Analog" ref="Sensor_4.html" />
+           <keyword name="Hand-drawn Wave Form Analog " ref="Sensor_5.html" />
+           <keyword name="Select Wave Form" ref="Sensor_6.html" />
+   </keywords>     
+ </filterSection>
+

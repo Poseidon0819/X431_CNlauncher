@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/cardetail_popbg_u" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:gravity="center" android:id="@+id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/golo_detial_title_car" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/ItemStyle.golo.detailTextView"/>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_detail_info" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/tv_title" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:baselineAligned="false">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_customer_car_brand" style="@style/ItemStyle.golo.detailTextView"/>
+                <TextView android:id="@+id/car_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" style="@style/ItemStyle.golo.detailTextView"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_customer_car_type" style="@style/ItemStyle.golo.detailTextView"/>
+                <TextView android:id="@+id/car_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="" style="@style/ItemStyle.golo.detailTextView"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:baselineAligned="false">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_customer_car_model" style="@style/ItemStyle.golo.detailTextView"/>
+                <TextView android:id="@+id/car_vehicle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="" style="@style/ItemStyle.golo.detailTextView"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_customer_engine_num" style="@style/ItemStyle.golo.detailTextView"/>
+                <TextView android:id="@+id/car_engine_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="" style="@style/ItemStyle.golo.detailTextView"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:baselineAligned="false">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_customer_car_year" style="@style/ItemStyle.golo.detailTextView"/>
+                <TextView android:id="@+id/car_producing_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="" style="@style/ItemStyle.golo.detailTextView"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_customer_car_gearbox" style="@style/ItemStyle.golo.detailTextView"/>
+                <TextView android:id="@+id/car_gearbox_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="" style="@style/ItemStyle.golo.detailTextView"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_customer_car_discharge" style="@style/ItemStyle.golo.detailTextView"/>
+            <TextView android:id="@+id/car_displacement" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="" style="@style/ItemStyle.golo.detailTextView"/>
+        </LinearLayout>
+        <TextView android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_customer_car_vin" style="@style/ItemStyle.golo.detailTextView"/>
+            <TextView android:id="@+id/car_brand_vin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="" style="@style/ItemStyle.golo.detailTextView"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

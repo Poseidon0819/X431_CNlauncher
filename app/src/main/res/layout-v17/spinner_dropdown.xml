@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/leftmenu_textsize" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@+id/spinner_dropdown_id" android:background="@drawable/item_bg" android:paddingLeft="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height" android:singleLine="true" android:textAlignment="inherit" style="@style/edit_view_style"/>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/mine_info_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mine_area_margin" android:layout_marginTop="@dimen/mine_area_margin" android:layout_marginRight="@dimen/mine_area_margin">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/container" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+            <RadioButton android:layout_gravity="center_vertical" android:id="@+id/layout_business" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/tab_menu_golo" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+            <ImageView android:layout_gravity="center_vertical" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/dividerLine" android:background="@color/mineinfo_item" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/mine_item_height">
+            <RadioButton android:layout_gravity="center_vertical" android:id="@+id/layout_friends" android:layout_width="0dp" android:layout_height="wrap_content" android:button="@null" android:text="@string/golousa_item2" android:layout_weight="1" style="@style/MiniInfoItemTextStyle"/>
+            <TextView android:textSize="@dimen/golo_tip_textsize" android:textColor="@color/white" android:gravity="center" android:id="@+id/friend_no_read" android:background="@drawable/bg_title_tip_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/golobind_content_padding" android:minWidth="@dimen/golo_tip_minsize" android:minHeight="@dimen/golo_tip_minsize"/>
+            <ImageView android:layout_gravity="center_vertical" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

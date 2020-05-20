@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description_face_image_gay">{base:height,width:0.10,height:0.12}</string>
+    <string name="description_face_image_raddit">{base:height,width:0.1,height:0.15}</string>
+    <string name="description_select_grid">{base:height,width:0.10,height:0.10}</string>
+    <string name="face_description">{base:height,width:0.1,height:0.15}</string>
+    <string name="face_page_num_car">12.0</string>
+    <string name="face_page_num_gay">12.0</string>
+    <string name="face_page_num_goose">16.0</string>
+</resources>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ifoer.expedition.pro.app-mergeDebugResources-3:/values-mdpi-v4/values-mdpi-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\Workspace\\Reverse\\X431_CNlauncher\\app\\src\\main\\res\\values-mdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,112,168,224,279,345,409,463,525,582,648",
+                        "endColumns": "53,54,54,53,64,62,52,60,55,64,58",
+                        "endOffsets": "106,162,218,273,339,403,457,519,576,642,702"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,164,219,273,338,401,454,515,571,636",
+                        "endColumns": "53,54,54,53,64,62,52,60,55,64,58",
+                        "endOffsets": "104,159,214,268,333,396,449,510,566,631,690"
+                    }
+                }
+            ]
+        }
+    ]
+}

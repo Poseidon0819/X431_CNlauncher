@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/mapbtnlayout" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageButton android:layout_gravity="center" android:id="@+id/pos" android:background="@drawable/gmap_map_poin" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="0dp" android:layout_marginBottom="10dp"/>
+    <ImageButton android:layout_gravity="center" android:id="@+id/big" android:background="@drawable/gmap_map_icon_bg2" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="0dp" android:src="@drawable/gmap_map_big_icon"/>
+    <ImageButton android:layout_gravity="center" android:id="@+id/small" android:background="@drawable/gmap_map_icon_bg2" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="-2dp" android:src="@drawable/gmap_map_small_icon"/>
+</LinearLayout>

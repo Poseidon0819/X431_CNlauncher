@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.Dialog.FixedSize">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.Light.Dialog.FixedSize">
+    </style>
+    <style name="LayoutStyle.detail.linear" parent="@style/LayoutStyle.detail">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="LayoutStyle.golo.orderlinear" parent="@style/LayoutStyle.golo">
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="LayoutStyle.report.linear" parent="@style/LayoutStyle.report">
+        <item name="android:orientation">horizontal</item>
+    </style>
+</resources>

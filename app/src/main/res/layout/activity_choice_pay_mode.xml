@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/layout_cyordertype_item" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:id="@+id/cy_order_type_id" android:padding="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:text="@string/order_info"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/shape_cir_bg_blackborder" android:padding="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20sp" android:paddingLeft="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_order_no"/>
+                <TextView android:textSize="20sp" android:textColor="@color/golo_gray_txt" android:id="@+id/cy_order_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20sp" android:paddingLeft="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/order_date"/>
+                <TextView android:textSize="20sp" android:textColor="@color/golo_gray_txt" android:id="@+id/cy_order_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20sp" android:paddingLeft="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/good_name"/>
+                <TextView android:textSize="20sp" android:textColor="@color/golo_gray_txt" android:id="@+id/cy_order_type_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20sp" android:paddingLeft="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_price"/>
+                <TextView android:textSize="20sp" android:textColor="@color/red" android:id="@+id/cy_order_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layout_Alipay" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_10" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/dp_50" android:layout_below="@+id/layout_cyordertype_item" android:layout_centerHorizontal="true">
+        <ImageView android:background="@drawable/order_pay_alipay_btn" android:layout_width="50dp" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10" android:text="@string/order_payed_by_alipay"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/layout_Unionpay" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_10" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dp_50" android:layout_below="@+id/layout_Alipay">
+        <ImageView android:background="@drawable/order_pay_union_btn" android:layout_width="50dp" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10" android:text="@string/order_payed_by_unionpay"/>
+    </LinearLayout>
+    <TextView android:textSize="20sp" android:textColor="@color/red" android:id="@+id/pay_model" android:padding="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:text="@string/chioce_payment" android:layout_below="@+id/layout_Unionpay"/>
+    <RadioGroup android:orientation="horizontal" android:id="@+id/radioGroup" android:background="@drawable/shape_cir_bg_blackborder" android:padding="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="@dimen/dp_80" android:layout_margin="@dimen/dp_10" android:layout_below="@+id/pay_model" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="选择支付方式">
+        <RadioButton android:layout_gravity="center_vertical" android:id="@+id/radioAlipay" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="true" android:drawableLeft="@drawable/order_pay_alipay_btn" android:layout_weight="1"/>
+        <RadioButton android:layout_gravity="center_vertical" android:id="@+id/radioWechatPay" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/order_payed_by_wechat" android:drawableLeft="@drawable/order_pay_wechat_btn" android:layout_weight="1"/>
+        <RadioButton android:layout_gravity="center_vertical" android:id="@+id/radioUnionpay" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/order_payed_by_unionpay" android:drawableLeft="@drawable/order_pay_union_btn" android:layout_weight="1"/>
+    </RadioGroup>
+    <TextView android:textSize="@dimen/sp_20" android:textColor="@color/red" android:gravity="center_horizontal" android:id="@+id/order_pay_tips" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/cy_order_tips" android:layout_below="@+id/radioGroup"/>
+    <android.widget.LcButton android:textSize="@dimen/textsize_normal_S" android:id="@+id/pay_now" android:paddingLeft="@dimen/dp_30" android:paddingRight="@dimen/dp_30" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/payment_now" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="?attr/commomButtonStyle"/>
+</RelativeLayout>

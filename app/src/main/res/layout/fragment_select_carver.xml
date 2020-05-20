@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/carver_title" android:paddingLeft="@dimen/horizontal_margin" android:paddingRight="@dimen/horizontal_margin" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/DiagnoseTitle">
+        <TextView android:id="@+id/tv_carname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tv_carname" android:layout_weight="1" style="@style/CarSelectTitleStyle"/>
+        <TextView android:id="@+id/tv_carver" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tv_carver" android:layout_weight="1" style="@style/CarSelectTitleStyle"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear_button_bottom" android:background="@drawable/shape_bottombutton_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_measurableCar" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.measurableCar"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_updateInstructions" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.updateInstructions"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_softwareIntroduction" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.softwareIntroduction"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_attentions" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.attentions"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_flashcodehelp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.flashcodehelp"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_home" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.home"/>
+        <com.cnlaunch.x431pro.widget.button.IconRadioButton android:id="@+id/btn_print" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.print"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_check_bluetooth" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.bluetooth"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_help" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.help"/>
+        <com.cnlaunch.x431pro.widget.button.IconButton android:id="@+id/btn_confirm" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/IconButton.confirm"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/linear_button_bottom" android:layout_below="@+id/carver_title">
+        <ListView android:id="@+id/lv_carver" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/layout_ini" android:paddingLeft="10dp" android:paddingTop="15dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/softini_title_text_size" android:gravity="top|center_horizontal" android:id="@+id/tv_ini_title" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/softini_content_text_size" android:gravity="top|left" android:id="@+id/tv_ini_text" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:maxLines="5" android:lineSpacingMultiplier="1.3" android:fadeScrollbars="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
